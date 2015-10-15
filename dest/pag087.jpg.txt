@@ -1,0 +1,60 @@
+Insertar: Insertar: Insertar: Insertar: Insertar:
+
+  
+    
+
+        
+
+"Juan" "Ana" "Plácido" "Ernesto" "Agustín"
+Posición
+
+Juan Ana ,_ _ Ana Ana ¡Agustin
+
+_Ji_1an V Juan Ernesto p Ana
+l E9 ‘M39 , , ‘Ernesto
+
+Plácido Juan
+
+Plácido
+
+1
+2
+3
+4
+5
+6
+7
+B
+
+ 
+
+Ilustración I6 Secuencia de inserciones en un vector
+
+La razón de este coste es que el orden lógico —en este caso alfabéticc- de la lista se
+ha hecho coincidir con el orden ﬁsico de la ubicación contigua de los elementos del vector. Si
+uLi-"Lelerimiïe, Ja lista PUÚÏCFFÏJEQPÉÑSÉJ“,“"3,¡'ldÏ°‘!9¡ó'Ï‘ É°_@LÏ,°_5°_&‘F_“ÉEE’?
+tïsiínfnte su sucescggnjlícÉn lógico establecido, este no tendría que insertarse en una
+posición contigua. Podemos modiﬁcar los elementos del vector dc fonna que en vez de ser
+ristras. sean de un tipo estructurado con dos campos. uno ristra que contiene el nombre y otro
+entero que indica en que’ posición del vector se encuentra el siguiente elemento en orden
+lógico. A esto se le llama encadenar los elementos de la lista, y permite que las inserciones y
+extracciones se efectúen sin desplazamiento de información; ¿orcojtra las húguedﬁ (¿i131
+qiïqlïrïs —— en el vector podía emplearse, por ejemplo, un algoritmo
+dicotómico- y además se necesitarïgspacpio para almacenar los mismos datos al tener
+que contabilizar los campos de encadenamiento.
+
+Como los elementos pueden hallarse ﬁsicamente en cualquier posición. se hace
+necesaria una variable entera que indique dónde se encuentra el "primero" —a partir del cual
+se puede recorrer toda la lista. El principio de la lista en la ﬁgura se ha simbolizado por "E".
+Se ha puesto un 0 en el campo de encadenamiento del último elemento —que al ﬁnal ocupa
+
+ﬁsicamente la 3“ posición- para indicar que detras de él no viene ningún otro —el valor
+
+  
+
+cero. al no corresponder a ninguna posi n válida del vector se ha utilizado aquí como marca
+
+de ﬁn de la secuencia de encadenamientos.
+
+90
+

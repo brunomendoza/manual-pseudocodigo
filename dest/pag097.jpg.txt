@@ -1,0 +1,27 @@
+ 
+
+nodos están encadenados en orden númerico por el segundo enlace, y en orden de
+codiﬁcación de carácteres por el primem. Los dos punteros de acceso, que ahora si son
+necesarios, apuntan al primer nodo en cada orden —se puede considerar que lo que tenemos
+son dos listas simplemente encadenadas que comparten los campos de ínfonnación. También
+se podría pensar que una lista doblemente encadenada es una lista multíenlazada, en la que el
+
+segundo orden es el inverso del primero.
+
+, , ,V ,
+>l . > 25 - ——>112l >400
+' A
+
+Ilustración 24 Lísla multienlazada
+
+Se puede continuar introduciendo toda clase de variaciones, tales como listas
+circulares doblemente encadenadas, listas multienlazadas doblemente encadenadas. listas
+circulares con punteros a la cabeza, etc. Además. se pueden emplear los campos de
+encadenamiento de otras fonnas, dando lugar a estructuras no lineales que pueden alcanzar
+
+altos grados de complejidad, aunque ello escapa a nuestro interés en este momento.
+
+ 
+
+   
+

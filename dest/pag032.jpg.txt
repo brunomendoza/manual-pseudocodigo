@@ -1,0 +1,65 @@
+   
+
+Función Función informática s‘, ¡
+
+ ¡ ‘¿y
+matemática equivalente r’ ﬂ (¡M ‘il: ’
+ﬁx) :x2 función entera ¿(xr
+
+variable entrada entera x
+devolver x*x
+fin función
+
+Cuando escribimos un Subprograma gn su cabecpra esgeoíﬁcamos de qué glass de
+Subprograma se trata, le damos un nombre y le aﬂuntamg; una lisg ge parámetrug/fofrfagcs
+que describe los(datos que el Subprograma intercambia con quien lo llama.)
+
+pzocadimiente Multiplicar(multiplicando,Multiplicadorproducto) ,  _ 
+í variables ‘<" "” ’ ’ ú " ""
+entrada naturales Multiplicando, Multíplicador
+
+su} natura1 Producto
+Quad atura1 contador
+PIOÓHCLO F 0
+
+para contador donde 1 aaata Multiplicador hncer
+Producto «v Producto + Multiplicando
+ﬂn para
+
+retorna: v-— 1: wav ﬁ n 4 > u_ g,
+fin procedimiento
+
+ 
+
+o bien, implementando una función
+
+/-* función natural Multiplicación(Multiplicar-nde,Multiplicadcr)
+
+r
+1 variables
+2 entrada naturales Multiplicando, multiplicador
+locales naturales Producto, Contador
+Producto 4- 0
+ para contador desde 1 naata Mu1t1p1icador hacer
+V Producto e Producto + Multiplicando
+(in para
+
+devolver Producto
+Ein función
+
+32
+
+u
+G
+É
+ü
+E
+
+ 
+
+IPWFE P/IFIIIÜJOMEQP?
+
+ 
+
+HÍPÜÜÍ’
+

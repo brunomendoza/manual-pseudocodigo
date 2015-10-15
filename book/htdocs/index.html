@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=1, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Bruno Mendoza"/>
+    <link rel="icon" href=""/>
+    <title>Manual Pseudoc&oacute;digo</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/navbar-fixed-top.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Manual Pseudoc&oacute;digo</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Elementos básicos de programación (I)</h2>
+          <a id="ch01-sec01"></a>
+          <h3>El ordenador como máquina de proceso de información</h3>
+          <p>La informática es el conjunto de conocimientos cientiﬁcos y técnicos que se ocupam
+          del tratamiento de la infomiación por medio de ordenadores. Un ordenador cs una máquina
+          para procesar información, elaborándola y transformándola. Una máquina de proceso consta
+          de: una entrada por donde se introduce la materia prima, una unidad de proceso donde se
+          realiza el proceso propiamente dicho, y una salida por donde se obtienen los productos
+          elaborados. En un ordenador los dispositivos de entrada típicos son el teclado y el ratón. la
+          salida se realiza habitualmente a través de un monitor de vídeo, y el proceso se lleva a cabo
+          en la unidad central de proceso, que aloja el procesador junto con dispositivos para la
+          representación y almacenamiento de infonnación y otros elementos de control.</p>
+          <p>Un proceso es un conjunto de acciones que se realizan para conseguir un resultado. El
+          ente activo encargado de llevar a cabo estas acciones es el procesador. En un ordenador el
+          procesador es un circuito electrónico capaz de reaccionar a detenninados conjuntos de
+          estímulos electricos que se identiﬁcan como instrucciones —para ejecutar ncciones- o
+          como datos —que componen la información en proceso.</p>
+          <p>Para que un procesador pueda realizar un detenninado proceso —necesario para la
+          resolución de un problema—— hace falta programas-lo. Un programa informático deﬁne la
+          representación de los datos que integran tanto la información a procesar como los resultados
+          esperados (estructuras de datos), y describe la secuencia de acciones (algoritmo) que, en
+          función de los datos de entrada, se deben ejecutar para obtener la solución buscada.</p>
+          <p>El conjunto de dispositivos ﬁsicos que conforman un ordenador se denomina
+          hardware; el conjunto de programas que hacen funcionar esos dispositivos de forma
+          adecuada recibe el nombre de software.</p>
+          <p>El desarrollo de un programa comprende tres fases principales: (l) álisis y dise}o,)
+          en la que se estudia el problema y se eligen las estructuras de datos y los algoritmos para
+          resolverlo, (Zlcodiﬁcación y depuraeiﬁnfen la que se escribe el programa y se corrigen los
+          errores que puedan aparecer y (3) igmtenimiento) en la que se realizan actualizaciones y
+          correcciones de problemas detectados durante el uso del programa.</p>
+          <p>Un programa se escribe utilizando un lenguaje que el procesador encargado de
+          ejecutarlo comprenda. En realidad, un procesador infon-nático sólo comprende un lenguaje de
+          ceros y unos (lenguaje máquina) que representa los impulsos eléctricos a los que responde.
+          Dado que para un programador humano resulta muy diﬁcil componer aplicaciones con unlenguaje tan falto de abstracción, se han desarrollado lenguajes de programación de "alto
+          nivel" que utilizan simbolos, palabras y reglas de composición más próximos a un lenguaje
+          natural humano, aunque muy simpliﬁcado y sin las ambigüedades de este. El programa
+          escrito en un lenguaje de alto nivel es traducido a lenguaje máquina por otro programa —un
+          compilador o un intérprete—, a ﬁn de que el procesador pueda ejecutarlo; pero el efecto es
+          que el programador escribe su programa como si existiese un procesador virtual capaz de
+          entender el lenguaje de alto nivel.</p>
+          <p>Muchas veces se suelen escribir algoritmos generales utilizando un pseudolenguaje,
+          el cual suele parecerse a un lenguaje de programación, pero pennitiendo algunas libertades
+          que faciliten la descripción del algoritmo sin preocuparse de algunos detalles sintácticos que
+          se tendrán que concretar al trasladarlo a un auténtico lenguaje de programación.</p>
+          <a id="ch01-sec02"></a>
+          <h3>Concepto de algoritmo</h3>
+          <p>La palabra algoritmo deriva del nombre del matemático persa del siglo IX Mohammed
+          ¡bn Musa aLKhowárizmí, autor de un libro sobre como operar con el sistema decimal de
+          numeración originario de la India, libro que, tras ser traducido al latín, fue origen de la
+          adopción de este sistema en Europa. La característica más relevante de las operaciones
+          descritas (suma, resta, multiplicación y división) es que se pueden realizar de forma
+          mecánica: basta con seguir los pasos indicados para obtener una solución correcta sin
+          necesidad de ningún conocimiento teórico adicional.</p>
+          <p>La ENCICLOPEDIA DE CIENCIAS DE LA COMPUTACIÓN‘ deﬁne cl término en función de un
+          problema y un dispositivo que se va a usar para solucionarlo: un algoritmo es una
+          descripción _pr_ecisa de un metodo para solucionar el problema escrito en un lenguaje
+          comprensible para el dispositivo que debe cumplir las siguientes propiedades:</p>
+          <ol>
+            <li>al aplicarlo a un caso concreto del problema, da lugar a la ejecución dc_una secuencia
+            ﬁnita de acciones,</li>
+            <li>dicha secuencia tiene una única acción inicial,</li>
+            <li>cada acción en la secuencia tiene una única sucesora, y</li>
+            <li>la secuencia termina en un tiempo ﬁnito encontrando una solución o determinando
+            que no existe una para ese caso panicular.</li>
+          </ol>
+          <p>‘ENCYCLOPEDIA OF COMPUTER SCIENCE. lEEE Press. New York, 1993. ISBN 0-442-27679-6</p>
+          <p>Ejemplo: algoritmo de resolución de gcuaclones do «mudo grado</p>
+          <ol>
+            <li>identiﬁcar los coeﬁcientes: a, b, c</li>
+            <li>2. calcular bz</li>
+            <li>calcular 4ac</li>
+            <li>restar bz - 4ac</li>
+            <li>calcular la raiz cuadrada de] resultado anterior</li>
+            <li>sumar -b al resultado anterior</li>
+            <li>calcular 2a</li>
+            <li>dividir el resultado del paso 6 por el resultado del paso 7 para obtener la l‘ solución</li>
+            <li>restar el resultado del paso S a -b</li>
+            <li>dividir el resultado anterior por el resultado del paso 7 para obtener la 2“ solución</li>
+          </ol>
+          <p>Nótese que en la deﬁnición de algoritmo no se hace ninguna suposición acerca de la
+          naturaleza del problema ni del dispositivo que se va a usar para resolverlo. Son validos
+          cualquier clase de proceso y cualquier dispositivo (incluyendo un ser humano) capaz de
+          ejecutarlo.<p>
+          <p>Ejemplo: algoritmo gara poner en marcha un coche</p>
+          <ol>
+            <li>poner el coche en punto muerto</li>
+            <li>pisar el embrague</li>
+            <li>llevar la palanca de cambios al punto muerto</li>
+            <li>introducir la llave en el contacto</li>
+            <li>girar la llave hasta el punto de arranque</li>
+            <li>soltar la llave</li>
+            <li>poner primera</li>
+            <li>pisar el embrague</li>
+            <li>llevar la palanca de cambios a la posición de la primera marcha</li>
+            <li>poner las manos en el volante</li>
+            <li>acelerar suavemente al mismo tiempo que se suelta el embrague</li>
+          </ol>
+          <p>Un algoritmo describe un método determinista: ante las mismas entradas se generará
+          la misma secuencia de acciones, que conducirán al mismo resultado de la misma manera.
+          Podríamos decir que un algoritmo establece una aplicación entre el espacio de casos solubles
+          de un problema y el espacio de soluciones del mismo, de tal manera que, a cada caso del
+          problema le hace corresponder una solución.</p>
+          <img src="" name="Ilustración 3"/>
+          <p>En resumen, las dos caracteristicas esenciales de un algoritmo son: tinitud «siempre
+          acaba proporcionando una solución o detenninando que no existe ninguna- y el
+          determinismo —siempre produce los mismos resultados para los mismos datos.
+          Para poder formular una algoritmo que solucione un problema, éste debe estar
+          especiﬁcado con claridad; si, por ejemplo, planteamos el enunciado: "calcular la raiz
+          cuadrada de un número real, x", no podremos encontrar ningún algoritmo que lo satisfaga
+          dado que la raiz cuadrada de un número real cualquiera tiene, en general, inﬁnitos decimales,
+          por lo que no es posible calcularla con un número ﬁnito de acciones.
+          Si restringimos el problema y pedimos, por ejemplo: "calcular la raiz cuadrada
+          positiva de un número real, x, con una precisión de cuatro decimales", ya será posible
+          proponer un algoritmo, puesto que hemos introducido una condición (la limitación de la
+          precisión) que permite alcanzar un resultado con un número ﬁnito de pasos; además se ha
+          precisado otro matiz, que estaba ambiguo, al indicar que queremos la raíz positiva.</p>
+          <p>No obstante, no todas las soluciones que propongamos constituirán un algoritmo, Por
+          ejemplo:</p>
+          <ol>
+            <li>elegir un número, y, y calcular y^2</li>
+            <li>si |yz  < 5 * l0'5 la solución es y, terminar; si no repetir desde el paso 1</li>
+          </ol>
+         <p>no es un algoritmo, ya que no se establece el método de elección de los sucesivos valores de
+         y, lo que impide garantizar que el proceso tennina. Podemos utilizar otro método; el‘ siguiente
+         es conocido como método delNewton-Raphsonz:</p>
+         <ol>
+           <li>calcular y=x/2</li>
+           <li>calcular y^2</li>
+           <li>si |y2 - x | &lt; 5 * 10^-5 la solución es y, terminar; si no hacer el paso 4</li>
+            <li>recalcular y como «x/y) + yﬂiïty repetir desde el paso 2</li>
+          </ol>
+         <p>Este método produce una solución adecuada siempre que el número x sea positivo
+         dado que, para cualquier y, la raiz cuadrada de x está comprendida entre ¿gy e i, si y es mayor
+         que x/y, o entre y y x/y, si y es menor que x/y. La fórmula de recálculo de y —((x/y) + y)/2—
+         hace que el valor de y converja al valor de la raiz cuadrada de x.</p>
+         <p>Cuando x es negativo se repiten indeﬁnidamente los pasos 2 al 4, lo que muestra que
+         esto en realidad es un semialgorítmo, ya que hay estados iniciales para los que no termina ni
+         hallando una solución, ni concluyendo que la misma no existe. Podemos añadir un paso
+         previo:</p>
+         <ol>
+           <li>si x < 0, no hay solución, terminar</li>
+           <li>2 sea y = x/Z</li>
+           <li>3 calcular yz</li>
+           <li>4 si if - x | < 5 * 10's la solución es y, terminar; si no, hacer el paso 4</li>
+           <li>5 recalcular y como ((x/y) + y)/2 y repetir desde el paso 2</li>
+        </ol>
+         <p>y tendriamos un algoritmo escrito en un lenguaje adecuado para un procesador humano con
+         unas mínimas nociones de matemáticas. Si el procesador previsto es un ordenador habria que
+         rcescribirlo en un lenguaje de programación, donde tendría un aspecto similar al que se
+         muestra en la siguiente pagina, escrito en pseudolenguaje.</p>
+         <pre>
+         algoritmo Raízcuadrada
+         variables reales X, Y, Z
+         escribir "Desea Calcular la raíz cuadrada de:
+         leer X ‘
+         si X > 0 entonces ' V.  N. h?‘
+         ‘l e x / 2 i ‘ ,r 4; 9
+         Z e y a y , ,« ,
+         mientras abs(X - z) >= 0.00005 hace: - h,  , r
+         ‘lv (Kx/Y) +3!) /2
+         z e ‘l * Y
+         fin mientras
+         escribir "La raíz cuadrada es: ", Y M. ,—, .. al . 5.a, ,
+         si no ïxvïzw n. u. n‘. . ¿t
+         escribir "no existe una raíz cuadrada real de", x '
+         tin ei
+         parar
+         Ein algoritmo
+        </pre>
+         <p>Todo programa informático es como mínimo un semialgoritmo; gn programa que
+         siempre termina es un algoritmo. y un algoritmo es correcto si hace lo que se supone que
+         debe hacer, es decir si cuando se le proporcionan datos adecuados proporciona resultados
+         correctos según la especiﬁcación del problema para el que ha sido diseñado. Para resolver un
+         mismo problema pueden existir varios algoritmos diferentes; la elección de uno u otro
+         dependerá de su eﬁciencia en términos de tiempo y recursos que consuma.</p>
+         <p>[.21 algorítmica, como disciplina que se ocupa del estudio de los algoritmos y de las
+         metodologías para desarrollarlos comprende tres facetas‘ cómo construir algoritmos (diseño),
+         cómo determinar si un algoritmo es correcto (víerjﬁcación) y como medir la eﬁciencia de los
+         algoritmos (análisis).</p>
+         <h3>Variables, constantes y expresiones.</h3>
+        <h4>Variables.</h4>
+         <p>Cuando se escribe un algoritmo se utilizan símbolos para representar los elementos de
+         información que intervienen en el proceso especm por él. Esto es similar a lo que se
+         hace al describir una función matemática, por ejemplo, en:</p>
+         <p>f(x,y) = 3x2 + 5y</p>
+         <p>x e y son variables, simbolos que se utilizan como comodines para poder expresar la fonna
+         general de la función. Los valores concretos de f se obtienen dando valores a x e y:</p>
+         <pre>
+         ttl,1)= a
+         f(l,2)= ¡3
+         r(1,3) = 18
+         r(2,1)=17
+         r(2,2)=22
+         r(2,3)=27
+       </pre>
+         <p>Sin embargo, mientras una función matemática expresa una correspondencia entre dos
+         conjuntos de valores (o de un conjunto consigo mismo), un programa informático describe un
+         proceso de transformación de información; esto signiﬁca que los elementos de infonnación
+         representados por las variables pueden cambiar a lo largo del proceso, pasando a representar
+         un valor distinto del original. Por ejemplo, en el algoritmo RaízCuadrada, que usa tres
+         variables —X, Y, Z—, las variables Y y Z empiezan teniendo un valor dependiente de lo que
+         valga X y luego van cambiando a lo largo del proceso; supongamos que X toma inicialmente
+         el valor 9. La siguiente tabla muestra la evolución de los valores de las variables implicadas
+         en el proceso mientras el mismo se ejecuta.</p>
+         <div class="panel panel-default">
+           <div class="panel-heading">Panel heading</div>
+           <div class="panel-body">
+           </div>
+           <table class="table">
+         <thead>
+           <tr>
+           <th>Iteración</th>
+           <th>X</th>
+           <th>Y</th>
+           <th>Z</th>
+         </tr>
+         </thead>
+         <tbody>
+           <tr>
+         <th>0</th>
+         <td>9,0</td>
+         <td>4,5</td>
+         <td>20.25</td>
+       </tr>
+            <tr>
+              <th>1</th>
+              <td> 9,0 </td>
+              <td>3,25</td>
+              <td> 10,5625</td>
+            </tr>
+            <tr>
+         <th>2</th>
+         <td> 9,0</td>
+         <td>3,009615</td>
+         <td> 9,057785</td>
+       </tr>
+         <tr>
+           <th>3</th><td> 9,0 </td><td>3,000015</td><td> 9,000092</td>
+         </tr>
+         <tr>
+         <th>4</th>
+         <td>9,0</td>
+         <td>3,0</td>
+         <td>9,0</td>
+       </tr>
+       </tbody>
+       </table>
+       </div>
+         <p>La tabla muestra la traza de la ejecución del algoritmo RaizCuadrada. La traza
+         flm Ii‘ Íﬁ
+         visua a__la evolucion del estado de un proceso —entendido como el conjunto de valores de
+         las variables implicadas- a medida que se ejecuta el algoritmo que lo dirige, a panir de unas
+         entradas iniciales dadas. Se entiende por iteración ccglagia de l
+         as veces que se repite un
+         bucle. Puede ser una herramienta útil en la localización de errores en un algoritmo, aunque en
+         ningún caso sirve para probar su correcto funcionamiento, ya que este sólo queda probado
+         para las entradas utilizadas.</p>
+         <p>Otra diferencia formal entre las variables usadas en matemáticas y las de un algoritmo"
+         informático es que para las primeras suele usarse una letra como identiﬁcador, mientras que
+         r las segundas suíelen tener unrnorïltíreí más largo. que se recomienda sea signiﬁcativo, y que
+         en la mayoría de los lenguajes se forma como una sola palabra empezando con una letra y
+         continuando con una combinación de letras, números y unos pocos caracteres especiales.</p>
+         <p>Además, las variables de un programa no son sólo un simbolo abstracto, identiﬁcan la
+         porción del hardware del ordenador utilizada para representar el valor de la información
+         simbolizada por la variable. El dispositivo hardware implicado es la QCJIGLÍB, un conjunto
+         de circuitos organizados desde el punto de vista lógico como una secuencia de celdas
+         direccionables individualmente. El valor de una variable se almacena utilizando una o más
+         “‘ . celdas consecutivas, y es accedido a partir de la geccióg de la primera Auna dirección es
+         una combinación de impulsos electricos capaz de "activar" la respuesta de una celda
+         individual. El espa (numero de celdas) utilizado por una variable es ﬁmción del tipo de
+         información que represente. Como el número de celdas de memoria es necesariamente ﬁnito,
+         el volumen total de infonnación que puede manejar un programa es limitado, lo que hace
+         necesario un uso racional de la memoria que evite ocupación innecesaria de espacio mediante
+         una adecuada deﬁnición y estructuración de los datos.</p>
+         <h4>Declaración de variables.</h4>
+         <p>Las variables utilizadas por un algoritmo deben declararse antes de su empleo. Una
+         declaración especiﬁca cuántas variables van a usarse. cómo se llaman y de que tipo es la
+         información que simbolizan.</p>
+         <p>variables reales X, Y, Z</p>
+         <p>enteras I, J</p>
+         <p>La declaración cumple un doble propósito: para el lector, informa de los elementos
+         simbólicos que va a utilizar el algoritmo; para el ordenador, determina cuánta memoria
+         necesitará el algoritmo para ejecutarse y cómo debe organizarse la misma.</p>
+         <h4>Operacion es elementales.</h4>
+         <p>Las variables son los envases para la materia prima con la que trabajan los algoritmos
+         informáticos. La acción descrita por un algoritmo gira en tomo ala atribución y modiﬁcación
+         de valores a las variables. Existen operaciones para incorporar información al proceso en
+         curso; esta infonnación es tomada "del exterior" y almacenada en una variable. De la misma
+         manera existen operaciones para enviar "al exterior" la infonnación resultante del proceso.</p>
+         <p>Estas operaciones se conocen como operaciones de entrada/salida.</p>
+         <pre>
+         algoritmo Raízcuadrada
+         escribir "Desea Calcular la raíz cuadrada de: "
+         leer X
+         si
+         escribir "La raíz cuadrada es: ", Y
+         si no
+         escribir "no existe una raiz cuadrada real de", X
+         Ein ai
+         parar
+         fin algoritmo
+       </pre>
+         <p>La operación que permite cambiar el valor de las variables cuando sea preciso a lo
+         largo del proceso se conoce como asignación y en pseudolenguaje suele simbolizarse con
+         una ﬂecha. En la asignación intervienen dos elementos: una variable a la que se le va a dar un
+         nuevo valor, y un valor que se le va a dar a la variable. Caso de utilizarse una ﬂecha como
+         símbolo de asignación ésta señalará desde el valor (normalmente situado a la derecha) hacia
+         la variable (normalmente situada a la izquierda).</p>
+         <pre>
+         <strong>algoritmo</strong> Raízcuadrada
+         si...
+         Y**X/2
+         Z<’Y*Y
+         mientras .
+         Y+l(X/Y)+Y)/2
+         Z**Y*‘l
+         fínmiantraa
+         ﬁin si
+         parar
+         tin algoritmo
+       </pre>
+        </div>
+        <div class="col-md-4">
+          <h3>Tema 1</h3>
+          <div class="list-group">
+              <a href="#ch01-sec01" class="list-group-item active">Introducción</a>
+              <a href="#ch01-sec02" class="list-group-item">Concepto de Algoritmo</a>
+              <a href="#" class="list-group-item">Variables, constantes y expresiones</a>
+              <a href="#" class="list-group-item">Estructuras algorítmicas de control</a>
+              <a href="#" class="list-group-item">Estructuras de repetición</a>
+          </div>
+        </div><!-- /col-med-3 -->
+      </div><!-- /row -->
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

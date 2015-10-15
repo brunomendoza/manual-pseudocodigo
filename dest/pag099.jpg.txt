@@ -1,0 +1,40 @@
+desarrollan módulos independientes para resolverlos. Hay que especiﬁcar la ﬁmción de cada
+subproblema y su relación con el conjunto prestando especial atención a la deﬁnición de las
+interfaces de los módulos a desarrollar para cada uno. La correcta especiﬁcación de esta etapa
+permite la implementación y prueba separada de cada módulo y su integración posterior sin
+problemas para conformar la solución ﬁnal‘
+
+Tras la implementación se puede usar la especiﬁcación en la etapa de
+validación/veriﬁcación para deﬁnir casos de pmeba o para veriﬁcar formalmente el
+funcionamiento de los algoritmos desarrollados.
+
+Finalmente, la especiﬁcación interviene en la documentación del programa, tanto
+intema —eomentarios insertados en el códígo- como extema —manuales de referencia y
+uso—; esta ﬁmción sirve tanto para informar al usuario ﬁnal como para ayudar en la fase de
+mantenimiento del programa posterior a su entrega y facilitar la realización de las revisiones
+
+que fuesen necesarias.
+
+Propiedades de la especiﬁcación.
+Una especiﬁcación ha de ser:
+(l) consistente, manteniendo coherencia lógica sin incurrir en contradicciones.
+(2) completa, describiendo todos los aspectos del problema,
+(3) precisa, describiendo los detalles con exactitud y
+
+(4) realizable, pudiéndose implementar de forma práctica.
+
+La especiﬁcación como contrato: precondiciones y postcondiciones.
+
+Si está bien fonnulada, en la especiﬁcación de un problema se pueden identiﬁcar dos
+partes: (l) la descripción de cómo deben ser —que’ condiciones deben cumplir— los datos
+que se suministrarán al algoritmo para su proceso y (2) la descripción de las condiciones que
+deben cumplir los resultados elaborados por el algoritmo para poder ser considerados una
+solución válida al problema. Como lo primero especiﬁca las condiciones que deben cumplir
+los datos antes (üviamente) de que el algoritmo los procese, recibe el nombre de
+precondicíoner; asimismo lo segundo recibe el nombre de postcandicianex porque especiﬁca
+las condiciones que debe cumplir la solución después (pLteriormente) de que el algoritmo la
+
+ha elaborado. Por ejemplo, si vamos a calcular la raíz cuadrada de un número real con una
+
+l02
+

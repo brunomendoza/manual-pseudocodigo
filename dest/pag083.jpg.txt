@@ -1,0 +1,43 @@
+u
+ejecución del subprograma que contuviese esta declaración 2.400 bytes (aproximadamente Z
+Kbytes), mas 165 por el número real de alumnos que se este’ manejando. Bastaria con que
+faltara alrededor del 2,5% de los alumnos previstos para que el uso de variables dinámicas
+
+empezase a resultar rentable.
+
+tipo PuntAlumno es puntero<TAlumno> Ein tipo
+
+variable PuntAlumno ListaAlumnos [s o o]
+
+Creación y eliminación de variables dinámicas.
+
+Sea T un tipo cualquiera y Q una variable de tipo puntero<T>; el MGMÜ permite
+considerar como primitivas las acciones de creación y de eliminación de las variables
+dinámicas de tipo T. lg forma general de la acción de creación implica una indicación al
+MGMD de que se necesita un bloque de un tamaño determinado y la respuesta de éste dando
+Laﬂeocion de un bloque libreﬁdel tamaño especificado. si existe. En nuestra notación se
+expresa COÏTIÜI T
+
+o « Tomarmoque (T) mu‘,
+
+lo que signiﬁca una petición para que el MGMD busque un hueco en la memoria capaz de
+albergar una variable de tipo T y devuelva su dirección, la cual se asignará a Q. E_n caso de
+que no exista ningún hueco capaz de albergar valores de tipo T. el MGMD devolverá un
+valor que identiﬁcaremos como NULO. Qyalor NULQes _un valor especial que se emplea
+siegprïiueﬁllalqueindicargue una variablepuntergno apunta a ningunrbltgue. En adelante
+usaremos TomarBloque en nuestros ejemplos suponiendo que siempre hay memoria dinámica
+disponible —a ﬁn de no complicar la estructura de los algoritmos. Los casos de fracaso
+requieren el tratamiento de excepciones de ejecución que dependen de la naturaleza de la
+aplicación y exceden nuestros objetivos actuales.
+
+Con el ﬁn de evitar, en lo posible, agotar el espacio disponible, el programa debe
+devolver sistemáticamente a la memoria dinámica disponible los objetos que ya no necesita;
+
+laacción de "re_lirninación” de larvariable ¡jinámica referenciada por el puntero Q se expresa
+
+como:
+
+Liberada)
+
+86
+

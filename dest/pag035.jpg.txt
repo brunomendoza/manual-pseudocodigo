@@ -1,0 +1,56 @@
+algoritmo Factoríal
+variableanaturales n, f, i
+
+escribir "déme un Valor natural: "
+leer n
+
+f z: l
+
+pan i desde n hasta 2 puc -1 hace:
+
+ïlïultiplicaciórﬂﬁi) (Llamada a la función Multiplicación)
+
+fin para "
+
+escribir "el factorial es: ", Í
+parar
+
+fin ¡lgoritmo
+
+Vemos que en ambas versiones los nrïbres de los m gs reales no coinciden con
+los de los Eramitïrgnales declarados en las respectivas implementaciones del
+Subprograma Multiplica. No obstante, tgmgpco supondría ningún pgslema guggllaimggeg
+igual, en cualquier caso representan variables diferentes de subprogramas diferentes, por lo
+
+menos hasta que la llamada las relaciona.
+
+Tópicos avanzados en relación con los subprogramas.
+
+Mecnnfíslï d asordeipnrámetros.
+
+  
+
+Cuando se llama a un subprograma, debe transferirse información entre los
+parámetros reales y los fonnales. En la práctica, existerLdos modos de hacer este tipo de
+
+transferencia: mediante la cogía del valor de u_n parámetros en el otro, o mediante la
+
+transmisión de la referencia (dirección) del parámetro.
+
+ 
+
+La grimeraolgón signiﬁca que el Earámetm formal > ¡son realmente variables
+gstirtas. Es un mecanismo corriente en el Basjodeiygrámetros de entrada/comúnmente
+llamado paso por valor —en el momento de producirse la llamada, el valor del parámetro real
+se copia en el parámetro formal, y se trabaja con éste. Algunos lenguajes implementan
+también mediante copia, en este caso llamada paso por resultado, losgámetrgs de salida —
+cuando el Subprograma va a retomar se copia el valor del parámetro formal, con quién se ha
+estado trabajando, en el parámetro real—, y los gïámetrosnde entrada/salida, lo que
+constituye el pgsgpor yglorgresultado.
+
+La segunda opción consiste en dar al subprograma la dirección del parámetro real,
+para que lo use directamente en vez del formal. Setrabajaenel espacio de almacenamiento
+
+Llparametro real —el parámetro formal actúa como un simple aIias—, lo que hace este
+35
+

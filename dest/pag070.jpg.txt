@@ -1,0 +1,43 @@
+Clases de ﬁcheros.
+
+Los ﬁcheros se pueden diferenciar según: (l) la forma en que se estructura la
+infonnacion que almacenan, (2) el modo en que se puede acceder a esa información y (3) su
+periodo de existencia.
+
+Cuando hablamos de la estructura de un ﬁchero hemos de distinguir entre la estructura
+lógica, que se reﬁere a como el programa “ve" el ﬁchero como un conjunto de componentes,
+y la estructura ﬁsica, que alude a cómo la información se organiza en el dispositivo de
+almacenamiento. Desde este punto de vista. un ﬁchero es una secuencia de bytes
+posiblemente organizada en unidades superiores en función del tipo de dispositivo en que se
+almacene. Desde el punto de vista lógico se distinguen poríuíestructura tres clases de
+ﬁcheros: (l) ﬁcheros de componentes uniformes. (2) ﬁcheros de componentes m: uniformes y
+(3) ﬁcheros de terra: En cualquier caso, puede entenderse como una secuencia marcada de
+
+‘ datoskdue en última instancia se reduce a una secuencia marcada de bytes. La marca de ﬁn de
+ﬁchero la abreviamos aquí con su acrónimo en ingles <EOF> —End Of File.
+
+El programa interpreta la secuencia de bytes subyacente para acomodarla a los
+distintos tipos de datos que para él conforman la estructura del ﬁchero.
+
+Unfïitírggnifzïrne es una secuencia marcada de elementos que son todos del mismo
+
+tipo, y, por tanto, ocupan el mismo número de bytes en el dispositivo de almacenamiento.
+
+l,,,i {Mi i i V’ EOF
+
+Ilustración 8 Estructura de un ﬁchero uniforme
+
+Un ﬁchero nu uniforme se interpreta como una secuencia marcada de elementos que
+
+pueden ser de distintos tipos, ocupando por tanto, cantidades distintas de espacio ﬁsico.
+
+Ilustración 9 Estructura de un ﬁchero no uniforme
+
+Los fïgﬁergzg de texto son una secuencia estructurada de caracteres; la estructuración
+se consigue mediante marcas que son combinaciones especiﬁcas de caracteres que se
+interpretan como: ﬁn de línea <EOL>, ﬁn de página <EOF> yﬁn de ﬁchero <EOF>. La
+
+interpretacion del contenido de un ﬁchero de texto, resulta más complicada que en los otros:
+
+72
+

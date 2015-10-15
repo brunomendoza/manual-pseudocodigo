@@ -1,0 +1,53 @@
+lugar el programador podrá desarrollar un procedimiento —que tendría los vectores a sumar
+como parámetro de entrada y el resultado como parámetro de salída- o, una ﬁmción en la
+que el resultado sería la suma de sus parámetros.
+
+Sin embargo, estaria muy bien que el lenguaje permitiera ampliar el signiﬁcado del
+operador "+" para que cuando se encuentra entre vectores realice la suma de vectores, pero
+sin que deje de realizar la suma de enteros cuando se encuentra entre enteros. Esto es lo que
+se llama sobrecargar el operador. En realidad, casi todos los lenguaje tienen algunos de sus
+operadores sobrecargados para varios tipos —"+" sirve para sumar enteros, pero también para
+sumar reales, y, en algunos lenguajes, pam la concatenación de ristms, que es una operación
+con un claro signiﬁcado aditivo——, de lo que se trata es de que el usuario pudiera añadir sus
+propios signiﬁcados —procurando que no diﬁeran en exceso de los signiﬁcados originales
+del operador. puesto que ello podría crear confusión.
+
+Ello no tiene que ser muy complicado si pensamos que, operacionalmente, un
+operador es básicamente una función con l, 2 o 3 parámetros, aunque se use con una sintaxis
+diferente. De esta manera, la sojgrejarga de un operador podria hacerse de un _m_odo parecidog
+
+¿Llaginición de una ﬁmción.
+
+      
+
+tipo Vector es eetruotun enteroll 11cc] fin tipo —u- 26/»
+tipo Indicevector en entero o. .10 fin tipo __ Q _
+tipo Vectorliïncapsulado es estructura
+
+campo Vector Datos
+
+campo Indicevector NumElementos
+Ein tipa
+
+función Vectorlïncapsulado "w (v1,v2>
+variables entrada Vectorlïncapsulado V1, V2
+locnlee veccorEncapsuladc sum
+IndiceVector í
+
+Sumaﬂumﬂlementos * Vlﬂunﬂlementoa
+pan i desde l hasta sumenNumElementos hace):
+
+Sumajatos [i] ‘r VJHDECOSÍÁ] + V2.Datos[i]
+¡ln para
+
+devolver Suma
+(in función
+
+Debe tenerse en cuenta que, cuando hablamos de sobrecarga de operadores, hablamos
+de dar nuevos signiﬁcados a los operadores existentes, pero sinyvariar elznúrnero’ de sus
+parámetros, y s_in_"inventar" operadores nuevos —salvo en lenguajes muy especíﬁcos, no se
+
+puede tomar cualquier simbolo y decir que se va a emplear como operador.
+
+37
+

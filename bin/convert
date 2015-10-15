@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Begin"
+
+for i in $(ls -1 ./src/*jpg); do
+	echo "File $i is been processed"
+	tesseract "$i" dest/$(basename "$i") -l spa > /dev/null 2>&1
+done
+
+echo "End"
+
+exit 0

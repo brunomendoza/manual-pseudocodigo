@@ -1,0 +1,45 @@
+ 
+
+Habitualmente, las operaciones de entrada/salida con ﬁcheros son similares a las que se
+
+utilizan con la pantalla y e] teclado, con la salvedad de que hay que especiﬁcar la variable
+ﬁchero a la que se reﬁere la operación como primer parámetro de la misma.
+
+Leertn , Varl)
+
+Escribir ( F2 , Var2)
+Memoria RAM Fichero Memoria RAM Fichero
+Pro a Pro
+
+Bntïer de cscmur Buffer de lectura
+
+ 
+
+Ilustración ll Flujo de la información a través de buffers
+
+Finalmente, cuando el programa haya completado el trabajo para el que necesitaba la
+información del ﬁchero, debe solicitar el cierre de la comunicacion mediante otra operación
+especíﬁca; de no hacerlo asi, podrían producirse pérdidas de información por el canal abieno.
+Ello puede pasar, fundamentalmente, cuando el trasvase de información va desde el programa
+hacia el ﬁchero y se debe a que, para minimizar el alto coste en tiempo de acceso a los
+dispositivos de almacenamiento, las operaciones de lectura y escritura no se realizan
+directamente con el ﬁchero. sino que se habilitan unas áreas en memoria denominadas
+bufferr. de tal manera que, cuando el programa solicita un dato del ﬁchero, no sólo se
+transﬁere a memoria el dato solicitado, sino un bloque mayor que se guarda en un buﬂer de
+lectura en la suposición de que probablemente el programa pedirá a continuación e] siguiente
+elemento; si esto es asi, en las siguientes peticiones del programa no se accederá a memoria
+externa. siempre que Ia información solicitada se encuentre en el buﬂer. De modo
+equivalente, cuando cl programalrealiza una operación de escritura, esta no ocurre realmente
+en el ﬁchero, sino que la información se va acumulando en un bujïer de escritura que es
+transferido al ﬁchero cuando se llena. La operación de cierre garantiza que la información
+que quede en el buﬂer de escritura cuando se termina de trabajar con el ﬁchero sea.
+efectivamente, incorporada a éste; si el programa termina bruscamente sin cenar los ﬁcheros
+en los que ha escrito, la ínfon-nación que quede en los bujferx se perderá. E] intercambio de
+información entre el ﬁchero y el algoritmo queda ﬁnalizado mediante la operación
+
+cerrancerrar (F)4 
+
+íf/—
+
+76
+

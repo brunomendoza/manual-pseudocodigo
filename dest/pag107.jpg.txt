@@ -1,0 +1,41 @@
+ai no
+Y ‘ "1
+un si
+IGCOIHSZ‘
+ﬁn procedimiento
+
+En la última versión del algoritmo se ha optado por indicar el error asignando -l al
+parámetro de salida. Se ha podido tomar esta decisión porque el rango de valores válidos de y
+como solución de la raíz cuadrada no cubre el rango de valores de su tipo Ay tiene que ser
+mayor o igual que cero y quedan los negativos para asignar códigos de error. Si no hay
+valores inválidos que se puedan usar como códigos de error y no se quiere o no se puede
+modiﬁcar la interfaz, se puede recurrir a los mecanismos de resolución de excepciones que
+ofrezcan los lenguajes a los que el algoritmo vaya a traducirse.
+
+Cara al usuario ﬁnal la amigabilidad de un programa implica que le proporcione
+ayuda, le informe de las causas de los errores que se produzcan y le de la oportunidad de
+
+corregirlos y continuar la ejecución.
+
+Apéndice: Introducción ala lógica de predicados.
+
+Deﬁnición.
+
+Un predicado es una aﬁrmación; por ejemplo "x es mayor que cero", que formalmente
+se expresa como: x > 0. Un predicado elemental —re'rmino— puede ser: una variable lógica,
+una constante lógica, una función lógica —en este contexto una función lógica es un
+predicado formado por un nombre y una lista de argumentos entre paréntesis, como Par(x) o
+Primo(x)— o una expresión relacional. Un predicado no elemental se puede formar como la
+negación de un predicado (mP), la disyunción de dos predicados (P V Q) o la conjunción de
+dos predicados (P A Q) —en deﬁnitiva, una expresión lógica. También se forma un predicado
+relacionando otros dos mediante una implicación (—». leido si  entonces ...) o un
+bicondicional (n, leido  si y solo si ...).
+
+Dado un predicado, denominaremos estado a cualquier posible asociación de valores
+a sus variables. Se dice que un estado satisface un predicado si el predicado es verdadero para
+ese estado. Un predicado es sarísfacible si existe al menos un estado que lo satisface. El
+
+conjunto de estados para los que un predicado se satisface constituye su dominio de verdad.
+
+lll]
+

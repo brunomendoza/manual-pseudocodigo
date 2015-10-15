@@ -1,0 +1,61 @@
+en última instancia, podria resolverse combinando variantes de los dos esquemas básicos
+nominados (recorrido y búsqueda). La composición de dos esquemas sólo puede ser de dos
+maneras: secuencial o anidada. En el primer caso, un esquema sigue al otro, en el segundo,
+uno está embebido dentro del otro —puede realizar la función de avanzar, tratar, evaluar las
+condiciones de ﬁnalización, etc. La composición de múltiples esquemas no es más que la
+
+extensión de lo anterior. Los siguientes ejemplos ilustran algunas posibilidades.
+
+Ejemplo: algoritmo de ordenación por selección.
+
+El metodo de ordenación por selección de una secuencia consiste en recorrerla
+parándose en cada posición para elegir el elemento de la secuencia que debe ocupar esa
+posición para que resulte ordenada. La búsqueda del elemento candidato debe efectuarse
+siempre recorriendo la subsecuencia que empieza a partir de la posición actual, ya que, las
+posiciones anteriores ya habrán sido ocupadas por los elementos adecuados cuando se pasó
+por ellas. Cuando se encuentra el candidato adecuado, simplemente se intercambia con el
+
+elemento que ocupa la posi ión actual:
+
+3599237154 <> ogsszequ ca 0139287554 d) 012237554 w
+0123387561 :> 0123457559 :9 012345199 =:> ouussgs co
+01234557Q e) 0123456789
+
+El siguiente algoritmo aplica el método a la ordenación de un vector de números
+
+enteros:
+
+procedimiento ordenselecciónﬂhNEleml
+
+variables
+entrada entero NElem {N° de elementos del vector)
+entrada/salida entera V[50] {Vector a ordenar}
+
+locales enteras ActuaLAux,Poscandídatcncomodín
+{Recorrido del vector} ,
+para Actual donde l hasta NEIem __ 1 hace:
+
+(Búsqueda del mínimo a partir de la posición actual)
+
+Poscandidato " Actual
+
+para Aux desde Actual + 1 halta NElem hace:
+
+si V[Aux] < vlPoscandidatol entonces
+Poscandídato ‘> Aux
+Ein ai
+Ein para
+{Una vez localizado el elemento que debe ir en 1a posición actual
+se intercambia con el que 1a ocupa }
+
+Comodín r vlActuall
+
+Vmctual] h vlPoscandidato]
+
+Vllïoscandidato] t’ Comodín
+ﬁn para
+retornar
+un procedimiento {Ordenselección}
+
+5|
+

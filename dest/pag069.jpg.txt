@@ -1,0 +1,37 @@
+üvsTlTrTïñr InnnuruiuuttiunrrunnuunTrTrn-a
+
+Ficheros
+
+Concepto de ﬁchero.
+
+Los algoritmos informáticos manipulan infonnación que es representada mediante
+variables y constantes; hasta ahora no nos hemos ocupado de dos aspectos de la información
+que, sin embargo, pueden ser muy relevantes: la caducidad y el volumen. Las variables tienen
+una duración —conocida como "tiempo de vida”— limitada al período de ejecución del
+bloque en que estan declaradas, pero determinadas informaciones pueden tener vigencia
+mucho después de que acabe la ejecución del programa que las elabora por primera vez; por
+ejemplo: si una gran empresa tiene que introducir las listas de empleados, clientes,
+proveedores. articulos, etc., cada vez que arranca su programa dc gestión, no le quedará
+tiempo para los negocios —y no se soluciona arrancando el programa de gestión sólo una vez
+y dejándolo luego en ejecución pennanente con los ordenadores siempre encendidos: siempre
+puede haber un corte de luz. Además, la cantidad de información que se puede almacenar en
+variables en memoria RAM es muy limitado frente a las necesidades de algunas aplicaciones
+—pensemos en el volumen de la información tributaria almacenada por el ministerio de
+hacienda- debido a que la relación coste/almacenamiento de este tipo de dispositivos es
+relativamente alta. Son necesarios dispositivos que pennitan {almacenar con un coste
+razonable grandes volúmenes de información de forma pennanente y de tal manera que
+pueda ser utilizada por diferentes programas o por un mismo programa en diferentes
+ejecuciones; dispositivos de este tipo son los discos magnéticos, cintas, discos ópticos, etc..
+—en todos estos dispositivos la información se organiza fumando unidades con nombre
+propio llamadas ﬁcheros. La información en los ficheros se estructura en componentes o
+registras que pueden ser accedidos individualmente —por "accedidos" entendemos que la
+información de un componente de un ﬁchero puede copiarse a una variable (operación de
+entrada) en memoria principal donde pueda ser manipulada o que el valor de una variable
+pueda copiarse en una componente de un ﬁchero (operación de salida) para su
+almacenamiento permanente. La información de un ﬁchero debe poder descomponerse en
+unidades más pequeñas puesto que por vocación un ﬁchero tiende a representar volúmenes de
+
+infonnación demasiado grandes como para poder cargarse completos en memoria principal.
+
+7|
+

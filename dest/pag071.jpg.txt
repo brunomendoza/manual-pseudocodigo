@@ -1,0 +1,44 @@
+MXÏÏIIIIJLJIII'll|Illlul-lobltlelctlallolillllIIIIIItII|J|IIFTUFÉ
+
+aunque se encuentre organizado en lineas, éstas no son necesariamente el componente básico
+de acceso. y aunque las lineas sean secuencias de caracteres, el tipo de datos al que se va a
+acceder no tiene que ser interpretado obligatoriamente como ristra de caracteres:
+Supongamos que en una linea de un ﬁchero aparece la secuencia "3524283 3.14". Podría
+leerse en una variable de tipo ristra que respetase dicha secuencia, o en dos variables de tipo
+real, interpretando la secuencia de caracteres como los números reales que representan —en
+este caso, el espacio se interpretaría como delimitador de los números—, incluso podría
+interpretarse como cuatro valores enteros.
+
+7 " — WT
+
+EOL i’ EOLE
+
+ 
+
+Illlstrución ID Estructura dc un ﬁchero de texto
+
+Los modos de acceso se diferencian por lo que se hace y por cómo se hace. I_.o único
+que se puede hacer con la información almacenada en un ﬁchero son operaciones de entrada
+—lecturas— para copiar componentes del ﬁchero a variables del programa y operaciones de
+salida —escrituras— para copiar variables del programa en componentes del ﬁchero. En
+unos casos se puede acceder ajualqíuierAcomponente en cualquier momento —acceso
+d¡recIo—— y en otros para acceder a una componente se debe haber íí-Lïeﬁldﬂ antes a las que
+ocupan posiciones previas en el ﬁchero wccesa secuencia]. Cuando un ﬁchero se trata en
+modo secuencial es normal que sólo se hagan operaciones’ de entrada u operaciones de salida,
+pero no ambas, mientras que cuando se trata en modo directo es habitual que se puedan
+mezclar ambas operaciones. También es normal que los ﬁcheros de componentes unifonnes
+puedan tratarse en modo directo 4a] ser todos los componentes del mismo tamaño es fácil
+calcular la posición ﬁsica de uno determinado— mientras que los ﬁcheros de texto siempre
+tienen que tratarse en modo secuencial —los componentes son lineas de tamaño variable
+determinado por las marcas de ﬁn de linea, con lo que resulta muy diﬁcil conocer de manera
+eﬁciente donde empieza cada unai; por razones similares los ﬁcheros de componentes no
+homogéneas son más adecuados para un tratamiento secuencial, a menos que tengan una
+estructura conocida con exactitud por algún medio.
+
+La cuestión de la persistencia —período de existencia— de los ﬁcheros parece
+contradictoria con la justiﬁcacion expuesta anterionnente —los ﬁcheros sirven para guardar
+infonnación de foma pennanente—; sin embargo, existen aplicaciones en que una
+
+infonnación que solo se requiere durante la ejecución del programa se guarda en un ﬁchero
+73
+

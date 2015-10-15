@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Begin"
+
+for i in $(ls -1 ./dest/*.txt); do
+  echo "Processing $i"
+  cat $i >> superfile.txt
+done
+
+echo "End"
+
+exit 0

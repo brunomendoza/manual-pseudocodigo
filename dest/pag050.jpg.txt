@@ -1,0 +1,51 @@
+La función lógica para determinar si un número es, o no, primo que hemos visto,
+responde a un esquema de búsqueda: un número no es primo si es divisible por cualquier otro
+mayor que uno —y menor que élA, por tanto, lo que se hace es buscar si es divisible por
+algún número de la secuencia comprendida entre 2 y el predecesor del número que se está
+evaluando —lo que equivale a que el resto de la división sea cero. Como la mitad de los
+números de esa secuencia son pares, se extrae la comprobación de si es divisible por 2, y lo
+que queda es una búsqueda en la secuencia de impares resultante. El bucle de búsqueda está
+controlado por una doble condición: "no ﬁn" (d < p) y "no encontrado" (p mod d a 0), lo que
+
+obliga a comprobar luego cuál ha sido la condición de salida.
+
+función lógica Primolpl
+vaziablesentrada natural p
+local natural d
+a1 (p » 2) Y (p mod 2 i D) entonces
+devolver falso
+
+a1 no
+d * 3
+miantras (d < p) y (p mod d e mhacer
+d * d + 2
+
+Ein mientras
+si a < p entonces
+devolver falso
+si no
+devolver verdadero
+Ein al
+Ein ui
+tin función
+
+Combinación de esquemas.
+
+En resumen, si los elementos de un problema se pueden identiﬁcar como una
+secuencia —cosa que ocurre con la mayoria de los problemas que pretendamos resolver con
+un ordenador de arquitectura "tradicional", dado que esta consiste básicamente en un
+procesador secuencial—, se resuelve mediante una de las múltiples variaciones de un
+esquema básico de generacion/recenido-tratamiento (lo llamaremos esquema de recorrido). de
+entre las que destaca el que hemos denominado esquema de búsqueda, sobre el que, a su vez,
+se podrian plantear variaciones. Las diversas variantes tienen que ver, sobre todo, con el tipo
+de secuencia —conteada, marcada, con marca despues de o en el último elemento, etc.— que
+mejor se pueda identiﬁcar en un problema concreto. Todo esto lo hemos visto para problemas
+relativamente simples; pero lo interesante es que cualquier problema, sea cual sea su nivel de
+
+complejidad, puede desglosarse en una composición de problemas más simples, con lo que,
+
+50
+
+ 
+Ijnrrttrttrnrmntrrooorrprrmvtvnnovnervl
+

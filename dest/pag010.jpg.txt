@@ -1,0 +1,34 @@
+Operacion es elementales.
+Las variables son los envases para la materia prima con la que trabajan los algoritmos
+informáticos. La acción descrita por un algoritmo gira en tomo ala atribución y modiﬁcación
+de valores a las variables. Existen operaciones para incorporar información al proceso en
+curso; esta infonnación es tomada "del exterior" y almacenada en una variable. De la misma
+manera existen operaciones para enviar "al exterior" la infonnación resultante del proceso.
+Estas operaciones se conocen como operaciones de entrada/salida.
+algoritmo Raízcuadrada
+escribir "Desea Calcular la raíz cuadrada de: "
+leer X
+si
+escribir "La raíz cuadrada es: ", Y
+si no
+escribir "no existe una raiz cuadrada real de", X
+Ein ai
+parar
+fin algoritmo
+La operación que permite cambiar el valor de las variables cuando sea preciso a lo
+largo del proceso se conoce como asignación y en pseudolenguaje suele simbolizarse con
+una ﬂecha. En la asignación intervienen dos elementos: una variable a la que se le va a dar un
+nuevo valor, y un valor que se le va a dar a la variable. Caso de utilizarse una ﬂecha como
+símbolo de asignación ésta señalará desde el valor (normalmente situado a la derecha) hacia
+la variable (normalmente situada a la izquierda).
+algoritmo Raízcuadrada
+si...
+Y**X/2
+Z<’Y*Y
+mientras .
+Y+l(X/Y)+Y)/2
+Z**Y*‘l
+fínmiantraa
+ﬁin si
+parar
+tin algoritmo

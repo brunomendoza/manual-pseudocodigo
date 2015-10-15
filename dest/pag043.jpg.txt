@@ -1,0 +1,48 @@
+El esquema para obtener este efecto implica la inicialízación de la variable que
+representa el elemento actual de la secuencia con el valor inicial y un bucle para su
+actualización según la función de dependencia, la cual se supone que debe conducir al
+cumplimiento de la propiedad de ﬁnalización:
+
+¿"L a
+mientras no Fin(x) hace:
+
+x e F‘(x)
+Ein mientras
+
+Siguiendo este esquema, el siguiente trozo de algoritmo "desgranzﬂ la secuencia de
+los M primeros números naturales:
+n e o
+mientras n < M hace:
+
+n “ n + 1
+fin mientras
+
+El ejemplo se puede generalizar para cualquier secuencia de un tipo ordinal:
+
+n e 0K
+mientras n S B hacer
+
+n e Sucesorm)
+ﬁin mientras
+
+Secuencias controladas por otras secuencias.
+
+Los esquemas de conteo, como los de los ejemplos anteriores son muy útiles en el
+control de la creación y recorrido de secuencias, hasta tal punto, que se incorporan como una
+
+sentencia de control especíﬁca, la repetitiva controlada por contador:
+
+n? a 5;. n desde oz hasta La hace:
+
+mienttn n s B hace: .- -
+_ _ _ fin para
+
+n k Sucesorln)
+Ein mientrnn
+
+Una forma de ejercer este control puede ser "forzar" la tenninación de una secuencia
+tras un número detemtinado de iteraeiones, si no se han alcanzado antes otras condiciones de
+
+ﬁnalización:
+43
+

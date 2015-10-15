@@ -1,0 +1,49 @@
+Inserción ordenada
+
+Para ilustrar la inserción en cualquier lugar de la lista se presenta un procedimiento
+que inserta un elemento en su lugar según un orden ascendente Aexige que el tipo de la
+información de la lista, TElemento, sea ordenable, que se interpreta en este caso como
+admitir el operador "s". Hay que suponer que la lista está ordenada y de lo que se trata es de
+
+hacer una inserción sin que deje de estarlo.
+
+procedimiento Insertarlïnorden (L, v)
+¡se inserta el Valor V en su posición ordenada en la lista apuntada por L
+¡L debe tener una dirección válida, o el valor Num (lista Vacía).
+[si L no es NULO, los nodos encadenados deben estar ordenados entre sí
+[según el valor de sus campos Info, en orden ascendente.
+variableuentrada/aalidn PLista L
+
+entrada Tipovalor v
+
+locales PLista Nuevo
+
+a1 1L : MILO) o ¡v s LaInto) entonces [si es menor que s1 primero,
+Insercarnelancunv) ¡v Va al principio de 1a lista
+si no jsino, irá donde le corresponda,
+InsertarEnOrden(L"Siguíente,V) [en la sublista que Sigue
+fin si [al primero.
+IECOZBG!
+
+ﬁin procedimiento
+
+Si el valor a insenar es menor que el primero de la lista, se utiliza InsertarDelante, si
+es mayor que todos los que contiene la lista. lnsertarEnOrden funciona exactamente igual que
+InsenarDetrás; pero tiene la posibilidad de dejar de hacer llamadas reeursivas en cuanto
+encuentre un nodo con una información igual o mayor que la que se quiere insertar, con lo
+que se consigue la inserción enmedio como inserción en el principio de la sublista en la que
+
+todos los valores son iguales o mayores que el dado.
+
+Extracción al principio.
+
+En el caso de la extracción, vuelve a ocurrir que el caso más simple es la extracción
+del primer elemento de una lista: l) Se reserva la dirección del nodo a eliminar en una
+variable auxiliar local, 2) se asigna al puntero que indica el principio de la lista la dirección
+del siguiente nodo —si no hay más quedará con el valor NULO— y 3) se libera el nodo que
+ocupaba la primera posición utilizando la variable auxiliar en la que se había guardado su
+
+dirección —todo esto siempre que la lista no este’ vacía de entrada.
+
+96
+

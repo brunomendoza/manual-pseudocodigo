@@ -1,0 +1,67 @@
+escribir "nombre del fichero a tratar: "
+leer NomFEntrada
+
+escribir "nombre del fichero resultante: "
+leer NomFSalida
+
+si abrir(FencradamIomFEntrada,Lectura) entonces {Abrir Ficheros}
+si abrir(Fsa1ida,NomFSa1ida,Crear) entonces
+
+mientras {no Finﬂ-‘Entradan hace: {Procesar c1 texto)
+1eer(FEntrada,Línea)
+SaltarLínea (FEntrada)
+Procesarnínea(Líneamsalida)
+
+Ein mientras {Procesar el texto}
+
+cerrarmsanda) {Cerrar ficheros)
+un si
+cerrar (FI-Entrada)
+fin si
+parar
+
+un algoritmn (Frecuenciavalabza)
+
+procedimiento ProcesarLínea (Línea, Fsalida)
+variables entrada ristra Línea
+entrada/salida fichero<TRegFrec> Fsalida
+lccales TRegFrec RcgFrecJzegFrecL
+entera i
+
+miantraa lHayPalabraMLíneaH hacer {procesar línea}
+{Se obtiene una palabra}
+RegFrezxPalabra 4— Tomarprimpauninea)
+RegFreoFrecuencia <- o
+
+í <- 1 {Buscar la palabra}
+lrAtFsalidi-Ll)
+mientras (i S TamañcHFSalidaH A
+(RegFrecL.Pa1abra a: Regnemvalabra) hace:
+
+leerwsalidamegFrecLl
+
+i <- 1+1
+Ein mientras
+
+si (í > TamañtMFSalidaH entonces
+
+RegFrecL <- RegFrec
+Ein si
+
+{Escribir la palabra con su frecuencia en el fichero de salida}
+RegFrecLFrecuencia <— RegFrecL.Frecuencia+1
+IrA(F‘Sa1ída,i)
+escribir(FsalidenRegFrecL)
+un niantrnu {Procesar línea}
+
+retornar
+un procedimiento {ProcesarLínea}
+
+función lógica HayPaIahraSKLÍneEJ
+variable entrada ristra Línea
+davolver (Lonmínea) > 0)
+
+fin función (Hay/Palabras)
+
+80
+

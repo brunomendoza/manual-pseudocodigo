@@ -1,0 +1,36 @@
+Desarrollo de soluciones recursivas.
+
+Planteamiento.
+
+No es raro encontrar funciones matemáticas cuya deﬁnición se construye empleando
+
+la propia función que se está deﬁniendo:
+
+Factorial
+a ) l si n = 0
+n :
+n’f(n-l) sin 9€ 0
+Fibonacci
+l si n = 0
+f(n) = lsin = l
+
+mu) + f(n»2)\1n >1
+
+Las funciones de este tipo decimos que tienen una deﬁnición recursiva, que expresa
+mediante una fórmula de recurrencia una relación entre distintos términos de la funcion.
+relación que pennite calcular unos términos a partir de otros. Se trata de una deﬁnición
+operacional; si, por ejemplo, queremos calcular el factorial de 4, sabemos que tenemos que
+calcular primero el de 3 y luego multiplicar por 4, pero para calcular el de 3 debemos calcular
+primero el de 2 y multiplicar por tres, y para el de 2 calcularemos el de l y multiplicaremos
+por 2‘ y el de l será el de 0 multiplicado por l. El de cero no depende de otros, y su valor es
+l. que multiplicado por l da l, que multiplicado por 2 da 2. que multiplicado por 3 da 6. que
+multiplicado por 4 da 24, que es el factorial de 4.
+
+Si analizamos estas funciones desde la perspectiva (del diseño descendente) de
+división de un problema en subproblemas más simples Ilegaríamos a la curiosa conclusión de
+que se trata de un problema que se subdivide en problemas que son iguales que él, pero
+
+aplicados a una entrada más pequeña.
+
+64
+

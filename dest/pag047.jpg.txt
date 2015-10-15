@@ -1,0 +1,59 @@
+Pï°°°dimï°nt° Escïïbwivr“) (Las dos primeras versiones
+variables entznda natura]. V[S0].N son la misma en Cuanto a
+
+local natural x, i , . . .
+esquema, s1 blen, cambia el tipo de
+
+i « 1
+sentencia de control utilizada)
+
+mientras i s N hace:
+x e V[i]
+i « i + 1
+escribir x
+Ein maneras
+retornar
+un procedimiento (3)
+
+Este ejemplo tiene la particularidad de que si existiese la garantia de que N es mayor o
+igual a uno, se podria pensar en la generación de la secuencia de pares (i,V[i]), en vez de, en
+el recorrido de la secuencia de valores de V[i] bajo el control de la secuencia de valores de i,
+
+con lo que la solución podria eneqiarse en el primer esquema de tratamiento:
+
+procedimiento EscribeV(V,N)
+variables entrada natural VISO] ,N
+local natural X, i
+
+i e 1 ‘¡Iniciar
+
+x * V[i]
+
+mientras i s n hace:
+escribir x _ u-Tratar
+í e i + 1 "¡Avanzar
+x * V[i]
+
+Ein mientras
+
+retornar
+
+E in procedimiento
+
+Es posible encajar cualquier secuencia en este esquema si es legal obtener el primer
+elemento sin haber evaluado la condición de ﬁnalización (de ahi la exigencia de que N sea
+
+mayor que cero en el ejemplo):
+
+x k u Dlniciar
+y e GKK)
+
+mientras no Fin(xl hace!
+Tratarly)
+
+x k F(x) ‘Avanzar
+Y * Glx)
+Ein mientras
+
+47
+

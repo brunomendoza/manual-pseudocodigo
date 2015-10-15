@@ -1,0 +1,61 @@
+C unstantes.
+
+No toda la información que se utiliza en un algoritmo necesita almacenarse en
+variables; en la implementación del método de Newtonjiaphson hemos empleado los
+valores 0.00005 y 2 como constantes numéricas y los valores "Desea calcular la raiz cuadrada
+de: ", "La raíz cuadrada es: " y "no existe una raíz cuadrada real de" como mensajes.
+Representan valores literales que el algoritmo emplea en los puntos donde aparecen.
+
+Existen ocasiones en las que conviene utilizar constantes simbólicas en vez de
+literales. Por ejemplo, si en un algoritmo necesitamos utilizar el número n podemos
+
+asimilarlo al valor 31416 y utilizarlo cuantas veces haga falta:
+
+algoritmo Redondo
+vnriable real Radio
+
+escribir "Deme el radio: "
+
+leer Radio
+
+escribir "Círculo: ", 3.1416*Radio*Radio
+
+escribir "Circunferencia: ", 2*3.l416*Radio
+
+escribir "Volumen esférico: ", (4/3)*3Jálñﬂïadicﬂïadiwﬂïadío
+
+para:
+fin algoritmo
+
+Sin embargo, si decidimos en otro momento modiﬁcar la precisión del método
+utilizando como valor de n 1141592653590 tendriamos que cambiar el valor literal en todos
+los sitios donde aparezca, cosa que no tendriamos que hacer si simplemente pudiéramos
+deﬁnir un simbolo con ese valor y utilizar ese simbolo donde hiciese falta, de forma que para
+
+cambiarla precisión del algoritmo sólo sería necesariocambiar la deﬁnición del símbolo.
+
+algoritmo Redondo
+constante real p 3.14159265359
+Variable real Radio
+
+algoritmo Redondo
+cen-tanta real pi=3.1416
+variable real Radio
+
+escribir "Deme el radio: " escribir "Deme el radio: "
+
+leer Radio leer Radio
+
+escribir "Círculo: ", escribir "Círculo: ",
+piﬂladicﬂíadío piﬁïadioﬂïadio
+
+escribir "circunferencia: ", escribir "circunferencia: ",
+2"pi*Radio 2*pi*Radio
+
+escribir "Volumen esférico: ", escribir "Volumen esférico: ",
+(4/3) ‘piﬂïadioﬂïadioﬂladio (4/3) svpiwxadionzadio-xadio
+
+para: parar
+
+fin algoritmo Ein algoritmo
+

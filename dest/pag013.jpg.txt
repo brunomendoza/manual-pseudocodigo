@@ -1,0 +1,41 @@
+un valor de tipo T2 se puede usar en su lugar uno de tipo T1; para ello el lenguaje debe
+disponer de alguna regla de conversión automática que haga corresponder valores de tipo T1
+a valores de tipo T2. Dos tipos son equivalentes cuando son mutuamente compatibles.
+
+La ﬂexibilidad de los lengiajes de programación modemos pasa por ofrecer un
+conjunto pequeño de tipos primitivos muy básicos junto con potentes mecanismos para que el
+programador pueda deﬁnir nuevos tipos a partir de ellos y de los ya deﬁnidos. Normalmente
+existe un conjunto de tipos no primitivos ya predeﬁnidos, por ser de amplia aplicación. Por
+tanto, se puede establecer la distinción entre tipos predeﬁnidos —que pueden ser primitivos o
+derivados— y tipos deﬁnidos por el programador —que siempre son derivados.
+
+Además, los tipos pueden dividirse en simples y estructurados. Un tipo simple
+representa una entidad individual, con un valor indivisible. Un tipo estructurado representa
+una clase de entidad que está compuesta de partes identiﬁcables separadamente. En cada caso
+se pueden establecer otras clasiﬁcaciones y subdívisiones, por ejemplo, entre los tipos
+simples se puede distinguir entre ordinales o discretos y no ordinales. De los que se
+presentan a continuación, son ordinales los tipo entero, carácter y, generalmente el lógico,
+
+siendo no ordinal el real.
+
+Tipos de datos primitivos.
+
+Los tipos primitivos son tipos, generalmente simples, que no basan su representación
+en ningún otro tipo, siendo normalmente provistos por el hardware. Se pueden enmarcar en
+tres categorías: numéricos, lógicos y caracteres.
+
+Debido a las fuertes diferencias en cuanto a su representación óptima en un ordenador,
+los tipos numéricos se dividen en reales y enteros; ambos representan un subconjunto ﬁnito
+de valores de sus correspondientes modelos matemáticos. En nuestros algoritmos llamaremos
+real al tipo que representará números reales, y entero al que representará números enteros. En
+los lenguajes de programación se suele tener la posibilidad de optimizar el gasto de memoria
+distinguiendo, en función de las necesidades de representación. diversas "longitudes" de tipo
+(enteros largos, nonnales, cortos...) lo que implica distintos rangos de valores. Los tipos
+numéricos admiten:
+
+- Los operadores aritméticos básicos: +. -. “, /.
+
+- Los operadores relacionales: <, >, I, ,_, L, —aunque, por cuestiones de representación
+
+13
+

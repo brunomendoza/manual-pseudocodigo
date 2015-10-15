@@ -1,0 +1,53 @@
+Explicación: dados dos vectores ordenados se genera un tercero también ordenado que
+
+Contiene todos los elementos de ambos vectores.
+
+procedimiento InsertarBnOrden (L, V)
+variables entrada/salida PLista L
+entrada Tipovalcr v
+(sea:
+OrdenadolL) E (L : NULO) V (Lásíguiente = NULO) V
+(Knaïnro s LﬁSiguiente/dnfo) A
+(Ordenado (Lasignience-unto) t)
+Frecuencíallqlï) E
+lo si (L : NULO)
+¡o + Frecuencia(Lasiguieneej) si (L r NULO) A l(L >Info v E)
+Il + Frecuencia(Lesiguientej) si (L a‘ NULO) /\ (Leﬂnfo = E)
+
+l
+
+(pre: ordenadom)
+(post: Ordenadom‘) /\ (Frecuenciamhv) : Frecuencia(L,v) + 1) /\
+Va e Tipovalor: Fzecuenciamua) : Frecuenciaﬂuu)
+l
+
+Explicación: Dada una lista ordenada y un valor. se modiﬁca la lista de manera que el valor
+aparece en la misma una vez más de las que aparecia, el resto de la los elementos de la lista
+
+permanecen igual y la lista sigue ordenada.
+
+Cumplimiento de las especiﬁcaciones: Corrección, robustez y amigabilidad.
+
+La especiﬁcación entendida como un eontmto delimita las responsabilidades del
+ímplementador y el usuario; este no está obligado a dar más que lo ﬁjado en las
+preeondíciones pero aquel sólo queda obligado a que el programa funcione correctamente
+cuando se ejecuta en las condiciones estipuladas. y no tiene ninguna obligación cuando las
+
+precondiciones se incumplen. Por ejemplo. dada la especiﬁcación:
+
+procedimiento Raízcuadrada (x, y)
+variables entrada real x
+salida real y
+(pre :(x 2 0))
+(post:(y' 2 o) A (abs(y'*y' — x) s o,oooo5))
+
+El siguiente algoritmo es correcta:
+
+procedimianto Raízcuadrada (x,y)
+
+variables entrada real x
+salida real y
+local real z
+
+[08
+

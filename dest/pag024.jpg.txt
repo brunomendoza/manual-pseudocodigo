@@ -1,0 +1,61 @@
+Su9esor(Valor_0rdina1). Devuelve el valor sucesor de uno dado, excepto para el
+ultimo.
+PredecesorWalor_Ordinal). Devuelve el valor predecesor de uno dado, excepto para
+
+el primero.
+
+Ínalesﬁdefinrig por el programador.
+
+   
+
+“¿S d "f!
+
+Uno de los mecanismos más sencillos para pennitir al programador deﬁnir nuevos
+tipos a partir de los predeﬁnidos es la posibilidad de deﬁnición de nuevos tipos ordinales. La
+deﬁnición de nuevos tipos ordinales puede hacerse por acotación ¡dí un subLngo deglores
+de un tipo ordinal ya deﬁnido, o por enumeración exhaustiva y ordenada de todos los valores
+
+del nuevo tipo. En consecuencia, hablaremos de tipos subranga y tipos enumerados.
+
+ 
+
+tipo Byte es entero o. .255 fin tipo /«/ ' "" 
+
+tipo Natural es entero O..Ü1timo(entero) fin tipo‘
+tipo Positivo es entero lnﬁltimcﬂentero) fin tipo
+
+tipo Negativo es entero Primercuentero) ..-1 Ein tipo w
+tipo Días es .5 ¿wm cv -  ‘ N"
+
+lunes, martes, miércoles, jueves, viernes, sábado, domingo
+fin tipo
+
+tipo DíasLaborables es Días lunes. .Viernes Ein tipo
+
+A los tipos subrango se les pueden aplicar las operaciones del tipo base de donde se
+
+ha tomado el rango; a losenumeradgs sólo les son aplicables las operaciones generales_de los
+
+tipos ordinales.
+
+Zipos de datos estructurados.’
+
+Una «¿Quail ¿eg qtipoestructurado, es un objeto de datos que está compuesto
+
+ 
+
+de otros objetos de datos, llamados componentes o átomos, que pueden ser a su vez simples o
+
+estructurados.
+
+Como mecanismos básicos para construir estructuras de datos suelen distinguirse; uno
+para crear estrucluras homogénea: y otro para crear es/ructuras heterogéneax.
+
+Una estructura homogénea es la que está formada por componentes que son todos
+dAel mismo tipo, mientras que una estructura heterogénea está formada por componentes
+que pueden ser de tipos diferentes. Las estructuras heterogéneas sirven para IÏEÜSCÏIIKT
+
+entidades complejas ;por ejemplo los datos contenidos en la ﬁcha de un alumno, tales como
+
+24
+

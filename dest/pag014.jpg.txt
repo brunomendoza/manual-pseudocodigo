@@ -1,0 +1,51 @@
+que no vienen al caso, no suele tener mucho sentido comparar si dos números reales
+
+son iguales o no.
+
+- Diversas funciones matemáticas de uso común (Abs, Sen, Cos, Tag,...).
+
+Habitualmente (salvo lenguajes con un tipado muy fuerte) los tipos enteros son
+compatibles con los reales, es decir, en cualquier expresión podremos usar un valor entero
+donde se espera un valor real. Lo contrario no es cierto, ya que un real puede ser convertido a
+mas de un entero, con lo que dicha conversión no puede ser automática. En nuestro
+
+pseudolengu ‘ utilizaremgslas función de conversión: ParteEntera, gue devuelve el valor
+
+ 
+
+emszcaﬂsumeseonsïisnte a, ¡3,Pﬁﬂ3..°'!F°,T,a 69,91 nílmefo real PN 916m9“
+
+ParteBntera(5.75) 5, ParteEnterat-Lﬂl) : -3
+
+Los tipos lógicos son aquellos que representan dos valores (verdadero, falso), y
+admiten como operaciones, al menos, la negación lógica, la disyunción lógica y la conjunción
+
+lógica, cuyos signiﬁcados se muestran en la tabla.
+
+      
+
+ ) onjunc On logica (y A) V elisa 
+Falso Falso Falso Falso Falso Falso Falso Verdadero
+Falso Verdadero Verdadero Falso Verdadero Falso Verdadero Falso
+Verdadero Falso Verdadero Verdadero Falso Falso
+
+Verdadero Verdadero Verdadero Verdadero Verdadero Verdadero
+
+La importancia de los tipos lógicos reside en que se usan para controlar la ejecución
+de los algoritmos, como veremos más adelante. Llamaremos Iégígjl tipo logico que
+waregrgsïn asesina vseuddenzuaïe-
+
+Los tipos carácter sirven para representar caracteres —el diccionario de la Real
+Academia deﬁne carácter como "signo de escritura o de imprenta"—, incluyendo
+generalmente todas las letras mayúsculas y minúsculas, los digitos del '0' al '9‘, signos de
+puntuación, simbolos arítmeticos y otros símbolos especiales, dependiendo del alfabeto
+utilizado —el más habitual es el American standard Qode for information Jnterchange (código
+
+ASCII). gas únicas gpeﬁxLicme pggg; ¿entreácaracteres individualesjon las relacionales,
+
+ 
+
+comparaciones entre caracteres basadas en el orden implícito ——4segu¿n ' ¡‘Le
+
+l4
+

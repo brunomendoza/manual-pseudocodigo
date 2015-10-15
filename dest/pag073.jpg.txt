@@ -1,0 +1,47 @@
+En la declaración el programa especíﬁca como va a interpretar la información
+
+contenida en el ﬁchero que se asocia con la variable; se contemplan tres posibilidades:
+
+variable Fichero Nombrevariable [componentes no uniformes
+variable Fichero<TipoCamponente> Nombrevariable [componentes uniformes
+variable FicheroTexto Nombrevariable Michero de texto
+
+Una vez se ha declarado una variable ﬁchero el primer paso es la apertura, que
+comprende dos aspectos: l) establecer la relación entre la variable ﬁchero y el ﬁchero ﬁsico
+que se pretende manipular por su intermediación —igual que una variable entera puede
+representar diferentes valores enteros en momentos diferentes, una variable ﬁchero puede
+representar diferentes ﬁcheros ﬁsicos— y 2) poner en marcha los rrïismos necesarios
+para la transferencia efectiva de la infonnación para lo cual el programa deberá e_s_¿eeiﬁca.r el
+sentido aplicado al ﬂujo de la infomtación —desde el ﬁchero haciavel programa. desde el
+
+programa hacia el ﬁchero o en ambos sentidos. Este proceso lo lleva a cabo la operación
+
+lógica Abrir que puede tomas las siguientes conﬁguraciones:
+
+1.- AbtirlF, NombreF, Lectura)
+2.- AbrirÍF, NombreF, Escritura)
+3m Abrírﬁ‘, Nombrel’, Lectura/Escritura)
+
+F es la variable controladora —tambie’n llamada “ﬁchero lógico”—, NombreF es una ristra
+conteniendo el nombre de] ﬁchero ﬁsico que se pretende abrir —debe existir—, Lectura,
+Escritura y Lectura/Escritura son palabras reservadas que actúan como indicadores del
+sentido de transferencia de la información.
+
+Para los ficheros de texto y los de componentes no uniformes el modo de apertura
+sólo puede ser Eectiira o lïseritura, y se aiﬂgïﬂ los componentes de forma sejuﬁencialibos
+ﬁcheros de componentes uniformes admiten, además, el modo Lectura/Escritura y el acceso
+directo a sus componentes.
+
+En nuestro pseudolenguaje, la operación Abrir es una función lógica que, además de
+asociar la variable F con el ﬁchero cuyo nombre indica NombreF y dejarlo listo para ser
+utilizado, devuelve un valor verdadero si la apertura tiene éxito y falso en caso contrario —
+por ejemplo si el ﬁchero ﬁsico no existe. Un ffhero ﬁsico se puede crear con la (¿Eración
+lógica CrearFicheroQVombref) que devuelve verdadero si lo crea y falso si no puede crearlo
+:3; ejemplo si ya existe un ﬁchero con ese nombre. En muchos lenguajes, las operaciones
+de apertura y creación son procedimientos, y señalan el fracaso mediante una excepción.
+
+La siguiente fase es la de transferencia de información, que se realiza mediante
+
+operaciones de entrada/salida según el ﬂujo sea desde el ﬁchero al programa o viceversa.
+75
+

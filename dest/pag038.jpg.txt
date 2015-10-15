@@ -1,0 +1,58 @@
+sobrecarga de nombres de subprogramas.
+
+Los mismos argumentos expuestos parajustificar la sobrecarga de operadores ;usar
+el símbolo más adecuado para expresar una operación— pueden aplicarse a la elección de los
+nombres de los subprogramas. Si un mismo algoritmo necesita hacer uso de un subprograma
+para buscar un elemento en un vector de enteros y para buscar la n-ésíma aparición de una
+subristra en una ristra ¿por que’ no pueden llamarse "buscar" ambos subprogramas? Si ese es
+
+el nombre que mejor expresa lo que hacen, bien podría dársele a ambos y di¿
+
+ 
+
+ 
+
+guirlos por el
+
+ 
+
+tipo y n’mero de sus parámetros opor el tipo de su resultado si son funciones. Hacer esto,
+
+que algunos lenguajes admiten incluso antes que la sobrecarga de operadores, es lo que se
+conoce como sobrecargar el nombre de un subprograma.
+
+Considéresc a modo de ejemplo estos dos procedimientos, el primero sirve para
+ordenar un vector de números reales, mientras que el segundo realiza la ordenación de un
+
+vector de ristras de caracteres.
+
+procedimiento Ordenar (V, n)
+Vaziableaentzadalsalida real Vll. ,100]
+entrada natural n .__ 41v a > _ , r , , ,., cu, 4. ,, ,.
+locales naturales i, j, k y
+real e a ma, r 4‘ , u »,.,
+
+     
+
+para i desde 1 hasta n-l hacer p, «¡Num - ‘y; 4.. , l’, , V,
+k ‘ í Ame.  / '
+
+para j desde 1+1 hasta n hacer
+u vlj] < vu] entoncas k e j un si
+sin para
+
+si k > i entonces
+
+e * Vlí]
+Vli] * Vlk]
+Vlk] * e
+Ein si
+fin para
+retornar
+
+un procedimiento
+
+38
+
+ 9npnppnennonpnmr¡»mwcwmarrones:
+

@@ -1,0 +1,55 @@
+Especiﬁcación pre/post usando lógica de predicados.
+
+La especiﬁcación formal de un algoritmo está formada por tres elementos: (l) la
+interfaz —cabecera y descripción de parámetros- del algoritmo, (2) la precondición ——un
+
+predicado cuyas únicas variables libres son los parámetros de entrada o de entrada/salida del
+
+ 
+
+algoritmo— y (3) la postcondi ón —un predicado cuyas únicas variables libres son los
+parámetros de cualquier clase del algoritmo. El siguiente ejemplo muestra la especiﬁcación
+fonnal de un procedimiento llamado RaizCuadrada con dos parámetros reales —x,y— que
+debe calcular la raiz cuadrada de x para devolvcrla en y.
+
+procedimiento Raízcuadrada (x,y)
+variables entrada real x
+salida real y
+
+(pre :(x 2 0))
+(posnty 2 o) /\ (abs(y'y - x) s 0,00009}
+
+Si lo que se quiere especiﬁcar es una ﬁmción usaremos su nombre y parámetros para
+
+designar el valor resultante de la ejecución de la función.
+
+función real llaízCuadradahc)
+variables entrada real x
+
+(pre zlx > 0))
+(post: Raízcuadradalx) = y /(y 2 0) /\ (abs(y‘y - x) s 0,00009)
+
+Si el algoritmo no es un procedimiento ni una función no tendrá parametros, pero
+seguramente tendrá que interaccionar con el usuario a través de los dispositivos de
+entrada/salida —los procedimientos y funciones también pueden hacerlo si es necesario.
+
+Reservaremos las palabras ENTRADA y SALIDA para designar los respectivos ﬂujos de datos
+
+desde la entrada y hacia la salida estándar.
+
+algoritmo Raízcuadrada
+(pre : ENTRADA : x / (x 5 real) /\ (x 2 0))
+(post: suma = y / (y e real) A (y 2 o) A labsly’)! e x) s 0430005))
+
+Si la estructura de los datos de entrada o salida es compleja se puede recurrir a
+mecanismos de descripción más elaborados; los mismos mecanismos se pueden utilizar para
+describir la entrada/salida desde ﬁcheros. En cualquier caso, este tipo de descripción entiende
+la entrada/salida como ﬂujos secuencíales de datos —no se aborda, por ejemplo, la
+especiﬁcación de una interfaz gráﬁca de usuario —es un problema de diseño gráﬁco más que
+de especiﬁcación de algoritmos.
+
+Una cuestión importante es cómo expresar la modiﬁcación que sufren los parámetros
+de entrada/salida de los subprogramas. Supongamos que queremos desarrollar un
+
+104
+

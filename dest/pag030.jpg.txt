@@ -1,0 +1,84 @@
+Realmente simple, pero pongámonos en el caso hipotético de que el procesador
+disponible no tenga deﬁnido el operador de multiplicación, aunque si el de suma. Tenemos
+
+un algoritmo para multiplicar mediante sumas, podemos adaptarlo para incluirlo en el cálculo
+
+del factorial: , ,4 M W’
+I?“
+
+algoritmo factorial 1/ (
+
+vnzinbleunaturales n, f, ,
+Multiplicando, Multiplicador, Producto, contador
+
+   
+
+ 
+
+escribir "déme un valor natural: .,
+leer n "
+
+ 
+
+"M. ¡www  w
+
+ 
+
+‘¡hasta 2 paso -1 hace:
+Multiplícarído e f r— W" h“
+Multiplicador e i n- —
+
+u 4V t.- m/v w:
+
+ 
+
+w v  —.-« .4 w I r.
+
+   
+
+Producto «(o w í , «rw. « y
+para Contador desde 1 hasta Multiplicador hace: ——r
+Producto e Producto + Multiplícando
+
+Ein para
+
+E e Producto
+Ein para
+
+escribir "el factorial es: ", E
+
+para:
+fin algoritmo
+
+Claro que ahora, el algoritmo ya no parece tan sencillo; y la situación podria
+
+empeorar. Imaginemos que lo que queremos es calcular ‘un número comhinatorio:
+
+m m!
+n n!(m-n)!
+
+Lo que necesitamos es un mecanismo que permita mantener algoritmos separados
+para resolver problemas diferentes, pero que al mismo tiempo posibilite que, si como parte de
+la acción de un algoritmo se precisa resolver un problema con entidad propia, aquél pueda
+"subeontratarlo" con otro que se dedique exclusivamente a la resolución de dicho problema
+proporcionando los resultados para que el primero pueda continuar. Este mecanismo son los
+xubpragramas. Un pr_ogi¿a_ma queda organizado como un comunto de subprogramas, uno de
+loscuales contiene el algoritmo principal, con la lógica general de resolución del problema,
+
+que controla la ejecución del resto de los subprogramas —se ocupan de la resolución de
+
+partes concretas de aquel.
+Un programa se ejecuta a petición de un usuario, el cual debe conocer los datos que el
+
+programa precisa y será quien supervise los resultados. lJn Subprograma se ejecuta a petición
+
+3D
+
+l r
+M/"a-z >/>x'
+
+ 
+
+mnnnnn-nnnnnnnnnnnnnnn Ï
+nnnnennnnnnnnnnnnnnnll¡QEQEQQRQ!
+

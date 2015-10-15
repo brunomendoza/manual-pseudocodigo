@@ -1,0 +1,33 @@
+La siguiente sentencia crea un alias al mismo tiempo que deja inaccesible una variable
+
+dinámica:
+
+0*?
+
+ 
+
+si ahom se libera la variable referenciada por P, Q se convierte en lo que se conoce como un
+
+"puntero salvaje" ——contiene una dirección inválida por referenciar un bloque ya liberado.
+
+Liberarl?)
+P *’ NULO
+
+  
+
+Estructuras encadenadas. . ' v .  _ l
+
+Concepto de ubicación encadenada.
+
+Considérese una lista ordenada de nombres como la siguiente: ("AgustínÏ "Ana".
+"Emesto", "Juan", "Plácido"); podría implementarse fácilmente mediante un vector de ristras,
+pero supóngase que en esa lista las altas y las bajas, ocurren con una gran frecuencia; una
+gran variabilidad se traduciría en un alto coste para mantener el orden de la lista. A modo de
+ejemplo, se muestra como evoluciona el vector al introducir la secuencia de nombres anterior.
+Las inserciones de "Ana", "Emesto“ y "Agustín" provocan desplazamientos de los elementos
+ya insertados con el ﬁn de mantener el orden adecuado —de la misma manera, si se extrajese
+un elemento que no fuese el último seria necesario desplazar los posteriores a ﬁn de rellenar
+
+el hueco ocasionado.
+89
+

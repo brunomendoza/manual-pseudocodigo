@@ -1,0 +1,44 @@
+procedimiento Ordenar (V, n)
+varinbleuentrada/aalida ristra V[1. . 100]
+entrada natural n
+locales naturales i, j, k
+rístra e
+
+para i desde 1 hasta 11-1 hacaz
+k «e i
+
+para j desde 1+1 hasta n hace:
+si V[j] < Vlí] entonces k k j fin si
+fin para
+
+a1 k > i entonces
+e * Vli]
+Vlii r Vlk]
+vlkl F e
+Ein si
+fin para
+
+ZGCOÉHH!‘
+fin procedimiento
+
+Algoritmos genéricos.
+
+Tomando como ejemplo los procedimientos del párrafo anterior, podemos observar
+que el primero es un procedimiento para ordenar numérícamente entre sí los n primeros
+valores de un vector de reales y el segundo sirve para ordenar alfabéticamente los n primeros
+elementos de un vector de ristras. A pesar de que el tipo de los datos sobre el que actúan es
+diferente, resulta evidente que ambos procedimientos siguen el mismo algoritmo. Un
+algoritmo de ordenación lo único que necesita es que el conjunto a ordenar esté formado por
+elementos ordenables, es decir que su tipo pennita determinar si un elemento es menor,
+mayor o igual que otro. Podemos encontrar muchos otros casos de algoritmos que podrian
+aplicarse en distintas situaciones, sólo con un pequeño retoque en la deﬁnición de los
+elementos sobre los que actúan. Por ejemplo, si retomamos la suma de vectores utilizada
+previamente para explicar la sobrecarga de operadores, podemos darnos cuenta que el
+algoritmo seria el mismo entre elementos de tipo entero, real, complejo o racional; lo único
+que hace falta es que el tipo en cuestión tenga deﬁnida la operación de suma. En casos como
+éste, seria muy útil poder escribir algoritmos genéricos, en los que se indicara los elementos
+
+gue habria que Líoncretarrpara aplicarlos en distintas situaciones.
+
+39
+

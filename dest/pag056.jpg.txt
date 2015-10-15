@@ -1,0 +1,62 @@
+UEIIIIlllll¡ÏÏH|ll‘l\l\\\|\\Í\ll|lll 
+
+función natural BuscarPosicíónﬂhNJs)
+variable entrada entero vlloo] {Vector ordenado de enteras.
+natural n [Número de elementos en v.
+entero E /Elemento cuya posición se busca.
+s1 N = o entonces
+devolver 1
+si no
+fin si
+fin función {BuscarPosición)
+
+Una solución cuando el vector tiene elementos puede ser ir comparando E con cada
+elemento del vector —empezando por el primero— hasta encontrar uno que sea mayor que E
+—entendemos que en un vector ordenado un elemento debe ir detras de los que son menores
+que él: se puede hacer con un bucle, pero hay que tener en cuenta que E puede ser mayor que
+todos los elementos que ya están en V, en cuyo caso se alcanzmla el ﬁnal del vector y habría
+
+que dejar de comparar e indicar que E va en la posición N + 1.
+
+función natural BuscarPosiCiónlVJLE)
+vlnzlable entrada entero V[100] [Vector ordenado de enteras,
+natural N [Número de elementos en V.
+entero E [Elemento cuya posición se busca.
+local natural Aux [Variable para recorrer v.
+
+si N = 0 entonces
+
+devolver 1
+si. no
+
+Aux ' l
+
+mientras (Aux s N) /\ (V[Aux] < El hace‘:
+
+Aux " Aux + 1
+
+ﬁn mientras
+
+devolver Aux
+fin si
+un función (BuscarPosición)
+
+Podemos ver que el caso particular de que el vector este’ vacio puede englobarse
+fácilmente en el caso general (se inicializa Aux a l, como N vale cero no se entra en el
+
+mientras y se devuelve Aux, que es l); es una fonna de simpliﬁcar el algoritmo.
+
+función natural EuscarPosící6nlV,N,El
+variable entrada entero V[100] [Vector ordenado de enteros.
+natural N [Número de elementos en V.
+entero E [Elemento cuya posición se busca.
+local natural Aux [Variable para recorrer V.
+Aux ‘r 1
+mientras (Aux s N) /\ (V[Aux] < E) hace:
+Aux " Aux + 1
+fin niantta!
+devolver Aux
+Ein función (suscarPcsicióx-i}
+
+S7
+

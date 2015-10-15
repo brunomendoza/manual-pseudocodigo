@@ -1,0 +1,54 @@
+subprograma son sólo valores que usa y(no necesita ningún área de memoria para depositar
+un resultado como ocurre con los de salida.)
+
+Cuando en la ejecución de un algoritmo se alcanza una instrucción de llamada a un
+subprograma, se pasa a ejecutar éste, quedando suspendido el llamador hasta que el
+subprograma ﬁnalice, momento en que se continuará con la siguiente instrucción. La
+ejecución de una instrucción de llamada a un Subprograma es un proceso complejo ya que
+implica guardar el estado actual del llamador, preparar las variables del Subprograma, si no
+son estáticas‘ y los mecanismos de acceso a entomos no locales, si los hay, transferir los
+parámetros reales a los formales y dar el control al Subprograma, asegurando que al ﬁnalizar
+podrá devolverlo al punto adecuado del llamador. De modo similar, cuando un subprograma
+ﬁnaliza hay que recuperar el estado del llamador, transferir, dependiendo de los mecanismos
+de paso de parámetros, los resultados, dejar libre la memoria utilizada por las variables no
+estáticas del subprograma y devolver el control al llamador en el punto adecuado para
+continuar su ejecución.
+
+Una diferencia importante entre las llamadas {procedimientos _y las llamadas a
+funciones es que las primeras ctn_ns_ti_tuyen una sentencia más de un algoritmo; las lLrnadas a
+Ïiones ¿beben formar parte de una expresión, ya que se debe recoger el valor resultante de
+la función, que no queda asociado a ningún parámetro real. Vemos a continuación dos
+versiones del algoritmo de cálculo del factorial, según la operación de multiplicación se halle
+
+implementado como un procedimiento o como una función:
+
+algoritmo Factorial
+vnriahlasnaturalea n, f, i
+
+escribir "déme un valor natural: "
+
+leer n
+
+f := 1
+
+para i desde n naacn 2 paso -1 hacer
+
+Multiplícarifjj) (Llamada a1 procedimiento Multiplicar)
+
+ﬂnipnza
+
+escribir "el factorial es: ", f
+
+para:
+
+sin algoritmo
+
+‘una variable estática es aqueua que se ublCa deforma ﬁja en memoria ames ds wnenzsl ta eteeucsen dei programa y
+permanece ahí hasta que la misma ﬁnaliza La mayoria de ¡es lenguajes usan las denominadas “variables de pila‘. que ocupan
+¡a memoria cuando el euuprogtama en que esten ueeiarauas se va a ejecutar y la desocupan cuando tenntna su ejecución‘
+ello tiene, entre mms, ¡a ventaja de permitir el uso del mismo espacio de memef por diferentes subprogramas. pero pagando
+el coste de los mecanismos de ubicación y desubicsción
+34
+
+ nn¡amnmnnnnnanmnanannnnnnnnnnn¡manana-anna
+

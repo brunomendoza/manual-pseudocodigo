@@ -1,0 +1,48 @@
+Elementos básicos de programación (2).
+
+ 
+
+Ristras de caracteres. y / w u v l 
+
+ 
+
+ejemplo, dado el alfabeto {x,y,z), son rístras "x", "xy“, "xxyyz", "zyxx", Una ristrapuede
+
+no contener ningún carácter, dicha ristra se representa por jj" y se llama ristra nula o vacía.
+
+Aquí se usará el símbolo @ para ﬁcï el carácterrespacio, cuando sea signiﬁcativo a
+efectos docentes. Ha de notarse que la ristra "@" contiene el carácter espacio y no debe
+
+confundirse con la rislra vacia ("").
+A la hora de declarar variables se pueden distinguir tres clases de ristras de caracteres:
+
+ 
+
+(l) de tamaño tﬁgga) de tam limitado (3) de tamaño dinámico. Las variables ristra de
+‘a , L Y  ¡1
+tamaño ﬁjo se declaran como ristraﬁgﬂqmaño], y el valor que contienen siempre tiene la
+
+longitud deﬁnida, que se completa con espacios, caso de asignarse un valor con menos
+
+caracteres. Las variables rístra de tamaño limitado se declaran como ristraﬂamaña] y su
+contenido podrá ser una ristra de cualquier longitud comprendida entre 0 y Tamaño. Las
+variables ristra de tamaño dinámico se declaran simplemente como ristrra y pueden albergar
+
+ristras de cualquier longitud.
+
+ 
+
+A los valores de tipo ristra le son É ¿lomasírelacionales basadas en la
+ya mencionada sícpencia de confrontación del código, que generalmente se dispone, de tal
+forma que, en lo que se reﬁere a los caracteres alfabéticos, semantiene la ordenación
+alfabética natural, siempre que sean todos mayúsculas o minúsculas, así las siguientes
+
+comparaciones serían ciertas:
+
+‘WSÏÏDRES,’ < “mA u’ o L z l 3,1, zz’... u  a 4 y
+“JOSÉ” < “JOSELEÏ
+
+TEDRO" 2 "ÁÏNToNIoz
+
+‘¿ﬁlntonitf < ‘álitonioí...
+

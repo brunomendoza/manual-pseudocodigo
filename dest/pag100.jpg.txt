@@ -1,0 +1,37 @@
+determinada aproximación, el número en cuestión deberá ser positivo o no podremos intentar
+el calculo —precondición—— y la solución no es cualquier número real, pero si cualquiera que
+esté dentro del margen de aproximación especiﬁcado —postcnndición.
+
+El par precondíciones/postcondiciones viene a constituir una especie de contrato que
+compromete el correcto funcionamiento del algoritmo desarrollado, subordinado a que se le
+proporcionen datos con las características adecuadas. Eventualmente se pueden incorporar a
+ese contrato restricciones que obliguen a que la solución adoptada cumpla determinados
+requisitos de implementación tales como la limitación en el uso de los recursos del
+
+ordenador.
+
+Lenguaje de especiﬁcación formal.
+
+Una de las propiedades fundamentales de cualquier especiﬁcación debe ser la
+precisión y claridad de su enunciado; desgraciadamente esta no es una caracteristica
+dominante en el lenguaje natural. Por ello es conveniente fonnalizar las especiﬁcaciones
+utilizando un lenguaje controlado; ejemplos típicos son las especiﬁcaciones pre/post de
+algoritmos usando lógica de predicador‘ o las especiﬁcaciones algebraicas de Tipo:
+Abstractas de Datos.
+
+Cuando se usan predicados para especiﬁcar problemas diremos que un predicado
+deﬁne —especiﬁca— aquellos estados que lo satisfacen; los predicados contradictorios no
+sirven para especiﬁcar nada y las tautologías no marcan ninguna condición —si se pone una
+tautologia como precondición el algoritmo deberá funcionar bajo cualquier circunstancia, y si
+se pone como postcondición será correcto haga lo que haga. Las variables libres de los
+predicados usados en una especiﬁcación designan información que se reﬂejará en variables
+del algoritmo mientras que las. ligadas juegan un papel puramente operacional en la
+deﬁnicion de los predícados, por esta razón algunos autores proponen el uso de letras griegas
+para simbolizar las variables ligadas ya que las letras griegas no se pueden usar como
+nombres de variables en los lenguajes de programación más extendidos y de esta manera se
+
+ayuda a clariﬁcar las especiﬁcaciones.
+
+5 Ver apéndice ‘Introducción a la lógica de prédicados‘
+¡O3
+

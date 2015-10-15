@@ -1,0 +1,53 @@
+De acuerdo con lo anterior consideraremos sjpgácticamentfe válidas las siguientes
+
+    
+
+ 
+
+deﬁniciones de tipo. 7,”, /   ¡_ ¡ﬂ! ¿[W ¿F 4 ¡ “¡(4 V)
+11) cipo Vector es estructura enteroll. .100] Ein tipa “o /// ‘ , l/í‘
+
+(2) tipo Matriz es estructura rea1[1..100,1.‘90] Ein tipo .3 x 7,, ,
+
+(3) tipo VHorasExtra es estructura
+
+real [Pfimero(DíasLaborab1es) . .Ü1timo(DíasLahorab1es) 1
+Ein tipo
+(4) tipo TFrecLetra es estructura entero['A' . . 'Z'] tin tipo
+
+En (l) se deﬁne una estructura homogénea de elementos enteros dispuestos en una
+dimensión e indizados de l a l00. En (2) una estructura de elementos reales, organizados en
+dos dimensiones, la primera con índices de 1 a 100, y la segunda de l a 50. Enr3 también se
+deﬁne una estructura de componentes reales. pero es monodimensional, y sus índices se
+mueven en todo el rango de valores del tipo DiasLaborables —que será ordinal. Por último,
+en (4) se deﬁne una estructura de enteros cuyo rango de índices está formado por las letras
+mayúsculas de la ‘A’ a la 'Z' tomadas en su orden,
+
+También es frecuente deﬁnir estrgtuiïtonpgéneas especiﬁcando, no el rango de
+
+variación de los índices, sino el número de elementos en cada dimensión:
+
+tipo Vector es estructura enterollDül Ein tipo
+tipo Matriz es estructura real[100,50] un tipo
+
+Esto sólo se puede hacer si existe un convenio que deﬁna cual, y de que tipo, es el
+glor de comienzo de los rangos. Si acordamos que los rangos por defecto empiezan en l, lo
+anterior es equivalente a los casos l y 2 del primer ejemplo.
+
+Tampoco resultan extrañas —aunque quizás poco convenientes a veees— las
+declaraciones de variables usando estructuras homogéneas "anónimas“, dfeﬁnidas en la propia
+declaración. En el siguiente ejemplo se declaran dos variables enteras (m), y una tercera
+
+(Vea) que es un vector de 10 elementos enteros, con índices de l a 10:
+
+variables enteras i, j, Vec[1..10]
+
+Es importante señalar que las constantes usadas en la deﬁnicion para especiﬁcar el
+numergde componentes y rango de indización expresan el número máximo de componentes
+que va a tener la estructura’ a efectos de reserva de memoria) Si en el tipo Vector se hace una
+reserva de espacio para 100 elementos enteros —es así en ambas modalidades de
+
+declaración—, los algoritmos que utilicen variables de tipo Vector podrán tratar colecciones
+
+27
+

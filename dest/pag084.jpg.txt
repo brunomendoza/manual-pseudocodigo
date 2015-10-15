@@ -1,0 +1,45 @@
+VEn la ejecución de la acción LÍberQrLQ, el MGMDguprime el objggogguntado poLQ
+y reincorpora el espacio que ocupaba al pool de espacio disponible. me que Libegﬂlnq
+¡sfïtaallaïle Q; sólo se utiliza para saber que’ bloque de memoria hay que liberar, pero
+Q sigue manteniendo su valor aunque éste sea ahora la dirección de un bloque cuya
+utilización sería un error; ej conveniLIteNULO a gdespLésdeAlilí el espacio que
+
+referencia; aunque como veremos ello no soluciona todos los problemas.
+
+Acceso "grijlwles É?‘.EE"°_¡“S¡E_R‘I'EP‘°V°S-
+
+Preguntabamos anterionnente cómo podiamos referenciar las variables dinámicas que
+creásemos, y en lugar de responder a esa cuestión hemos introducido un nuevo tipo de
+variables; ahora tenemos la variable dinámica más otra que contiene su dirección; ¿cómo
+podemos usar esa dirección para tener acceso a la variable dinámica? La notación que vamos
+a emplear deriva de la representación gráﬁca usual para expresar la relación entre una
+variable puntero y aquella a la que direcciones, representación que se maniﬁesta mediante una
+ﬂecha. De esta manera, siendo Q una variable puntero, cuando en nuestro programa
+escribamos Q nos estaremos reﬁriendo a dicha variable, pero si escribimrig a. nos
+estaremos refugio a "lo que está detrás de la ﬂecha", es decir, a la variable apuntadaJJoLQ.
+gesta variable fuese de un tipo compuesto de campos, nos refeririamos a cada campo como
+gaNambreCam a, y si fuese unwvectgr, indicaríamos el i_esimo elemento como Qjﬁ]. La
+
+operación consistente en acceder a la variable rerferenciadapor un puntero recibe el nombre
+
+de dereﬁancitïiég.
+
+ 
+
+Memoria
+dinámica
+
+Ilustración l5 Puntero y variable apuntada
+
+Problemas al usar punteros.
+
+Los punteros permiten un uso muy eﬁciente de la memoria en ciertas situaciones, pero
+han de usarse con cuidado porque también plantean problemas:
+
+l. la necesidad de estar segu_r0s de que el puntero_ grïiene una dirección válida —el
+
+intento de dereferenciación o liberación de una dirección no válida podria causar un
+error de acceso,
+
+87
+

@@ -1,0 +1,51 @@
+estímulos electricos que se identiﬁcan como instrucciones —para ejecutar ncciones- o
+como datos —que componen la información en proceso.
+
+Para que un procesador pueda realizar un detenninado proceso —necesario para la
+resolución de un problema—— hace falta programas-lo. Un programa informático deﬁne la
+representación de los datos que integran tanto la información a procesar como los resultados
+esperados (estructuras de datos), y describe la secuencia de acciones (algoritmo) que, en
+función de los datos de entrada, se deben ejecutar para obtener la solución buscada.
+
+El conjunto de dispositivos ﬁsicos que conforman un ordenador se denomina
+hardware; el conjunto de programas que hacen funcionar esos dispositivos de forma
+
+adecuada recibe el nombre de software. ' '-
+
+El desarrollo de un programa comprende tres fases principales: (l) álisis y dise}o,)
+
+en la que se estudia el problema y se eligen las estructuras de datos y los algoritmos para
+resolverlo, (Zlcodiﬁcación y depuraeiﬁnfen la que se escribe el programa y se corrigen los
+errores que puedan aparecer y (3) igmtenimiento) en la que se realizan actualizaciones y
+
+correcciones de problemas detectados durante el uso del programa.
+
+Lrrueunuár’ l
+
+7 if" {Tel v
+
+_ Programa esaïiïpor el " p ’ ’
+cano: de ‘ y , ____ Iograma ejecutable
+o  e 1335233.932: 3a.. _ >  i >Lev wwe
+
+ñ o  l‘ 
+
+Inlemcnin
+
+EJccma
+l
+V
+
+ 
+
+l Pmgííníndar l
+
+Ilustración 2 Codiﬁcación de un programa
+
+Un programa se escribe utilizando un lenguaje que el procesador encargado de
+ejecutarlo comprenda. En realidad, un procesador infon-nático sólo comprende un lenguaje de
+ceros y unos (lenguaje máquina) que representa los impulsos eléctricos a los que responde.
+
+Dado que para un programador humano resulta muy diﬁcil componer aplicaciones con un
+2
+

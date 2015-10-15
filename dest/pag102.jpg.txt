@@ -1,0 +1,51 @@
+procedimiento para intercambiar el valor de dos variables enteras, A y B. No se necesita
+ninguna precondición especial aparte de que sean de tipo entero, pero ¿cómo podemos
+expresar la postcondición de que al ﬁnal sus valores hayan sido intercambiados. es decir, que
+
+A tenga el valor inicial de B y B tenga el valor inicial de A?
+
+pzocadhniento Intercambía (A, a)
+variables entrada/salida enteras A, e
+(pre ; ninguna)
+
+(post: (A = a) /\ u: = m)
+
+Evidentemente la postcondición anterior es incorrecta; lo que expresa es que al
+ﬁnalizar la ejecución del procedimiento A y B son iguales. Se necesita algún mecanismo para
+
+distinguir el estado de una variable después de la ejecución con respecto al que tenía antes.
+
+Usaremos un apóstrofe (') para hacer dicha distinción.
+
+procedimiento Intercambia (A, B)
+variables entrada/salida enteras A, a
+(pre ; ninguna)
+
+(post: (A' = B) /\ 03' = m)
+
+Con la convención establecida la poscondición dice que A después de la ejecución
+(A') debera tener el valor que tenia B antes de la ejecución (B), y que B después de la
+ejecución (B) deberá tener el valor que tenía A antes de la ejecución (A). Para mantener una
+cierta ortogonalidad en las expresiones es adecuado incluir en esta convención los parámetros
+de sólo salida —aunque su valor "antes" sea irrelevante, estaríamos expresando que todo lo
+que tenga apóstrofe ha sido modiﬁcado por el algortimo. En este caso la especiﬁcación del
+
+procedimiento RaízCuadrada debe modiﬁcarse tal como se reﬂeja a continuación.
+
+procedimiento RaizCuadrada (x, y)
+variable: entrada rea]. x
+salida real y
+
+(pre :(x 2 0))
+(post:(y' z o) /\ (abs(y'*y' - x) s o,oooo5))
+
+En caso de que una especiﬁcación resulte muy compleja, se puede descomponer
+deﬁniendo funciones auxiliares de una forma similar a como se hace en el diseño descendente
+de programas. Las funciones de especiﬁcación tienen como objetivo simpliﬁcar la expresión
+de los predicados pre/post —no deﬁnen subprogramas que tengan que ser implementados. En
+el siguiente ejemplo se especiﬁca un procedimiento para insertar sin repetición un elemento
+
+en un vector ordenado; la especiﬁcación tiene que expresar que el vector ha de estar ordenado
+
+l05
+

@@ -1,0 +1,56 @@
+confrontación- dado por la codiﬁcación binaria del alfabeto. En nuestro pseudolenguaje
+llamamos carácter al tipo que representa caracteres. Los literales de tipo carácter los
+
+representaremos entre comillas simples: ‘A’, 'a'.
+
+Estructuras algorítmícas de control.
+
+Un proceso se realiza ejecutando una secuencia de
+
+instrucciones, una detrás de otra, al dictado de un algoritmo; pero si
+
+ 
+
+el orden de ejecución tuviese que corresponderse directamente con
+
+el orden en que están escritas las sentencias del algoritmo, no  l
+
+habría posibilidad de escribir algoritmos generales, que fuesen  l
+
+capaces de indicar reacciones diferentes ante la variación de los
+
+  
+
+datos que confonnan el caso del problema que se este’ tratando en 
+
+ 
+
+cada ejecución —vimos como el algoritmo RaízCuadrada hace
+cosas diferentes según X sea menor que cero o no, y como, en el segundo caso, el número de
+veces que se repite el cálculo de Y y de Z depende del valor de X.
+
+Por tanto, a la hora de escribir un algoritmo necesitamos, además de la facilidad para
+escribir una serie de instrucciones con ‘estructura secuencial, otras para poder indicar
+variaciones en el ﬂujo de instrucciones que deben ejecutarse, en ñinción de alguna condición
+eyaluable.
+
+Bñhm y Jacopini’ demostraron en los años 60 que para escribir cualquier algoritmo
+son suﬁcientes, además de la estmctura secuencial básica, una estructura de selección entre
+dos posibles ﬂujos de ejecución, y una estructura que permita controlar la repetición de un
+conjunto de acciones. .
+
+Dijkstra, uno de los padres de la programación estructurada’, propuso el uso de tres
+estructuras del tipo de las enumeradas, caracterizadas por tener un único punto de entrada y
+un único punto de salida, lo que permite anidarlas y concatenarlas sin problemas.
+
+Los lenguajes de programación deben ofrecer sentencias de control que permitan
+
+‘Bóhm 8. Jacopini: "Flow diagrama, Turing machines, and languages with only two formation rules".
+CACM V9 #5 pp.336_371 (May '66).
+
+’Dijks1ra: "Goto considered harrnful". CACM V11 #3 pp.147_148 (March '68) | Dijkstra: ‘Notes on
+structured programming". pp17_19 in Dahl. Dijkstra 8. Hoare: Structured programming Academic
+Press 1972.
+
+l5
+

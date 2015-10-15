@@ -1,0 +1,67 @@
+Explicación: Una función real llamada máximo que toma un vector de reales con rango de
+indice 1.50 y un número natural comprendido entre l y 50, y devuelve un valor del subvector
+
+V[ l ..N] que es mayor o igual que cualquier otro valor de ese subvector.
+
+función lógica Primo (p)
+
+variables entrada natural p
+
+(pre: ninguna)
+
+(post: Primo (p) 2 ((\1y e Nalural)/\(y n 1)A(y s p): (p mod y e 0)) )
+
+Explicación: Dado un número natural, p, la ﬁmción lógica Primo(p) devuelve verdadero si no
+
+existe ningún número natural distinto de l y de p que sea divisor de p.
+
+procedimiento Ordenselección (V, N)
+
+variables
+entrada entero N (m de elementos del Vector)
+entrada/salida entera v[5o] (Vector a ordenar)
+
+(sea:
+(Ordenado(V[a..b])) s (VB e a..b)/\(\1u s a..B):(V[ot] s vlﬁll)
+
+(Frecuencia (V[a. .b] ,E) E
+Il o Frecuencia(V[a+1. .b] ,E) Si VIa] : E
+|u o Frecuencia(V[a+1..b],E) si V[a] s E
+
+(pre: u g 5o)
+(post: Ordenadclv‘ [1. .111) /\
+
+(vu e 1. .N: FreCuenCia(V[1..NI,V[u]) Frecuenciaw‘ [1. .N] ,V[a] ))
+
+Explicación: dado un vector de elementos enteros con rango de índice l..50, V, y una
+variable natural, N, menor o igual que 50, el procedimiento Ordenselección reorganiza los N
+primeros elementos del vector de forma que quedan ordenados entre si de menor a mayor.
+Los elementos del vector después de ordenar son los mismos que antes de ordenar y con el
+
+mismo número de apariciones.
+
+procedimianto Mezcla(V1,V2,V3,N1,N2)
+variables
+entrada enteras V1[50] , V2[50] , N1, N2
+salida entera V3 [100]
+(sea:
+(0rdenado(V[a. .b] l) í (VB E a. .b)/\(Vu s a.-B) z (Vlotl s VHS] ))
+(Frecuenciatvla, .b] ,13) 2
+11 + Frecuencia(V[a+1..b],E) si V[a]
+
+E
+IO + Frecuencia(V[a+1. .b] ,13) si V[a] E
+
+«¡a
+
+(pre: (N1 s 50)/\(N2 s 50)/\
+(ordenadow1 n, .N1] J )/\(0rdenado(V2 [1 . .112] ) ))
+(pose:
+(0tdenado(V3' [1..N1+n21)) /\
+¿(va e 1. .111; Frecuencialvav [1. 311m2] ,v1[u]) =
+Frecuenciawl [1. .N1] ,V1[or] )+Frecuencia(V2 [1. .N2] ,Vl[o1] ))
+(Ver e 1. .N2: Frecuenciawj‘ [1..N1+N2] ,V2[u]) =
+Frecuencia(v1[1..N1],V2[o<1)+1=recuencia(v2[1..N2],v2[u]))
+
+l07
+

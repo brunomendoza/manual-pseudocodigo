@@ -1,0 +1,59 @@
+Además de estas operaciones, el tipo ristra dispone de otras especíﬁcas que se
+enumeran a continuación:
+- Cálculo de la longitud. La longitud es una propiedad de las ristras que se deﬁne
+
+como el numero de caracteres que las forman. En nuestro lenguaje algorítmico
+
+ 
+
+" llamamos lon() a la operación que aplicada sobre una ristra produce un valor entero
+
+que representa su longitud, asi: lon(“Canarias”) es 8 y lon(“ULPGC") es 5.
+
+ 
+
+I" Naturalmente, no es demasiado útil emplear la operación lon() sobre valores literales,
+sino más bien sobre variables de tipo ristra (esta misma aﬁrmación es aplicable a la
+mayoría de las operaciones); así, si A es una variable de tipo ristra, lon(A) será igual a
+la longitud de la ristra contenida en A en el momento de aplicar la operación lon(). La
+
+lgngïuggie _l_a r' (nula es 0.
+
+ 
+
+- Concatenación. Es la gig‘); ge_qos sulgristras para fonnar una mayor por simple
+ yuxtaposicion. Para expresar algorítmicamente la concatenación empleamos el
+/ símbolo +; de este modo la expresión: “Las” + “@Palmas”, producirá la rístra
+“Las@Palmas”. La ristra’ nula actúa corno elemento neutro para la operación de
+
+concatenación, es decir, “” + X = X + “" = X, siendo X una ristra cualquiera.
+- Eagizzgiojﬁderun} ísuhristra. Consiste en averiguar en qué posición se halla una
+\ ¿uyrjstra dentro de* una” ristra dada; por ejemplo, en la ristra
+
+“Las@Palmas@de@Gran@Canaria", encontramos la subristra “Palmas” comenzando
+
+ 
+
+/ " ' ¡’Í k en la posición S. La localización de subristras se implementa como Estas), siendo R
+v, 14 la ristra, S la subristra a buscar y pos(R,S) la posición en R del primer carácter de la
+
+7 primera aparicion de izquierda a derecha de la subristra S, si se encuentra, o cero en
+
+caso de que S no sea una subristra de R.
+
+- QQpjaAde una subristra. Se trata de, dﬁqyna ristra, obtener otra tomando un trozo
+‘V de ella. Se ha de especiﬁcar la ristra fuente, la posición de comienzo de la subristra a
+
+a1 tomar y el tamaño de la misma. Aplicamos esta operación con el f_v¿1n¿to_sub(R,P,T),
+de forma que sub("l.as@Palmas@G.C.”,6,5) produce la ristra “almas“. En el caso de
+¿Legercer parámeuo se omita, (¿mi mayor que lon(R) fP + 1, la rí_str_a resultante se
+formará tomando los caracteres deílidesde l’ hasta el ﬁnal: sub(“Las@lÏa_lmas”,5,9) =
+
+y’ sub(“Las@Palmas”,5) = “Palmas”. Otras situaciones, como: P s 0, P >‘7lon(R), T s
+
+ 
+
+0,... producen la ristra nula.
+
+22
+

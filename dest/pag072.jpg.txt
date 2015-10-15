@@ -1,0 +1,54 @@
+temporal —por su volumen o por otras razones- que el propio programa destruye cuando
+
+deja de necesitarlos.
+
+Protocolo de transferencia de información programa/ﬁchero.
+
+Para un programa, una variable es una entidad de su propiedad, que crea, destruye y
+manipula a su antojo; sin embargo, un ﬁchero es una entidad ajena, con existencia propia y
+situada en "el exterior" —los discos y demás dispositivos mencionados son unidades de
+almacenamiento extemo—, que contiene una infonnacíón que el programa no puede
+manipular directamente —tiene que hacerlo a través de transacciones con sus variables. Un
+programa que pretenda almacenar o manipular información en un ﬁchero debe seguir un
+estricto protocolo de comunicación con el Sistema de Gestión de Ficheros —la parte del
+sistema operativo de un ordenador encargada de controlar todo lo relativo al almacenamiento
+
+de información en dispositivos extemos.
+
+ 
+
+Programa Sistema dc ﬁcheros
+Ïl ’}” " . ﬁdtrolli h ‘n
+V‘
+ww n-Ïs; r. mu.)
+
+Pmgmm Sistemade ﬁc ¡bs
+rn " r ‘ 316m —
+
+ 
+
+  Ni‘ Abrir
+
+‘t
+(‘un -v« ll.rlr‘x¡
+
+   
+   
+   
+
+Programa
+vi c ' "c '
+v2
+
+Vln-¡Sﬂsnoi-Je; ﬁ. al CGÏÏÏZ 
+
+Ilustración Il Protocolo de transferencia dc información entre un programa y un ﬁchero
+
+Para poder iniciar la transferencia de infonnación se necesita en primer lugar declarar
+una variable que, para el programa, representará al ﬁchero; cuando se necesite una operación
+que haga referencia a un ﬁchero disponible en algún dispositivo extemo —ﬁchero ﬂsico- se
+
+empleará la variable que lo representa ——conocida como ﬁchero lógico.
+
+74
+

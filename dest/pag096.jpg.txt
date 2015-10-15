@@ -1,0 +1,46 @@
+TnTntttIl¡unnnuuuuuuntu¡|1¡ 
+
+N
+
+del primero, y existe incluso cuando la lista está vacía, apuntandose a si mismo, de fonna que
+
+simpliﬁca los algoritmos de manipulación, al eliminar algunos casos particulares.
+
+‘J
+
+ 
+ 
+
+73°“
+ r>Ï>9°
+>lj>i99
+ML >v9° e
+3 n00
+
+Ilustración 21 Lista circular
+
+Lista doblemente encadenada. Cada nodo tiene dos enlaces, uno que señala, como
+en las listas simplemente encadenadas, a su sucesor, y otro que señala a su predecesor, lo que
+permite recorrer la lista en ambos sentidos. Aunque en la ﬁgura se han puesto dos punteros de
+acceso, uno a cada uno de los nodos extremos, lo que permite iniciar un recorrido en
+cualquiera de ellos, en realidad la lista sigue siendo operativa con un sólo puntero de acceso;
+incluso —a diferencia de las listas simplemente encadenadas— éste no tiene por qué
+pennanecer ﬁjo en el primer nodo, dado que el doble encadenamiento permite alcanzar un
+
+nodo desde cualquier otro, sea anterior o posterior.
+
+«X _
+ooo
+
+z l l
+
+   
+
+y Ilustración 13 Lista doblemente cncadenada
+Lista multienlazada. Igual que la doblemente encadenada, cada nodo tiene dos
+campos de enlaces, pero, en lugar de usarlos para apuntarse mutuamente un sucesor y su
+
+y i predecesor, se utilizan para encadenar la lista en dos ordenes distintos —en el ejemplo, los
+
+99
+

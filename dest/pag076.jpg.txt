@@ -1,0 +1,49 @@
+Para calcular el tamaño de un ﬁchero usamos la función Ïimañaﬂ’), que dïuelve su
+taLño en bytes para los ﬁcheros no uniformes y para los uniformes su tamaño en número de
+componentes de ese tipo —su tamaño en bytes será este número multiplicado por lo que
+ocupa un componente de ese tipo. Para conocer lo que ocupa una componente de un tipo
+dado usaremos la función: Tamaño(UnTipa). g
+
+La operación que permite situar el [Pos en una pgsíﬂfïl’ cuailouiera del ﬁchero
+pennitiendo el acceso directo es I_rA(F,Pm), que coloca el indicador del posición del ﬁchero
+F en la posición Pos. Los valores que puede toma: Pos están comprendidos entre l y
+Tamañoﬂv‘) + l. Cuando el IPos se sitúa en esta última posición sólo se puede‘ hacer un
+acceso de escritura.
+
+La función Posiciónﬂ") devuelve un valor entero indicando la posición actual del
+Ifos. en bytes o registros. según sea el ﬁchero. -7
+
+Renambrarf/Vqmbfe Vigo, NambreNueva), donde NombreViejo y NombreNuevo son
+ristras conteniendo, respectivamente, el viejo y el nuevo nombre que se quiere dar al ﬁchero,
+es una función logica que devuelve verdadero sí el cambio de nombre se realiza con éxito ——
+no puede hacerse si ya existe un ﬁchero con el nombre nuevo.
+
+El procedimiento EIiminarﬂVombrgFic-hero). elimina el ﬁchero ﬁsico cuyo nombre
+
+viene dado en la ristra NombreFichero.
+
+Operaciones especiﬁcas de ﬁcheros de texto.
+La operación LeerLíneaﬂïl/ar) lee una linea de un ﬁchero de texto y deja el ¡pax
+
+preparado para leerla siguiente.
+
+La operación EscribirLíneaW, Var) escribe una linea en un ﬁchero de texto y avanza
+
+ 
+
+el Ipos .
+
+La función FiíLíneaﬂï) devuelve verdadero cuando se ha alcanzado una marca
+<EOI) y falso, en casoïoírario. Sirve para saber si se ha alcanzado el ﬁnal de la misma
+cuando se trate una linea parcialmente.
+
+El procedimiento SídtarLineqF) mueve el IPus del ﬁchero F detrás del próximo
+<EOI> , o sea, saltar a la siguiente línea del ﬁchero. Sirve para desechar el resto de una linea
+que se ha leido en parte.
+
+El procedimiento NuevaLinea(F) escribe un salto de linea (<EOL>) en el ﬁchero F
+
+dando comienzo a una nueva linea,
+
+78
+

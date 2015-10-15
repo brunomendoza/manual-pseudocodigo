@@ -1,0 +1,43 @@
+l
+
+que despejar]: y a continuación poner el elemento en su posición e incrementar el contador
+de elementos del vector". El elemento "está" en la posición determinada si —siendo P la
+posición y E el elemento —, P es menor o igual que el número de elementos y V[P] es ¡gral a
+E. La posición "está ocupada" por otro elemento si, siendo falso lo anterior, "la posición es
+menor o igual que el número de elementos". Para "despejar" una posición ocupada hay que
+
+"desplazar todos los elementos desde la posición detenninada hasta el ﬁnd una posición a la
+
+derecha" —aunque técnicamente hay que hacerlo "desde el ﬁnal hasta la posición
+determinada". Llegados a este punto todas las acciones identiﬁcadas tienen ya traducción
+
+directa en el lenguaje objetivo.
+
+Propiedades del “buen diseño”.
+
+Con la metodologia de diseño descendente cxaminamos un problema
+descomponiéndolo en otros más simples atravesando múltiples niveles de abstracción
+descendente. Ahora bien, en un nivel de abstracción dado ¿como debemos enfocar la
+división? Naturalmente, no hemos de quedamos con lo primero que seamos capaces de
+encontrar, sino que hemos de ir buscando que el diseño resultante cumpla la máxima de
+“mantener la maxima cohesión y el minimo acoplamiento”. La cohesión y el acoplamiento
+son medidas de la bondad del diseño. Si a un nivel detenninado de abstracción la división da
+como resultado varios subproblemas de los cuales uno o más podrian dividirse en otros cuyo
+nivel de abstracción no fuese signiﬁcativamente menor, entonces la cohesión interna de esos
+subproblemas seria baja. Si entre varios subproblemas existe una ﬁierte interrelación, diremos
+que el acoplamiento es alto.
+
+Llevado esto al programa resultante, diremos que la cohesión es máxima si cada
+módulo que lo constituye —procedimiento, ﬁmción, algoritmo,  resuelve una única tarea,
+y que el acoplamiento es minimo si las dependencias mutuas entre módulos es la menor
+posible (esto se traduce, por ejemplo, en que en las listas de parámetros no haya información
+redundante, o en no usar variables globales).
+
+Si una descomposición está bien hecha es posible cambiar la implementación de un
+módulo mientras se mantenga intacta su interfaz. Así, por ejemplo, se podria utilizar el
+método de la "búsqueda dicotómim" para realizar lo localización de la posición donde debe
+
+insertarse el elemento, en el proceso de inserción ordenada.
+
+6|
+

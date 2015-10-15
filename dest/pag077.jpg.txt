@@ -1,0 +1,58 @@
+Ejemplos
+E] siguiente algoritmo muestm los pasos más comunes a la hora de trabajar con un
+ﬁchero, en este caso tipo texto. Este ejemplo copia el contenido de un ﬁchero de texto,
+
+NUmIQEnIrada, sobre otro ﬁchero, NomlïSalida.
+
+algoritmo copiargichero
+variable FicheroTexto Fich_Entrada, Pich_Sa1ida
+ristra Línea, NomF‘_Entrada. nomxgsanda
+
+escribir 'Deme el nombre del fichero a copiar"
+leer Nomlïﬁzntrada
+escribir "Dame el nombre del fichero destino‘
+leer NomF_Sa1ida
+
+si Abtir(Fich_Entrada, NomF‘_Entrada, Lectura) entonces
+
+si CrearFiChero(Nom1-'_Salida) /\
+Abrir(FiCh_Sa11da, NomF_Sa1ída, Escritura) entonces
+
+mientras no FinFiCherQKFiChÁIZ-Zntrada) hace:
+LeerLínea < Fichjintrada, Línea)
+EscrihirLínea(Fích_Sa1ída,Línea)
+
+Ein mientras
+
+Cerrar (Fichjntrada)
+Cerrar(Fich_sa1ida)
+si no
+escribir "No se puede Crear el fichero de salida"
+Cerrar lFichjlntrada)
+fin al
+si no
+escribir "No se puede abrir el fichero de entrada
+ﬁin a1
+parir
+fin algoritmo (Copiar_Fíchero)
+
+El siguiente algoritmo recorre un ﬁchero de entrada que contiene un texto en el que
+las palabras están separadas por un único espacio, no hay espacios al principio ni al ﬁnal de
+cada línea y no hay palabras nartidas entre líneas, y calcula la frecuencia (absoluta) de
+aparición de cada palabra, escribiendo en un ﬁchero con tipo las palabras diferentes y su
+
+frecuencia.
+
+tipo TRegFreC ea estructura {Registros del fichero resultante)
+campo rístra Palabra
+campo entero Frecuencia
+ﬁin tipo (TRegFrec)
+
+algoritmo FrecuenciaPalabra
+
+variables fichercTexto FEntrada
+fichera<TRegFrec> Fsalida
+ristra Línea, NomFEntrada, NomFSalida
+
+79
+

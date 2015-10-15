@@ -1,0 +1,13 @@
+#!/bin/bash
+
+find . -mindepth 1 -maxdepth 1 -name "pag??.jpg" -type f -print0 | while read -d $'\0' file; do
+  #name=$(echo $file | grep -E -o '[0-9]+')
+  #echo "$file"
+  #echo "pag$(expr $name + 40).jpg"
+  #mv "$file" "pag$(expr $name + 40).jpg"
+
+  mv $file $(echo "$file" | sed 's/pag/pag0/g')
+  echo "###############"
+done
+
+#echo "$1" | so "$1" | sed 's/\s//g'

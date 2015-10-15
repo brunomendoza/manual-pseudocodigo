@@ -1,0 +1,75 @@
+Esquemas algorítmicos
+
+Problemas de secuencias.
+
+El tipo de problemas más frecuente con el que podemos enﬁentamos implica la
+
+ 
+
+’ manipulación de una secuencia de valores de algún tipo (realizar el desarrollo en serie de una
+función, poner las notas a los alumnos de una lista, calcular la raíz cuadrada de un número
+
+.. i real por el método de Newtonjlaphson, facturar a una lista de clientes,...). Esta manipulación
+
+ 
+
+puede requerir la generación de la secuencia o el recorrido de una secuencia almacenada en
+t alguna estructura de datos, sin que ello implique ninguna diferencia sustancial en los
+f esquemas algorítmicos a aplicar. En vista de ello, parece adecuado estudiar dichos esquemas,
+k J ilustrando este estudio con ejemplos de su aplicación a problemas diversos.
+A? Podemos entender una secuencia como un conjunto de elementos que se acceden uno
+a uno, empezando por un elemento inicial, al cual le sigue otro, y a éste otro, y así
+
+sucesivamente hasta llegar al último —la secuencia debe ser ﬁnita. Un simil muy utilizado
+
+   
+  
+
+para explicar esta forma de actuar consiste en decir que los elementos se ponen en ﬁla y se
+
+‘ los hace ir pasando por delante de una ventana cuyo tamaño sólo permite ver un elemento
+
+ 
+
+Í cada vez. En un momento dado, hay un subconjunto de elementos que ya han pasado, uno y
+
+ 
+
+’ ‘i sólo uno que es el actual —vísible en este momento— y otro subconjunto que está por venir.
+
+ 
+
+- s,s,...s,,¡ ,s,.,...s,,
+
+Pasado Actual Pendxente
+
+De esta manera el problema de tratar un conjunto de elementos se divide en dos
+subproblemas mucho mas sencillos: que’ hacer con el elemento "actual" y (una vez hecho)
+
+cómo "avanzar" en la secuencia para "ver" el siguiente elemento. Las acciones para resolver
+
+ 
+
+¡J i ambos subproblemas se repiten hasta alcanzar el último elemento de la secuencia. ¿Cómo
+y / saber que ha pasado el último elemento? Depende de las caracteristicas de la secuencia:
+
+l l‘ , . , . ,
+u“ , ¿dpodriamos hablar de secuencias marcadas y de secuencias numeradas. En las segundas, se
+r v‘
+
+ 
+
+' x
+
+. - Í . . .
+conoce a priori el numero de elementos y para saber que se han tratado todos sólo hace falta
+contar; en las primeras, sin embargo, el número de elementos es desconocido a priori y el
+
+ﬁnal se determina por una marca o valor especial que sigue al último elemento o está
+
+ 
+
+asociada a él.
+
+41
+

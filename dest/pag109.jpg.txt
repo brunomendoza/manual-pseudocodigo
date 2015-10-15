@@ -1,0 +1,39 @@
+Leyes ¡‘le la equivalencia
+
+Simpliﬁcación de la P /\ P z P
+conjunción: P /\ verdadero 2 l’
+P /\ falso 2 falso
+P /\ (P v Q) s P
+Leyes de De Morgan: 1P V Q) 2 '*P A ﬁQ
+‘(P /\ Q) í ‘l’ V ﬁQ
+Ley de la implicación P =- Q s ‘P V Q
+Ley del bicondicional P - Q E (P -= Q) /\ (Q — P)
+
+Usaremos el símbolo z para deﬁnir un predicado mediante una equivalencia, por
+ejemplo. la siguiente expresión: "Par(x)í(x mod2:0)". deﬁne el predicado Par(x)
+
+estableciendo su equivalencia con (x mod 2 = 0).
+
+Cuuutiﬁcadores.
+
+Al enunciar un predicado es necesario exponer cuál es su dominio de verdad. esto
+suele implicar frases del estilo de: "el predicado se cumple gara todos los valores de x que ..."
+o "existe atgún (algunos) valor de x que cumple  y satisface el predicado". Para formalizar
+esta clase de expresiones existen el cuantiﬁcador universal (V, leído "para todo...") y el
+cuantiﬁcador existencial (E, leído "existe algún..."). Junto con los cuantiﬁcadores usaremos
+los símbolos "/" (tal que ...) y "z" (se veriﬁca. se cumple que ...), además de los propios del
+álgebra de conjuntos —un dominió es un conjunto de estados.
+
+Primo(x) a ((Vy s Natural)/\(y ; l)/\(y c x): (x mod y s 0))
+
+Se deﬁne que x es primo si gara todo y natural distinto de l y de x se
+veriﬁca que x no es dívísible por y.
+(Ex c Natural) / *PrÍmo(x)
+
+Se aﬁrma que existe algún número natural que no es primo.
+
+Las variables que en un predicado aparezcan afectadas por un cuantiﬁcador se
+denominan variables ligadax —al cuan\iﬁcador—, el resto se denominan variables libres. En
+
+|l2
+

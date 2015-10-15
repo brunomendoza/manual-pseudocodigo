@@ -1,0 +1,39 @@
+Un algoritmo describe un método determinista: ante las mismas entradas se generará
+la misma secuencia de acciones, que conducirán al mismo resultado de la misma manera.
+Podríamos decir que un algoritmo establece una aplicación entre el espacio de casos solubles
+de un problema y el espacio de soluciones del mismo, de tal manera que, a cada caso del
+
+problema le hace corresponder una solución.
+
+   
+
+    
+
+ —É t"
+
+ 
+
+Espacio a.
+
+deﬁnición del solucione:
+Problem: delPrnhlemI
+
+Ilustración 3 Elementos que interactúan en la solución de problemas
+
+En resumen, las dos caracteristicas esenciales de un algoritmo son: tinitud «siempre
+acaba proporcionando una solución o detenninando que no existe ninguna- y el
+determinismo —siempre produce los mismos resultados para los mismos datos.
+
+Para poder formular una algoritmo que solucione un problema, éste debe estar
+especiﬁcado con claridad; si, por ejemplo, planteamos el enunciado: "calcular la raiz
+cuadrada de un número real, x", no podremos encontrar ningún algoritmo que lo satisfaga
+dado que la raiz cuadrada de un número real cualquiera tiene, en general, inﬁnitos decimales,
+por lo que no es posible calcularla con un número ﬁnito de acciones.
+
+Si restringimos el problema y pedimos, por ejemplo: "calcular la raiz cuadrada
+positiva de un número real, x, con una precisión de cuatro decimales", ya será posible
+proponer un algoritmo, puesto que hemos introducido una condición (la limitación de la
+precisión) que permite alcanzar un resultado con un número ﬁnito de pasos; además se ha
+
+precisado otro matiz, que estaba ambiguo, al indicar que queremos la raíz positiva.
+

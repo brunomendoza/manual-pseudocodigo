@@ -1,0 +1,63 @@
+/
+
+ 
+
+giran-lxs». Mm_gL(X,)/_—T>  Gcüiun‘
+
+ 
+
+ssnn r: » y » W """"*’
+\_ r un tipo
+“ Menor(T,T) una operación relacional definida sobre T {A ’” ‘¿te /
+Rango un subrango ordinal wm n.» w mu:
+
+,.
+sumo».
+
+ 
+
+procedimiento Ordenar (6,11).
+variablesentradn/sslidu T vlRango]
+entrada Rango n
+
+locales Rango 1, j, k
+
+wm h’ T e
+l ‘"0 mp7,;
+para i desde leie-iotkango) hasta Predecesorkx) hacer
+k <e í
+
+para j desde sucesor i) hasta n hacer
+si MenofrlvljLvlﬁi) entonces k e j fin si
+un para r 5 ¿"17  ' '
+si k > í iñtbnhes
+e k Vlí]
+vii] v Vlk] Í’ A  A,” , ‘¡pg/Wow - .— vww
+V[k] v e ‘
+Ein si
+tin para
+
+  
+
+0/1
+
+ 
+
+IG COÏDEI
+fin procedimiento
+
+En este ejemplo, se usa la eláusula sea antepuesta al’ procedimiento Ordenar para
+¡Pdiür l°5 element“ d‘: ‘QÉHWÉÏI ¿‘SQÉÍTEÉSÍEÉÉÜJÏÍÉÏÏÏÉ y que 5° Ïmdría" 935311“? 93-”
+distintas apjí_c¿a_ oi —En este caso, el algoritmo de ordenación es el mismo aunque cambie
+el tipo de los datos a ordenar (T), la operación con la que se averigua que un valor es menor
+que otro (Menor), y el rango de los índices del vector (Rango). Si queremos ordenar un vector
+de enteros de rango entero de 0 a 100, un vector de reales de rango carácter de ‘A’ a 'Z‘, o un
+vector de ristras de rango natural de l a lO, sólo tendremos que cambiar las apariciones de los
+elementos enumerados en la cláusula sea. De hecho, hay lenguajes de programación en los
+que dichos cambios pueden hacerse de manera automática o semiautomática; pero aunque no
+ﬁiese así, los algoritmos genéricos tienen un papel que jugar en la transmisión de soluciones
+
+con un amplio espectro de aplicación.
+
+40
+

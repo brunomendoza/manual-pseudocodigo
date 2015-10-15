@@ -1,0 +1,68 @@
+C
+
+/
+
+estructuras de selección básicas, aunque el efecto sería un algoritmo con más código y más
+
+diﬁcil de entender.
+
+ 
+
+“gún <9XPreSiÓn> hice! donde cada alternativa tiene una de las siguientes
+<alternativa> bmas
+<alternativa> l '
+. 1 (1)
+a1ternatíva> i <etiqueta> <acción>
+en ocre caso i (2)
+<acción> <etiqueta>. .<etiqueta> <acción>
+tin según (3)
+<etiqueta>, <etiqueta>, . .. <acción>
+
+   
+
+La expresión, generalmente, debe producir como resultado un valor ordinal, según el
+cual se ejecutará la acción correspondiente a la altemativa que lo tenga como etiqueta. Si el
+valor de la expresión no coincide con ninguna etiqueta, se ejecutará la acción englubada por
+la cláusula en atru caso, si la hay. Todas los posibles valores de la expresión deben estar en
+
+una y sólo en una d; 18,5 altemativas.
+
+algoritmo Calculadora
+variables entera Operación
+reales Opl, Op2, Res
+
+leer Operación
+leer OpLOpZ
+según Operación hace:
+
+1: Res <— Op1+0p2
+
+2: Res v Op1_Op2
+
+3: Res e Op1*Op2 ¿t
+
+4: Res r Opl/opz y /
+un según ‘i /
+escribir Res , .
+parar ‘t’ /
+tin algoritmo {Calculadora} \\ /
+
+Estructuras de repetición. / i
+
+La estructura de repetición propuesta por _Dijkstría_ permitía realizan una
+
+ 
+
+,ML
+evaluar una condición y,_en función de la misma, ejecutar otra acción y repetir el proceso
+desde la primera. No obstante, son pocos los lenguajes que implementan tal tipo de
+estructura, y la que se entiende como estmctura de control de repetición básica es la
+estructura preevaluada —la cgndición se evalúa antes de ejecutar la acción— que muestra la
+ﬁgura de la segunda celda de la siguiente tabla, y qu ya hemos utilizado también en el
+
+l . W
+algoritmo RaízCuadrada. “ ‘ u" Mi“
+V i
+
+ 
+

@@ -1,0 +1,57 @@
+Representación delistas encadenndas.
+
+En los ejemplos anteriores se han implementado las listas encadenadas en un espacio
+de almacenamiento que era en esencia un vector: es sólo una de las posibles formas de
+implementar una lista encadenada: podemo co ïuirie tructuras encadenadas utilizando
+
+como base cualquier forma de almacenamiento que pennita guardar múltiples elementos
+
+777” l
+
+lógica a los datos almacenados en un ﬁchero o estructuras encadenadas en memoria
+
+indi
+
+ 
+
+duales y rreferenc
+
+     
+
+' dep dentemente —usarlas para dotar de estructuración
+
+dinámica. La utilización de encadenamientos es apropiada para estructuras de datos ¡gue
+tierïtyltáogïado de variación —son muy dinámieas—; los mecanismos de la ubicac n
+dinámica permiten ajustar la ocupación de memoria a las necesidades existentes en cada
+momento de la ejecución de un programa con lo que resultan apropiados para implementar
+escrucmms encadenadas —al contrario que la representación en vectores, no requiere reserva
+
+de memoria.
+
+Algoritmos de manipulación de listas encadenadas.
+
+A continuación se presentan varios algoritmos básicos de manipulación de listas
+simplemente encadenadas implementadas en memoria dinámica —con otras
+implementaciones los algoritmos no varían esencialmente más que en lo relacionado con los
+
+es bas en la
+
+     
+
+mecanismos especíﬁcos de representación»; podemos identiﬁcar dos a ﬂ _ 7
+manipulación delstas Qüﬂadﬂsi   un elemento —añadir un nodo- o (2)
+extraer un elergitg —-eliminar un nodo—; ambas acciones se pueden realizar en tres lugares
+en una lista: (l) al principio. (2) al ﬁnal o (3) enmedio. En todos los casos se supone que la
+variable puntero que se va a utilizar para mantener el acceso al primer elemento de la lista se
+inicializa con el valor NULO antes de empezar a usarla. Las estructuras de datos utilizadas se
+deﬁnen de la siguiente manera:
+
+en Talamanca un tipo asignable
+tipo Nodo al estructura
+campo TElemento Info
+campo PLista Siguiente
+un tipa
+tipo PLIsta es puneero<Nodo> fin tipo
+
+93
+

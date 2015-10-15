@@ -1,0 +1,73 @@
+resulta obvio que el tratamiento de cada elemento debe realizarse al principio del bucle, justo
+antes de avanzar, con lo que obtenemos un primer esquema general de tratamiento:
+
+iniciar
+mientras no fin hace!‘
+tratar
+avanzar
+Ein mientras
+
+ 
+
+que es precisamente lo que se hace en los siguientes algoritmos que escriben los n primeros
+
+números positivos:
+
+procedimiento Escribem)
+
+variables entrada natural N
+local natural i
+
+para i desde 1 hasta N hace:
+
+procedimiento Escribem)
+variables entrada natural N
+
+local natural i
+i « 1 (Iniciar)
+
+mientras i s N hacer escribir i
+escribir i {Tratar} fin mientras
+i e i + 1 (Avanzar) 1930133!
+
+Ein mientras fin procedimiento
+
+ZGÉOIDII
+tin procedimiento
+
+Si la secuencia generada o recorrida lo es bajo el control de otra, el tratamiento se
+puede hacer, preferentemente, en cuanto se pueda obtener el elemento, si bien podria diferirse
+
+hasta después de avanzar la secuencia de control:
+
+xkor x<-a
+
+mientras no Fin(xl hacer mientras no Fin(x) hace:
+y °' Glx) Y “ Glx)
+Tratauy) x k Flx)
+x ‘ F(x) Tratarw)
+
+fin mientras Ein mientras
+
+Lo vemos en el siguiente ejemplo que escribe los n primeros elementos de un vector:
+
+procedimiento EscribeVÜLN) procedimiento BscribeV(V,N)
+variables entrada natural V[50] ,N variables entrada natural V[50] ,N
+local naturales x, i local naturales x, i
+
+i e 1 para i desde 1 hasta N hacer
+mientras i s N hacer x := Vli]
+x .. vri] escribir Vli]
+fin mientras
+
+escribir x
+i e i + l
+Ein mientras
+retornar
+iin procedimiento (l) (2)
+
+IGCOÍDBX‘
+fin procedimiento
+
+46
+

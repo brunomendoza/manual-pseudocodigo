@@ -1,0 +1,45 @@
+ü“‘}))ÍÍblIIIIIIDIDDDDDDUDDUDDDIU¡»IIterritorios)»I¡r
+
+Metodologías de diseño de algoritmos
+
+Metodología de diseño descendente.
+
+Estructura delos problemas.
+
+La mayoria de los problemas que resolvemos con un ordenador no tienen una solución
+inmediata. Afortunadamente, cuando un problema complejo se examina con detalle suele
+mostrarse rápidamente como una combinación de subproblemas más sencillos, aunque no
+necesariamente simples. Ello es lo que da validez como metodologia de diseño de algoritmos
+a la técnica que se conoce como diseña descendente, y que consiste en dividir un problema
+complejo en subproblemas más asequibles, que se resolverán por separado, obteniéndose la
+solución del problema global como combinación de las soluciones de sus subproblemas
+constituyentes.
+
+En las sucesivas etapas del diseño, cada subproblema es examinado a su vez y
+subdividido en subproblemas aún más simples. La subdivisión debe continuar hasta alcanzar
+el nivel de problemas “e|ementa|es", entendidos como aquellos que son resolubles
+directamente por instrucciones del procesador para el que estamos diseñando el algoritmo;
+aunque puede no ser necesario llegar a ese nivel dc simplicidad si previamente nos
+encontramos con un subproblema cuya solución ya conocemos; aqui la experiencia del
+
+programador y su capacidad de reconocimiento de patrones frecuentes resulta decisiva.
+
+Desarrollo de un diseño descendente.
+
+Como ejemplo para ilustrar la aplicación de esta metodologia supóngase que se tiene
+un vector ordenado de enteros y se desea desarrollar un procedimiento para insertar un valor
+
+de fonna que se mantenga el orden entre los elementos.
+
+Del estudio de lo enunciado puede deducirse un prototipo de interfaz para el
+
+procedimiento:
+
+procadimianto Insertar(V,N,E)
+variable entrada/salida entero vt?) /VecCor ordenado de enteros,
+natural N [Número de elementos en v.
+
+entrada entero E [Elemento a insertar en v.
+
+55
+

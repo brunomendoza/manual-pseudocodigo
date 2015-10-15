@@ -1,0 +1,47 @@
+¡‘I
+
+El tructuras de datos dinámicas.
+
+Memoria dinámica.
+
+Planteamiento.
+
+Hasta ahora no hemos visto la memoria como un recurso escaso y en consecuencia no
+hemos tomado ninguna precaución especial respecto a su utilización por parte de nuestros
+programas: simplemente declaramos todas lu variables que nos hagan falta; si la necesidad
+puede variar para distintas instancias del problema, se supone el peor caso y se hacen
+declaraciones acordes. Ya hemos aprendido. sin embargo, que el espacio de almacenamiento
+es un bien limitado, y hemos introducido un nuevo elemento —los ﬁcheros— para disponer
+de almacenamiento más barato y duradero. Sin embargo, lalemïia central sigue siendo el
+área de trabajo del procesador infonnático y todo lo que ha de ser procesado ha de estar en, o
+pasar por, ella —persiste el problema de¿arla_ geﬁlammás o})_ti_n1igeui_a posible. Esta
+optimización pasa por que el programa tenga la opción de (¿agar memoria de fonna no
+estática, tomandola cuando le haga falta y liberándola para otros usos cuando deje de
+Eesitarla. La mayoria de los lenguajes modemos hacen esto de forma automática a nivel de
+
+subprogramas: delimitan una zona de la memoria. que llaman pila de ejecución, en la que se
+
+ubican, entre otras cosas, las variables declaradas de un Subprograma en e] momento en que
+éste se va a ejecutar (proceso conocido como elaborar las declaraciones). Cuando el
+subprograma termina su ejecución. sus variables son sacadas de la pila de ejecución,
+quedando el espacio que ocupaban disponible para nuevos usos. En cada momento se
+encuentran en la pila de ejecución las variables de todos los subprogramas activos, en orden
+de más recientemente llamado a menos recientemente llamado.
+
+El conocimiento de cada problema por parte del programador podria permitir u_n uso
+
+aún É dinámico de la memoria, creando y destruyenglo yariables justo en el ‘momento en
+
+que sea necesario, sin que las mismas tengan que estar determinadas a priori ní aparecer en
+
+ninguna declaración.
+
+Para poder hacer este uso dinámico de la memoria es p_reci_so que elsisterna en que se
+
+ 
+
+vaya a ejecutar nuestro programa dispgn de gilgfyrmecanisrngﬁggegontrolela memoria.
+delímitando una zona especíﬁca para este ﬁn, conocida como memoria dinámica o ”heap”. y
+
+83
+

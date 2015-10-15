@@ -1,0 +1,45 @@
+Yendo, como siempre, por partes, podemos damos cuenta de que lo primero que
+tenemos que consegrir es pasar el disco mayor desde el fondo de la varilla origen al fondo de
+la varilla destino. lo cua] sería una cuestión trivial si ese ﬁrese el tínico disco que hay: como
+normalmente no es así, hemos de resolver antes el problema de “quitar de en medio“ los
+discos superiores, cosa que sólo podemos hacer llevándolos a la varilla intermedia.
+
+La diﬁcultad estriba en que para apartar los discos superiores a la varilla auxiliar han de
+respetarse las normas del juego, con lo que nos encontramos con el mismo problema que al
+principio, sólo que con un disco menos y con las varillas auxiliar y destino intercambiadas. El
+mismo problema que habrá que resolver una vez que el disco mayor haya ocupado su lugar
+para pasar los restantes discos a la varilla destino. convirtiéndose ahora la inicial en intermedia.
+
+En resumen, el problema se resuelve:
+
+Si hay un sólo disco, pasándolo directamente a la varilla ﬁna].
+
+Si hay N discos (N > l):
+pasando N — l discos de la varilla inicial a la auxiliar, respetando las reglas del
+juego
+pasando un disco de la varilla inicial a la ﬁnal
+
+pasando N — l discos de la varilla auxiliar a la ﬁnal, respetando las reglas del
+
+juego
+
+Podemos ver que este algoritmo sigue exactamente las mismas pautas que las
+deﬁniciones de funciones matemáticas recursivas: existe un caso base y una recurrencia para el
+
+resto de los casos planteada de forma que conduce al caso base preestablecido.
+
+ 
+
+Cómo formular un algoritmo para un problema recursí
+
+Una vez que el análisis nos ha conducido a una deﬁnicion recursiva de un problema, la
+mejor táctica es la simplicidad: trasladar la deﬁnición del problema al algoritmo manteniéndola
+en toda la medida que pennita la sintaxis del lenguaje utilizado. En nuestro caso eso signiﬁca
+que tendremos un procedimiento o una función, cuya estructura general típica vendrá dada por
+una estructura altemativa que separará los casos base de los casos generales recursivos. La
+resolución de los casos recursivos implicará la aparición de llamadas al mismo Subprograma.
+
+con nuevos parámetros.
+
+66
+

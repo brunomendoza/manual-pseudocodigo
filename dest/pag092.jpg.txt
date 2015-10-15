@@ -1,0 +1,55 @@
+Inserción gl ﬁnal de una li}? encadenada.
+En este caso el problema reside en encontrar el ﬁnal de la lista para insertar un nuevo
+
+nodo a continuación.
+
+procedimiento InsertarDetrás (LV)
+[se inserta el valor de V a1 final de la lista apuntada por L.
+[L debe tener una dirección Válida, o el Valor NULL) (lista vacía).
+variables entrada/salida PLista L
+entrada Tipovalor V
+locales PLísta Nuevo
+
+B1 (L = MILO) entonces [Insertar al final es lo mismo que
+Insercerneinneemw) [insertar a1 principio de la sublísta
+si no Hvacía) que sigue al última nodo,
+xnsereernecrán(Lasiguieneev) [y lo mismo que insertar al principio,
+fín al [Si 1a lista está Vacía.
+retornar
+
+f in procedimi ente
+
+Con está solución, insertar al ﬁnal de una lista encadenada se transfonna en ínsenar al
+principio de la lista —vacía— que sigue al último nodo. Aunque es una solución fácil, puede
+resulmr costosa si las inserciones al ﬁnal son muy frecuentes. En este caso, sería adecuada
+
+mantener un puntero que señale siempre al último nodo de la lista, lo cual facilitiraría
+
+enormemente la inserción.
+
+procedimiento InsertarDetrás_2 (Prim,U1t,V)
+[Se inserta el valor de v al final de 1a lista apuntada por Print.
+{Prím debe tener una dirección Válida, o e1 valor me (lista vacía).
+[me apunta al último nodo de la lista apuntada por Prim.
+/s1 Prim es mms, v1: es NULG
+vatiahlenantrnda/aalida PLista Pxirn, un:
+
+antrnda Tipovalcr v
+
+1een1en PLisca Nuevo
+
+si (Prim : NULO) entonces
+1nsercarnelantetvrim,v) [E1 primer y último nodo serán el misma
+v1: e Prim
+
+si no
+InsertaxDelante(U1t*Siguiente,V) [Prim no ee Ve afectado
+
+m: k Ulcüsiguience
+Ein si
+
+retorna:
+E in proc edimiento
+
+95
+

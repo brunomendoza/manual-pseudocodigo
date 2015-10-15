@@ -1,0 +1,52 @@
+Podemos observar el anidamiento de los dos esquemas de recorrido. El esquema
+extemo recorre las distintas posiciones del vector para situar en ella el valor más adecuado;
+éste se localiza aplicando el esquema intemn al subvector comprendido entre la posición
+
+actual y el ﬁnal.
+
+Ejemplo: esquema de melcla.
+
+supuestas dos secuencias ordenadas, se pueden juntar en una tercera secuencia
+también ordenada. Una forma de hacerlo es recorrer las dos secuencias originales, copiar en
+cada iteración el elemento menor —«ie entre los "actuales" de ambas— a la nueva secuencia
+y avanzar sólo en la secuencia cuyo elemento se ha copiado. Cuando una de las dos
+secuencias se acabe, basta un esquema de recorrido para copiar el resto de la otra.
+
+El siguiente algoritmo aplica el método para mezclar dos vectores de enteros:
+
+procedimiento Mezcla (V1,V2,V3,NurnElem1,NumE1em2)
+variables
+entrada enteras v1[5o], v2[5o], NumEleml, NumBIemZ
+salida entera v3[50]
+locales enteras Actua11,Actua12,Actua13
+Accuall e 1
+Actualz e 1
+Actual} e 1
+mientras Actuall s NumE1em1 y Actual2 s Nummemz hacer
+si v1 [Actuall] < V2[actua12] hacer
+v3 [Actual3] e V1 [Actuall]
+Actual]. «e Actuall + 1
+si no
+v3 [Accuala] e V2[ACtual2]
+Actual2 v Actualz + 1
+Ein si
+Actual} e Actual} + 1
+ﬁn mientras
+s1 Actuall g nuunmem entonces
+nientrnn Actuall s NumElernl hace:
+V3[Actua13] + v1 [Actuall]
+Actuall e Accuall + 1
+Actual} e Actua13 + 1
+fin mientras
+51 no
+mientras Actualz s NumEIemZ hacer
+v3 [ActuaD] e’ v2 [Accualz]
+Actua12 e Actua12 + 1
+Actual} <— Actua13 + 1
+fin mientras
+tin si
+IQIDIÏDRZ
+un procedimiento
+
+52
+

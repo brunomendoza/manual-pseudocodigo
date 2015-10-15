@@ -1,0 +1,45 @@
+ 
+ 
+
+ 
+
+Entre el tipo carácter y el tipo ristra consjderaremos que existe compatibilidad, lo que
+permite, por ejemplo, concatenar un carácter a una ristra o localizar un carácter individual
+
+como subristra dentro de una ristra o asignar un mrácter a una ristra.
+
+ÏÉEEÉEEESY ",0 °"1¡"='°S-
+
+Se deﬁne un tipo ordinal como gLél en que es posible establecer una aplicación
+biyectiva entre los valores del tipo y un subconjunto ﬁnito de los números naturales de forma
+que se establece el orden entre sus elementos. Lo que signiﬁca esto es que hay un valor que
+c4 primero y cada valor del tipo tiene un sucesor, que es único —naturalmente, puesto que
+el rango de valores del tipo tiene que ser ﬁnito, existe un valor que es el último y no tiene
+sucesor. Si Y es sucesor de X, entonces decimos que X esípredecesor de Y; como el primer
+valor no es sucesor de nadie, no tiene predecesor.
+
+De los tipos primitivos, se consideran ordinales los t_ip_os enteros y el tipo carácter; a
+veces, también se considera ordinal el tipo lógico, mediante el artiﬁcio de considerar el valor
+falsa como primer valor y el verdadera como su sucesor, o viceversa. Los tipos reales no
+pueden ser ordinales, ya que entre cada pareja de reales existen inﬁnitos reales, con lo que no
+es posible establecer la aplicación con los naturales que pennita encontrar el sucesor de un
+real dado.
+
+Aunque todos los tipos ordinales poseen un orden entre sus elementos, no debe
+confundirse que un tipo sea ordinal ¡cg que exista un orden entre sus valores: en los reales
+son perfectamente aplicables los operadores relacionales —salvo quizás la igualdad, por
+razones de representación. Se puede saber cuando un real es menor que otro. lo que no se
+sabe es que real sigue a uno dado.
+
+Para los tipos ordinales se deﬁnen operaciones especiﬁcas que dan acceso a la
+correspondencia con los naturales, tales como:
+
+Wpﬂipgordinal). Devuelve el primer valor de un tipo ordinal.
+
+, v lÉltimo(Tipo_Ordinal). Devuelve el último valor de un tipo ordinal.
+l k, , 0rden(Valor_Ordinal). Devuelve el valor natural correspondiente a un valor ordinal.
+
+«—‘ Valor(Tipo_Ordinal,Valor_Natural). Devuelve el valor que corresponde en un tipo
+
+ 
+

@@ -1,0 +1,48 @@
+D:
+Insertar: Insertar: Insertar: Insertar: ‘ Insertar:
+“Juan" "Ana" “P1áCid0" "En-testo“ "Agustín"
+u
+
+    
+
+    
+   
+ 
+
+V 0 ‘Juan W 3
+
+1_ Ana _ 4
+m” _ Pﬁcido 0__
+‘Ermua . 1
+
+Agustín, 2
+
+R indica la primera posición (lógica) de la lista
+
+Ilustración 17 Inserción cn una lista eneadenada en un Vector
+
+Situaciones especiales.
+
+Hay algunas cuestiones que deben tenerse en cuenta: (l) la politica que se ha seguido
+en la ﬁgura ha sido la de partir de un espacio de almacenamiento inicialmente vacío, y
+comenzar a insertar nombres a medida que van llegando; en cada ocasión se modiﬁcan dos
+encadenamientos —el del elemento recién insenado y el de su predecesor- con el ﬁn de
+mantener el orden lógico, si se continúa insertando, el cuarto elemento a partir de la situación
+actual —suponiendo que no se hubiesen producido extracciones— no encontraría espacio
+disponible —una situación como esta, en la que se necesita gggiiïggndggg} se ha
+
+agotado el espacio de almacenamiento, Ïfonoce como situación de “sobrecarga
+(overﬂow)—; (2) podría ocurrir la situación inversa si iniciamos una secuencia continua de
+extracciones  cuando I¿¡_li_sta guedase vacía se intentagennagr una extracción nos
+encontraríamos ante una situación ‘de Ïbajo mínimo” (underﬂow)— y (3) el aprovechamiento
+del espacio liberado por las extracciones; en el ejemplo de la ﬁgura —en el que sólo se han
+hecho inserciones- el espacio vacío permanece agrupado y localizado al ﬁnal de la zona de
+almacenamiento reservada, sin embargo, si se extrajese un elemento —por ejemplo Ana- de
+la lista, se observa claramente en la siguiente ﬁgura que ello daria lugar a un hueco libre que
+ya no estaría agrupado con el resto. Si no se implementa algún mecanismo para poder
+reutilizar estos espacios liberados, el resultado serían situaciones de falsa sobrecarga —hay
+
+espacio para nuevas inserciones pero éstas no podrían efectuarse.
+
+9|
+

@@ -1,0 +1,49 @@
+ 
+
+antes de la inserción y debe seguir ordenado después, y que se añade sólo si no está ya en el
+
+vector.
+procedimiento InserCar1V,N,E)
+variable entrada/salida entero vtloo] [Vector ordenado de enteros.
+natural N [Número de elementos en V.
+entrada entero E {Elemento a insertar en V.
+(sea:
+ordenadoívía b]; s «¡voce e aHbtAm < B):(V[0(] < vmn)
+Está(V[a..b],E s (3a e a..b / vw] t 3))
+(pre : (N s o..99) /\ tordenadotvlLdm)
+(post:
+
+(no Está(V[1..Nl,E)) -°
+(mv = N + 1) /\ (Drdenado(\l‘[1..N']) /\ (zscátvunum) /\
+(Ver E IIIN): (Está(V',N',V[a])
+Esr.á(V,N,E) — tw = N) A (v' = v))
+
+Obsérvese que la función Ordenado no sólo eaablece cuándo un vector está ordenado
+de menor a mayor, sino que además exige que no haya elementos repetidos —al usar < en
+vez de s. La precondición especiﬁca que el vector a la entrada debe estar ordenado —según
+las condiciones de la función 0rdenad0— y que debe existir espacio para la inserción —N
+menor que el número máximo de elementos del vector—, pero no exige que el elemento a
+insertar no este’ ya en el vector. La poslrcondición se halla dividida en dos panes dependiendo
+de si el elemento a insertar estaba o no en el vector de entrada. Si estaba no se modiﬁca nada.
+mientras que si no estaba debe estar, y también todos los demás elementos que si estaban.
+
+La utilización de las funciones auxiliares con nombres signiﬁcativos —0rderu1da,
+Está- pennite que los predicados pre/post sean mucho más simples de entender en primera
+
+instancia —aunque luego haya que recurrir a la cláusula sea para ver los detalles.
+
+Ejemplos de especificaciones.
+
+Se presentan en este apartado las especiﬁcaciones fonnales de algunos de los
+algoritmos mostrados en los capítulos anteriores acompañadas de su explicación en lenguaje
+
+natural.
+
+función real Máximo(V,N)
+variables entrada natural N
+real viso]
+(pre: N s 1..5o}
+(post: Máximo = m /((3o« e 1..N / vta] = m) /\ (vs s 1..N: V[B] s mH)
+
+l06
+

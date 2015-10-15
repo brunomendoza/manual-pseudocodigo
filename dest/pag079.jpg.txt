@@ -1,0 +1,22 @@
+función ristra Tomarprimpalmínea)
+variable entrada/salida ristra Línea
+local nstra Palabra
+natural PosEsp
+
+PosEsp 4— Pos (Línea, " ") ;
+
+a1 PosEsp > 0 entonces
+Palabra e sub(Línea,1,FosEsp — 1)
+Línea <- sub(Línea,PosEsp + 1)
+a1 no
+Palabra 4— Línea
+Línea «- --"
+fin si
+devolver Palabra
+fin función {TomarPrimPal}
+
+Obviamente, éste es un algaritmo muy lento, por el gran número de accesos a
+ﬁcheros. Si se hubiesen calculado las frecuencias sobre un vector sería mucho más rápido.
+
+pero estaría limitada a priori en cuanto al número de palabras diferentes que podria procesar.
+

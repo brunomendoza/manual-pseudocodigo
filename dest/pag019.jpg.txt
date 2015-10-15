@@ -1,0 +1,48 @@
+acción cero o más veces. Esta estructura es perfectamente implementable con un bucle
+preevaluado, repitiendo la acción e invirtiendo la condición.
+
+Otra forma de repetición la proporcionan los but-les controladas por contador, que se
+pueden emplear cuando el numero de iteraciones a realizar ya se conoce en el momento de
+iniciar cl proceso repetitivo. Si es ese el caso, no hace falta plantearse una condición lógica
+que nos diga cuándo se puede tenninar la ejecución del bucle; en su lugar, puede utilizarse
+algún mecanismo que simplemente "cuente" las iteraciones realizadas, y detenga el bucle
+cuando se ha alcanzado el número deseado. Tomemos como ejemplo el siguiente algoritmo
+que sirve para multiplicar dos números naturales mediante sumas sucesivas:
+algoritmo Multiplica
+
+variables naturales Multiplicando, Multíplicador,
+Producto, Contador
+
+escribir "Multiplicandcïm"
+leer Multiplicando
+escribir "Multiplicadorz"
+leer Multiplicador
+
+Producto F O‘
+para Contador desde 1 hasta Multiplicador hace:
+Producto * Producto o Multiplicando
+Ein para
+
+escribir "el producto es: ", Producto
+
+parar
+Ein algoritmo
+
+La forma general de un bucle controlado por contador involucra:
+
+- una variable de tipo ordinal que actúa de contador,
+
+- la especiﬁcación de un valor inicial para empezar el conteo,
+
+- la especiﬁcación del valor ﬁnal que debe alcanzarse antes de terminar, y
+
+- el "paso" o incremento que suﬁirá la variable controladora tras cada ejecución del
+bucle.
+
+El paso por defecto es 1, suponiendo que el valor ﬁnal es mayor que el inicial; si es al
+contrario, se deberá especiﬁcar un paso negativo (-1). También se pueden especiﬁcar pasos
+distintos de l, aunque si un lenguaje sólo permite pasos iguales a la unidad ello no supone
+ningún problema, dado que el paso deseado se puede calcular como una función del valor de
+
+la variable contadora.
+

@@ -1,0 +1,63 @@
+  
+
+M’! r’
+K
+tipo Empleado u astructuru
+campo Paqui 51d’ n,
+campo Entero Arïuguedad
+campo real Salario
+un tipo
+
+   
+
+Naturalmente, esto hay que tenerlo en cu la L la hora d_e>aíceeder ¿ﬁuníeampd
+
+individual usando la notación de punto.
+
+variable Empleado Empleadol
+
+Empleadolidentidadﬂombre » "Juan"
+, Á J
+
+Estïcturas homogéneas.
+
+Una estructura homngénea lisina —lo que en inglés se conoce como array- es un
+
+conjunto qjgensiqnado de elementos del mismo tipo. Con dimensionado queremos decir que
+los elementos se hallan alineados según una o más dimensiones, donde alineado signiﬁca que
+están dispuestos en "hilera", de fonna que uno es el primero y todo elemento que no sea el
+primero "sigue" a otro. Esto pennile designar paga elemento individual ¿gún su posición
+
+mediante un conjuntg de indices (uno por cada dimensión).
+l M‘ /
+m!" lg,» ‘i ‘l
+
+w} Elïlíﬁﬁlllíﬁl «e
+. ‘ b ‘¿:1
+
+mmiﬁnmn 
+[LH [L2 2,31 Bxﬂ y '
+EJULZJ l
+luwulwzly L
+
+ 
+
+   
+ 
+
+ 
+
+‘ Ilustnción 4 Organización en l y 2 dimensiones
+
+Una estructura homogénea se carzicteriza por:
+
+- su 513353 de dimensiones,
+- el número máximo de elementos en cada dimensión,
+- el gigoz-pgjinal, como requiere el efgcto d_e qlineación- y rgngp de variación de los
+
+indices en cada dimensión y
+
+- el tipq de los elementos que contiene.
+
+26
+

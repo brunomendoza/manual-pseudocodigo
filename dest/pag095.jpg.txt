@@ -1,0 +1,56 @@
+s1 no
+ExtraerDetrás(Lesíguiente) [Si no se avanza recursivaments
+
+ﬁn si
+fin si
+retornar
+Sin procedimiento
+
+Extracción ordenada.
+
+La extraccion ordenada es la única que sigue necesitando el valor a extraer —es una
+operación que depende del valor, no de la posición. El siguiente algoritmo elimina de una
+lista la primera ocurrencia de un nodo cuyo campo de información tenga el valor
+
+especiﬁcado.
+
+procedimiento ExtraerEn0rden(L,V)
+¡se extrae el primer V510; de v de la lista apuntada por L
+(L debe tener una dirección Válida, o el valor NULO (lista Vacía).
+[Si L no es NULO, los nodos encadenados deben estar ordenados entre sí
+[según el valor de sus campos Info, en orden ascendente.
+vatlablesenttadn/Belida FLista L
+
+entrada TipoValor v
+
+locales FLísta Nuevo
+si (L r NULO) entonces
+
+a1 (v = Lamfo) entonces /v se ha encontrado y se extrae.
+ExtraerDelante (L , V)
+ui no
+si (v > innato) entonces ¡v puede estar más adelante, se avanza.
+ExtraerEnorden (LﬁS iguiente , v)
+un si
+fin si [La primera ocurrencia de V (ya) no está
+/en 1a lista.
+fin a1
+retornar
+
+fin procedimiento
+
+Variaciones de listas encadenadas.
+
+El concepto de ubicación encadenada es muy potente, y permite crear toda clase de
+estructuras, libres de las limitaciones de la ubicación contigua. Algunas se enumeran a
+continuación a modo de ejemplo.
+
+Listas circulares. Se hace que el último elemento de la lista apunte, con su campo de
+encadenamiento, al primero. De esta manera, cualquier nodo es siempre accesible desde
+cualquier otro, y el puntero de acceso no está obligado a quedarse ﬁjo en un nodo
+detennínado; el inconveniente es que hay que tener cuidado de no entrar en un bucle inﬁnito
+cuando se intente recorrer la lista. En ocasiones. la lista circular se monta con un nodo
+especial —a veces conocido como cabeza- que actúa como sucesor del último y predecesor
+
+98
+

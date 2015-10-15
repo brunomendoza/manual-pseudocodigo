@@ -1,0 +1,58 @@
+fa
+
+mientras <eondici6n> hace:
+<acción>
+Ein mientras:
+
+algoritmo Raízcuadrada
+
+mientras abS1X-Z)>:0.00005 hace:
+Y*((X/Y) +YJ /2
+z « y w y
+sin mientras
+
+ 
+
+Repetición de Dijkstra Repcüción preevaluada
+
+Es imponante que la condición de control este’ en coordinación con el cuerpo del
+bucle. en el sentido de que las acciones de aquél estén encaminadas a hacer que la condición
+deje de cumplirse, de manera que la ejecución de la estructura repetitiva pueda terminar. En
+el caso del ejemplo, podemos observar cómo la sucesión de valores de Z es decreciente a
+partir de la segunda iteración, mientras que X se mantiene estable, por lo que la diferencia en
+valor absoluto X-Z converge a cero, llegando por tanto en algún momento a ser menor que
+0.00005, que es el objetivo de precisión marcado por la condición. Si este tipo de
+
+coordinación no se produce correctamente, podría ocurririgue, para determinados casos del
+
+problema, una vez que laeiicucion alg_
+
+ 
+
+ritmo alcance la estructura repetitiva, _no la
+abandone nunca, produciéndose lo que se conoce como Álgucle inﬁnitg, que es contrario a la
+
+propia defmición de algoritmo.
+
+repetir
+acción
+hasta que condición
+
+ 
+
+acción
+mientras no condición hacer
+acción
+Ein mientras
+
+ 
+
+Repetición postevaluada
+
+También es frecuente la aparición de una estructura de control postcvaluada —bucle
+en que la condición se evalúa después de ejecutar la acción» que produce la ejecución de la
+
+acción controlada una o más veces, mientras que la estmctura repetitiva básica ejecuta la
+
+IB
+

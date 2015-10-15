@@ -1,0 +1,35 @@
+de otro algoritmo llamador —puede ser directamente un programa u otro subprograma—
+que, al igual que el usuario ﬁnal, debe proporcionar al subprograma llamada los datos que
+precise y recibir del mismo los resultados que genere; como esta comunicación entre
+llamador y llamado no puede establecerse a través de los canales habituales de entrada/salida
+—dado que no tienen "existencia ﬁsica" y por tanto no pueden usar un teclado o ver una
+pantalla—, se_ establece a través de las llamadas [mas de pqrámerrgg Los parámetros
+representan los datos que se intercambian entre el Subprograma llamado y el que lo llama;
+pueden ser de _e_m‘_r:q_da, de salida o de entrada/salida, según el sentido en que se realice la
+transferencia de información; un subprograma pued_e4tgn_m' además variables locales que
+utiliza inítemamente, pero no están implicadas en la comunicación entre un subprograma y su
+llamador. Eventualmente, un subkïograrnaïpuede tener acceso ¿{variables globales, deﬁnidas
+en alguna zona de acceso común, fuera del Subprograma, pero ello no es muy adecuado,
+
+porque supone una forma de comunicación no explicita, no ya entre un subprograma y su
+
+llamador, sino incluso entre subprogramas aparentemente independientes.
+
+Bgediruientas y funciones.
+Se distinguen dos clases de subprogramas: los Eqpedimientos y las funciones. Los
+Eyeedimientos‘ responden al concepto de acción algorítmiea como “transformación de
+estados”; en este caso, se pasa de un estado representado por el conjunto de valores iniciales
+de los parámetros de entrada y entrada/salida a un nuevo estado representado por los nuevos
+gres de los parámetrosde entrada/salida y _síal@a_._ Las Eiqgrgí‘ se inspiran en las
+homónimas matemáticas, las cuales establecen una relación entre valores de un dominio y
+valores de un contradominio o rango, de manera que a gagvalgjel domirtigle corresponde
+uno y sólo uno delgsntradomínio; la diferencia entre las ﬁmciones matemáticas y las
+informáticas estriba en que las segundas se implementan como una secuencia de sentencias
+que pueden hacer más cosas —dibujar algo en pantalla, modiﬁcar variables globales,
+almacenar información en un dispositivo,...—, que no forman parte del resultado que
+devuelve al ﬁnalizar —una función informática sin esta clase de efecros laterales es
+
+conceptualmente lo mismo que una función matemática.
+
+31
+

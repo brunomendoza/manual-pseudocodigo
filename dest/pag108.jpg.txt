@@ -1,0 +1,42 @@
+Un predicado no satisfacible es una contradicción. uno que se satisface siempre es una
+raulalagia. Decimos que un predicado, P, es mas fuerte que otro, Q, si el conjunto de estados
+deﬁnidos por P es un subconjunto propio“ del conjunto de estados deﬁnidos por Q. Un
+predicado se debilita al añadir disyunciones y se fonalece al añadir conjunciones.
+(x>0)V(x=0):(x>0):(x>0)/\Par(x)
+
+Equivalencia.
+
+Dos predieados, P y Q, son equivalentes —simbolizado P e Qv si siempre que uno es
+verdadero el otro es verdadero y siempre que uno es falso el otro es falso —se satisfacen
+exactamente en los mismos estados. Decir que dos predicado, P y Q, son equivalentes es lo
+
+mismo que decir P - Q. La equivalencia sigue las siguientes leyes:
+
+Leyes de la equivalencia
+
+Identidad: P s P
+
+Negación: 1*?) z P
+
+Exclusión del termino medio: P V "P 2 verdadero
+
+Contradicción: P /\ “P s falso
+Ccnmutativa: P V Q z Q V P
+P /\ Q s Q A P
+Distributiva: P A (Q v R) z (P A Q ) V (P A R)
+
+PV(Q/\R)E(P vomawk)
+
+Asociativa; ¡wo/ima (PAQ)/\R
+Pv(QvR)s(PvQ)vR
+
+Simpliﬁcación de la P V P z P
+disyunción: P V verdadero s verdadero
+
+Pvfalsoal’
+PV(PAQ)sP
+
+" Un conjunto, A, es un subconjunto propia de otro, B, si todos los elementos de A son elementos de
+B pero existe algún elemento de B que no es elemento de A.
+l l l
+

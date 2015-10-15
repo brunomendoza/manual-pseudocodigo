@@ -1,0 +1,39 @@
+4. Que, en última instancia, la correcta solución del caso general depende de la correcta
+solución del caso base, así como de la correcta formulación de la relación —
+recurrencia— entre sucesivas instancias del problema Igual que en la inducción
+matemática, podemos aﬁrmar que. si el problema está bien resuelto para el caso base y,
+en el supuesto de estar bien resuelto para un problema de tamaño N, lo estará para un
+
+problema de tamaño N+1, entonces está bien resuelto para todos los casos.
+
+Cómo funciona la recursividad.
+
+La forma más fácil de describir una llamada recursiva es decir que se trata de una
+llamada "al mismo Subprograma", pero, ¿qué signiﬁca esto? No debemos olvidar que un
+subpmgrama es un algoritmo y que la ejecución de un algoritmo da lugar a un proceso que se
+desarrolla gobemado por ese algoritmo, en el sentido de que el procesador va siguiendo las
+instrucciones escritas en el algoritmo para realizar las acciones del proceso. Cuando se produce
+una llamada a un subprograma el proceso en curso queda momentáneamente suspendido, a la
+espera de los resultados de un nuevo proceso independiente que es desencadenado por la
+llamada. y controlado por el algoritmo del Subprograma. Esto sigue siendo cierto cuando se
+trata de una llamada recursiva. Si se está ejecutando el algoritmo de cálculo de la función de
+Fibonacci para el valor 4, cuando se encuentre la llamada a Fibonacci(3) se detendrá el proceso
+en curso, se iniciará un proceso aparte que seguirá iguales reglas, y cuando éste tennine se
+reanudará el proceso inicial en el punto donde se había parado. Si se encadenan varias llamadas
+rccursivas —Fibonacci(3) llama a su vez a Fibonaccí(2), y esta a Fibonacci(l)— coexistiran
+varios procesos, que responderán a idéntico algoritmo, pero que se encontrarán en diferentes
+grados de ejecución. Se trata del "mismo Subprograma“ en la misma medida en que se puede
+decir que dos cocineros cocinan la misma receta, estando uno en Bilbao y otro en Barcelona. y
+cada uno con una copia de aquélla. De igual fonna, cada proceso está siguiendo en realidad su
+propia copia del Subprograma.
+
+En terminos técnicos, a cada proceso en ejecución le corresponde un registro de
+acüvac/ón. que guarda información acerca de su estado —variables locales, dirección de retomo
+cuando termine, parámetros, etc. En la mayoría de los lenguajes de programación, la ejecución
+de un programa comienza cargando en memoria el registro de activación correspondiente a su
+algoritmo principal. Si se produce una llamada a un subprograma, se traduce en la carga de un
+
+registro de activación para cl proceso representado por ese Subprograma, en una dirección
+
+68
+

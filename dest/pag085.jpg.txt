@@ -1,0 +1,60 @@
+lo
+
+el peligro de la creación de elias si sepsiggní a dos punteros diferentes la misma
+
+dirección,
+
+3. la combinación de los dos anteriores si una variable dinámica referenciada por dos
+punteros es liberada usando uno de ellos —accesos posteriores con el segundo
+puntero resultarían en un error—,
+
+4. la posibilidad de dejen variables dinámicas 'nacces'bles si están referenciadas por un
+
+único puntero y se cambia el valor de éste y
+
+5, la inoperanciage los mecan’ mos d t s de entrada con
+
+ 
+
+las yvarigsjes dinámicas cuanglrïícﬁeisepasg por parámetros es un puntero —e'ste
+
+estaría protegido, pero no la variable a la que apunta.
+
+A continuación se desarrolla un ejemplo que ilustra algunas de estas situaciones.
+Supónganse que P, Q y R son punteros a enteros y que I y J son enteros; al elaborar la
+declaración de las variables se crean cinco variables estáticas de dos tipos diferentes con
+
+valores indeﬁnidos y ninguna variable dinámica.
+
+variables ï 3
+entera I l l
+puntero<entero> P, Q P‘
+entera J Q
+puntero<entero> R
+J l
+R
+Memnria
+dinámica
+
+Instrucciones como las siguientes, provocan un error de acceso:
+
+P” *‘ 3
+Liberar 1Q)
+
+El siguiente bloque de instrucciones sí sería válido. y dejaría deﬁnidas todas las variables,
+
+además de crear tres dinámicas:
+
+I e 3
+p k TomarBloquehentero) l 3 , i
+Q ' Tomaraloquuentero) P ' >l 3 l i
+J e 5 Q: >4 5 ‘
+R e TomarBloquelentero) J 5
+p > e I l
+o > e J R y >l 7 l
+R'> a 7 i ,
+Memoria
+dinámica
+
+88
+

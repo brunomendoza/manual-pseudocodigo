@@ -1,0 +1,26 @@
+UbillllllblllDDlI!lIDDDDlDDDDD¡lIlIDIIIIDIlliilllllllll‘!
+
+inmediammente superior a las ocupadas por el registro del proceso principal. Si un
+subpmgrama llama a otro (o a si mismo), se pone un nuevo registro de activación por encima
+del suyo. De esta manera es como si los registros de activación se fuesen "apilando" en
+memoria, de forma que el proceso activo es siempre aquél cuyo registro de activación se halla
+en la "cima" de la "pila“, estando los demás activos. pero suspendidos. Cuando un proceso
+acaba; se elimina su registro de activación, reanudándose la ejecución del que se encuentra
+debajo de él, que ﬁJe quien lo llamó. La siguiente tabla muestra la evolución de procesos
+dcscncadenados cuando un algoritmo principal se carga e invoca a] subprogmma que evalúa la
+función de Fibonacci para el valor 3. El proceso activo en cada instante (Ti) es el que aparece
+
+sombreado.
+
+Flhoﬂ) Fih0(0)
+
+Fiho(2) amm nus-xa) F|bo(2 ¡‘mom Fiba(|)
+
+Flbo(3) ﬁboííi) FIbo(3) Fibo(3) F006) Filxxï!) HMC!) Fibc(3) Fibo(3)
+
+Princ. Pnnc Princ Princ. Princ. Princ. Pnnc. Pnnc. PTÍHC. Princ. Princ.
+
+T0 Tl T2 T3 T4 T5 T6 T7 T8 T9 T10 Tll Tl2
+
+69
+

@@ -1,0 +1,67 @@
+Esquemas de generación y recorrido.
+
+, Según lo descrito, el acceso secuencial a un conjunto de elementos conlleva una
+inicialización que nos sitúe en el primer elemento, un avance que nos dé acceso al siguiente y
+o r c  » L i una evaluación que nos pennita saber cuándo hemos llegado al ﬁnal de la secuencia, ta] como
+
+Se muestra en el siguiente esquema:
+
+ 
+
+iniciar
+mientras no ﬁin hace:
+avanzar
+Ein mientras
+
+i‘ Secuencia aleatoria. o
+El esquema de generación secuencial más simple ocurre cuando cada elemento de la
+
+» ' ' ' ‘L secuencia es absolutamente independiente de factores asociados a la secuencia —su valor no
+
+ 
+
+7 .
+al, K se ve inﬂuenciado, ni por otros elementos de la secuencia, ni por su posición en la misma. Un
+
+l ik ejemplo podria ser el siguiente trozo de algoritmo que va leyendo una serie de números hasta
+
+ 
+
+‘que el usuario teclea un cero:
+
+leer x W Iniciar E leer x
+mientras x # O hace: ‘C Ein E lx = D)
+leer x IV Avanzar s leer x
+
+Ein mientras
+
+z
+"I" t El principal problema es que si los sucesivos valores son realmente aleatorios, no hay
+
+ 
+
+nada que garantice que va a llegar a cumplirse la condición de ﬁnalización de la secuencia.
+
+ 
+
+n. . r. mu.
+
+j > Secuencia en que cada elemento depende del anterior.
+
+K Cuando la secuencia no es aleatoria, el valor de cada elemento se halla en relación con
+
+l .
+i’ ' su posición en la secuencia. De las posibles dependencias, podemos considerar la más simple:
+
+ 
+ 
+
+ aquella en la que cada elemento evoluciona a partir del que le precede. Es requisito
+K indispensable que exista un valor inicial independiente a partir del que se desarrolla el resto:
+S¡::u
+Si = F(Sl-|)
+
+42
+
+ïjhonnmmmmnmnnn...nganan--------------------------
+

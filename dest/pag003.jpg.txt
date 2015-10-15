@@ -1,0 +1,42 @@
+lenguaje tan falto de abstracción, se han desarrollado lenguajes de programación de "alto
+nivel" que utilizan simbolos, palabras y reglas de composición más próximos a un lenguaje
+natural humano, aunque muy simpliﬁcado y sin las ambigüedades de este. El programa
+escrito en un lenguaje de alto nivel es traducido a lenguaje máquina por otro programa —un
+compilador o un intérprete—, a ﬁn de que el procesador pueda ejecutarlo; pero el efecto es
+que el programador escribe su programa como si existiese un procesador virtual capaz de
+entender el lenguaje de alto nivel.
+
+Muchas veces se suelen escribir algoritmos generales utilizando un pseudolenguaje,
+el cual suele parecerse a un lenguaje de programación, pero pennitiendo algunas libertades
+que faciliten la descripción del algoritmo sin preocuparse de algunos detalles sintácticos que
+
+se tendrán que concretar al trasladarlo a un auténtico lenguaje de programación.
+
+Concepto de algoritmo.
+
+La palabra algoritmo deriva del nombre del matemático persa del siglo IX Mohammed
+¡bn Musa aLKhowárizmí, autor de un libro sobre como operar con el sistema decimal de
+numeración originario de la India, libro que, tras ser traducido al latín, fue origen de la
+adopción de este sistema en Europa. La característica más relevante de las operaciones
+descritas (suma, resta, multiplicación y división) es que se pueden realizar de forma
+mecánica: basta con seguir los pasos indicados para obtener una solución correcta sin
+necesidad de ningún conocimiento teórico adicional.
+
+La ENCICLOPEDIA DE CIENCIAS DE LA COMPUTACIÓN‘ deﬁne cl término en función de un
+problema y un dispositivo que se va a usar para solucionarlo: un algoritmo es una
+descripción _pr_ecisa de un metodo para solucionar el problema escrito en un lenguaje
+comprensible para el dispositivo que debe cumplir las siguientes propiedades:
+
+l. al aplicarlo a un caso concreto del problema, da lugar a la ejecución dc_una secuencia
+
+ﬁnita de acciones,
+
+2. dicha secuencia tiene una única acción inicial,
+3. cada acción en la secuencia tiene una única sucesora, y
+4. la secuencia termina en un tiempo ﬁnito encontrando una solución o determinando
+
+que no existe una para ese caso panicular.
+
+‘ENCYCLOPEDIA OF COMPUTER SCIENCE. lEEE Press. New York, 1993. ISBN 0-442-27679-6
+3
+

@@ -1,0 +1,29 @@
+los ejemplos anteriores x es libre en el primer predicado pero ligada en el segundo e y es
+ligada en el primero.
+
+Si un predicado está afectado por una cuantiﬁcación universal y el dominio de valores
+de la variable ligada al cuantiﬁcador resulta ser el conjunto vacío, el predicado se considerará
+verdadero —"Para todos los elementos de C se cumple P" es equivalente a "No hay ningún
+elemento de C para el que no se cumpla P"; si C es el conjunto vacio lo segundo se cumple, y
+en consecuencia también lo primero. De forma similar. si un predicado está afectado por una
+cuantiﬁcación existencial y el dominio de valores de la variable ligada al cuantiﬁcador resulta
+ser el conjunto vacio, se entenderá que el predicado es falso. En los siguientes predicado: el
+dominio de valores de x se expresa como un rango —cosa frecuente— que es vacío si N < l:
+
+(VX e 1>IN:V[X]> 0)
+
+(sx e l..N/ V[x] > 0)
+
+Vistos en detalle, los cuanliﬁcadores universal y existencial no son más que la
+acumulación de las operaciones de conjunción y disyunción:
+(vx s LN: V[x] > 0) 2 (V[l] > 0) /\ (V[2] > 0) A  A (V[N] > O)
+(Ex e1..N/V[x]> o)2 (v[1] > o) v (V[2] > o) v  v (vm > o)
+
+En matemáticas estamos acostumbrados a otros simbolos que expresan la
+
+acumulación de una operación: el producto (H) y el sumatorio (D. Estos cuanliﬁcadores
+
+pueden también resultar útiles en la construcción de predicados.
+
+ll}
+

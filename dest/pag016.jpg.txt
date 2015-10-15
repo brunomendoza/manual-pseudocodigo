@@ -1,0 +1,54 @@
+implementar versiones básicas de las estructuras de selección y repetición —la estructura
+secuencial se da por supuesta-g pero la mayoria de los lenguajes no se limitan a ofrecer las
+versiones básicas, sino que incluyen variaciones convenientes para facilitar la escritura y la
+legihilidad de los programas. El denominador común de todas las variaciones es que siempre
+se puede conseguir el mismo efecto usando las versiones básicas. Las versiones más
+
+habituales son las que se muestran en la siguiente tabla.
+
+Estructuras de control
+
+Básica No básica
+selección Estructura de selección lógica entre Estructura de selección múltiple
+dos altemativas. (proceso por casos)
+Estructura repetitiva con una Estructura repetitiva con una
+Repeﬁción condición lógica preevaluada. condición lógica postevaluaïla.
+
+Estructura repetitiva controlada por
+contador.
+
+ 
+
+Estructuras de selección.
+
+La es_tructura de selección básica es una que permite elegir entre dos posibles
+altemativas para el ﬂujo de ejecución en función de la evaluación de una condición de tipo
+
+lógico. Su expresión sintáctica en cl pseudolenguaje que utilizamos ya la hemos visto cn el
+
+ 
+ 
+
+algoritmo RaizCuadrada:
+si <condición> entoncas Algoritmo
+<accíón> RaízCuadrada
+si no . . .
+<acción si X > o entonces
+alternativa> . . .
+Ein si si no
+o bien, si la acción alternativa es - - -
+Ein si
+no hacer nada: pu“
+  fin hlsoritﬂn
+
+<acción>
+fin si
+
+ 
+
+Muchos lenguajes ofrecen además una estructura de selgión múltiple, que
+
+denominaremos de proceso por casos, cuyo efecto se puede conseguir anidando varias
+
+16
+

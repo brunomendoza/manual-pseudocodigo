@@ -1,0 +1,69 @@
+leer x
+n v 1
+mientras lx s o) y (n < 10o) hace:
+leer x
+n «e n + 1
+ﬁin mientras
+
+De hecho, pueden llegar a sustituir completamente a otras condiciones de ﬁnalización,
+como en los siguientes ejemplos —se convierte en una secuencia numerada en vez de
+
+marcada:
+
+algoritmo Multiplica algoritmo factorial
+vnrisblas naturales M1, M2, p, c variables naturales n, r, 1
+
+escribir "Multiplicandoz" escribir "déme un valor natural: "
+
+leer M1 leer n
+
+escribir "Multiplicador=" f z: 1
+
+leer M2 pura i desde n hasta 2 pase -1 hace:
+P ‘r O f 4* f * i
+
+para C desde 1 hasta M2 hacer Ein para
+
+P ‘r P + M1 escribir "el factorial es: ", f
+
+fin para para:
+
+escribir "el producto es: ", P fin algoritmo
+
+parar
+f in nluoti cmo
+
+También se pueden usar algoritmos de conteo para generar secuencias cuyos
+elementos dependen de su posición. El siguiente algoritmo genera y escribe los cuadrados de
+
+los primeros n números naturales:
+
+algoritmo Cuadrados
+variables naturales i, n, C
+escribir "déme un valor natural: "
+leer n
+para i desde 1 hasta n hace:
+
+c r í * i
+
+escribir c
+fin para
+para:
+un algoritmo
+
+Generalizando el concepto de posición, podemos hablar de secuencias que se generan
+
+bajo el control de otras, como en el siguiente esquema:
+
+x e a Iniciar controladora
+mientras no Fin(x) hace: mientras no Fin hace:
+
+y e G(x) Obtener controlada
+
+x <- mx) Avanzar controladora
+un migntrgg fin mientras
+
+44
+
+Aﬂﬁ-IQQQIQQQDQJQQQIQ.-.nan.nnnnqnnnnnonnAgQQQQAQQQQQI
+

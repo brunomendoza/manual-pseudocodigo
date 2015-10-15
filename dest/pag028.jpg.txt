@@ -1,0 +1,82 @@
+de hasta l00 elementos, pero no es necesario obligar a que siempre tenga que haber
+
+exactamente l00. Es habitual asociar a cada variable dimensionada una variable ordinal por
+
+cada dimensión que se use para saber hasta qué indice se havllenado la variable en esa
+
+dimensión.
+I ,- / y
+vazxames Vectorlv“ WWW.‘ ’/"""¿;;r_r,-\
+"ww-x natural Nummementos .s—
+
+leer Num-Elementos
+
+Zur/tc; 3/ 
+
+(NumElementos tendrá que ser menor que 10o)
+
+pax-Ji desde 1 hasta NumElementos hacer
+
+leer kvli]
+tin para
+
+(se rellenan los primeros Nummementos de v)
+
+Una altemativa interesante es "encapsular" en una estructura heterogénea el vector
+
+junto con la variable gue indica la porción que se está usando —se ha cambiado el tipo de la
+
+variable Numalementos para ajustarla a lo que es posible segin el rango deﬁnido para el tipo
+
+Vector:
+
+tipa Indicevector es entero 074100 fin tipo
+
+tipo VectorEncapsulado es estructura
+
+campo Vector Datos
+campo Indicevector NumElementos
+fin tipo
+
+En principio, el tipo de_los componentes de un conjunto dimensionado puede ser
+
+cualquiera ——está limitado en algunos lenguaies—, inclusqotro conjunto gmensionado:
+
+tipo Fila es estructura reallso] Ein tipo
+tipo VecVec ee estructura Fí1a[100] fin tipo se
+
+  
+
+{Mi i/¿"íim r’
+fu
+
+El resultado escomo una estructura multidimensional. Aunque la diferencia parezca
+
+una cuestión trivial de sintaxis, sirve para ilustrar como una misma realidad puede admitir
+
+diferentes interpretaciones y tratamientos.
+
+variable Macri z M
+
+para i desde 1 hasta 10o hacer
+pura j desde 1 hasta 5o hace:
+M[í,j] * Ü
+tin para
+fin para
+
+variable VecVec M
+
+para i desde 1 hasta 10D hace:
+pare j desde 1 hasta 5o hace:
+Mii] [j] * 0
+Ein para
+ﬁn para
+
+Los ejemplos también ilustran cómo las sentencias repetitivas, y en particular la
+
+controlada por contador, están íntimamente ligadas al tratamiento de conjuntos
+
+28
+
+‘¿ﬂ ¡,{( «¡.4 c, g
+

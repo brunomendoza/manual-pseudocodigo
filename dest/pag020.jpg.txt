@@ -1,0 +1,16 @@
+Í para <contador> desde <valor inicia1> hasta <valor fina1> [paso <paso>]
+
+n hacer
+¿ unggn
+
+En ningún caso se debe intentar modiﬁca: explícitamente la variable Contadora en el
+
+cuerpo del bucle, ya que, de poder hacerse, ello podría desbaratar el afecta de conteo, con
+
+resultados posiblemente inesperados.
+
+Z0
+
+m.n.nnnnnmanana;nan¡ganannannmnnnnnnnnnnnnnnniinnnvllﬂﬁﬁ
+A .‘ l
+

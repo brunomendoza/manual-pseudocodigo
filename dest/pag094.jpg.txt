@@ -1,0 +1,60 @@
+procedimiento ExtraerDelante (L)
+‘Extras el primer nado de la lista apuntada por 1..
+/L debe tener una dirección válida, o el valor MILO [lista vacía).
+varinblesentrada/anlida PLista L
+locales PLista Aux
+
+a1 L % NULO entonces /s1‘ 1a lista no está vacía, se extras el primer
+Aux k L. [nodo tras haber hecho avanzar L al segundo.
+L v Lásiguience [L quedará con el valor MILO si sólo hay un nado.
+Líberarﬂkux)
+
+ﬁin si
+
+IBCOXEÁ!
+
+Ein procedimiento
+
+LT W’ ‘N500 "* >'°°° >9<2E
+1
+Aux h —
+
+ 
+
+\
+x
+
+L1’ I 000i ——>> 90o] ) ﬁoío’;
+T 2
+Aux ‘ V7"
+L v" — r—— >gT »ﬁooow
+A 3
+Aux  "”'
+
+Ilustración 2| Extracción al principia de una lista encadenada
+
+ 
+
+Extras n al ﬁnal.
+
+La exxracción del último nodo de una lista —que tenga algún nodo- de divide en dos
+casos: l) que sólo haya un nodo en la ¡ista pasada —se extrae- a 2) que haya más —se
+extrae recursivannente e] último del resto de la lista. A] contrario que en la inserción, tener un
+puntero al ﬁnal de la lista no solucliona nada en una lista simplemente encadenada puesto que
+
+hay que modiﬁcar el enlace Siguiente del penúltimo nodo al ¡ransfonnarse en último.
+
+procedimiente Extraernecrás (L)
+
+jﬂxczae el último nodo de 1a lista apuntada por L.
+
+[L debe tener una dirección válida, o el Valor num (lista vacía).
+variableaantrada/salida PLista L
+
+n y. s Num entonces [Si la lista no está vacía se puede extraer.
+¡x rnsiguience = NULO entcncan
+LíberaﬁL) [Si es el última se extrae.
+L ‘ NULL)
+
+97
+

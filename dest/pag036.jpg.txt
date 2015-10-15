@@ -1,0 +1,89 @@
+n n n d)
+
+mecanismo poco adecuado para el paso dgparametros de entrada ——a menos que exista algún
+
+ 
+
+mecanismo adicional que impida que se modiﬁque, lo que podríamos llamar paso por
+referencia constante. El mecanismo de paso por referencia se usa mucho con los parametros
+
+de salida y entrada/salida. Al no tener que realizarse copias de valores, el paso de parámetros
+
+¡son
+
+por referencia puede resultar más eﬁciente, especialmente cuando se trate de tipos
+
+estructurados de gran tamaño. Sin embargo pueden surgir problemas si un mismo parámetro
+
+ 
+
+real se hace corresponder a dos parámetros formales de salida o entrada/salida diferentes, lo
+
+¿a que puede dar lugar a resultados no controlados (dependientes de la interpretación):
+
+algoritmo Uno procedimiento Dos(X,Y)
+variable: salida UnTipo x; y
+
+ 
+
+¿e m, A)
+
+sin algoritmo \ y <- 4
+— x e y + x |???
+
+ procedimiento
+
+n n
+
+   
+
+C
+C
+G
+G
+í
+
+Es verdad que también cuando se devuelven parámetros por resultado pueden ocurrir
+
+ 
+
+ambigüedades si un mismo parámetro real se pasa a dos parámetros formales diferentes, pero
+
+no mientras se ejecuta el Subprograma, y en realidad para que el resultado este’ determinado lo
+
+ 
+
+único que hace falta saber es en que orden se realizan las copias de los resultados. Por otra
+
+   
+
+. parte, habria que plantearse si tiene algún sentido ofrecer un mismo recipiente para obtener
+
+d 1 . . . . .
+Pa, dos cosas diferentes, incluso aunque sea sintácticamente legal en un lenguaje concreto.
+
+sobrecarga tlreroperaﬂtres.
+
+í
+i
+I
+d
+í
+G
+
+En ocasiones es necesariod sarrollar subprogramas que igiplementan. para algún tipo
+
+ 
+
+de datos, generalmente deﬁnido por el usuario, operaciones cuyo signiﬁcado es muyísililar
+a_|_d¿algún operador del lenguaje aplicado entre tipos predetinidos; operaciones para las que
+incluso puede ser habitual, fuera del mundo de la informática, emplear el mismo simbolo. Por
+ejemplo, si A y B son números enteros, es habitual en matemáticas expresar la suma de
+ambos como "A + B". Del mismo modo si M y N son matrices de enteros, es habitual en
+matemáticas simbolizar la suma de ambas como "M + N". En casi cualquier lenguaje de
+programación, la suma de enteros —un tipo primitivo- se realiza con el operador "+"; pero
+si el lenguaje no está especíﬁcamente orientado a calculo matricial, no es probable que se
+
+pueda aplicar el operador "+“ para sumar vectores —tipo deﬁnido por el programador. En su
+36
+

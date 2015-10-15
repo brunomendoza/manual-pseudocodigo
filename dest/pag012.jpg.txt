@@ -1,0 +1,45 @@
+Una constante simbólica es formalmente como una variable con la restricción de que
+no se puede cambiar su valor —por tanto no aparecerá nunca en una operación de entrada, ni
+
+como destino de una asignación.
+
+Expresiones.
+
+Una expresión es un conjunto de operandos ligados emite’ si por ¡operadores que
+representa un gg Un operando puede ser un valor, una constante simbólica, una variable o
+una función. El valor de la expresión se calcula como el resultado de aplicar los operadores
+sobre los operandos en el orden adecuado. Una expresión se dice que es del tipo del valor que
+devuelve. Los operadores aplicables dependen del tipo de los operandos
+
+x +3/ l 8
+
+El orden de gadigción dependeícïaí reglas deprecedencia entre los operadores —
+
+un producto o una división habitualmente se deben evaluar antes que una suma o una resta.
+
+Los operadores de irguï precedencia seeyalúanísegnin las reglas de asociatividad del
+
+lenguagnognalmente dgigguierdajgereeha (un ejemplo de operador con asocíatividad de
+derecha a izquierda es la exponenciaeión: x"3”2 s x”(3”2)). El orden de evaluación puede
+
+modiﬁcarse mediante el uso de paréntesis:
+(x +3)/l s
+
+Tipos de datos.
+
+El tipo es una de las caracteristicas más relevantes de los datos. Es fácilmente
+constatable que en el mundo real existen diversas clases de información, tanto por su formato
+(numérica, textual, gráﬂcaw), como por su signiﬁcado (volúmenes, masas, velocidades,
+sueldos, notas...) En programación, el tipo está relacionado con la clase de infonnación que
+se quiere manejar y determina una representación, un rango de valores —que depende de la
+representación- y un conjunto de operaciones aplicables a esos valores. Aunque estas tres
+características son especiﬁcas de cada tipo, es normal en la mayoría de los lenguajes que se
+pennita algún grado de compatibilidad entre algunos tipos concretos: Un tipo, TI, es
+
+compatible con otro, T2, si en cualquier lugar de un programa donde se espera que aparezca
+
+l2
+
+LDHIQQQQGQHGQIIﬁQmQnQlQa-nnn-nonnonnnn-nq-mnninnnnnnn
+n...
+

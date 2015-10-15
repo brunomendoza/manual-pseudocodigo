@@ -1,0 +1,47 @@
+pero también seria válida una aproximación "a lo ancho" —identiﬁcar todos los
+
+subproblemas de un mismo nivel de complejidad antes de empezar a resolverlos.
+
+Heuristica de anális
+
+ 
+
+Una parte del éxito del diseño descendente depende de la experiencia del
+programador, de su capacidad de reconocer patrones frecuentes y de buscar subproblemas de
+fonna adecuada. Un método que puede resultar útil es aplicar una heurístiea basada en el
+lenguaje natural: sabemos que un verbo representa una acción y que un nombre representa
+una entidad (en nuestro caso infonnación) que puede estar cualiﬁcada por adjetivos; asi la
+frase: "Insertar un elemento en un vector ordenado" indica una acción ("insertar") que
+implica dos entidades ("elemento", que es su objeto y "vector ordenado" que es un
+complemento de lugar). Si tratamos de explicar el problema con mayor detalle, podríamos
+emplear una frase como: "Buscar la posición adecuada e insertar el elemento en esa
+posición"; es una sentencia compuesta en la que podemos identiﬁcar dos acciones: "Buscar" e
+"Insenar".
+
+La acción "Buscar" tiene como objeto "la posición adecuada" y como complementos
+(implícitos) "del elemento en el vector" podemos desarrollarla como: "Partir de la posición
+uno del vector y avanzar a la siguiente mientras queden elementos por examinar y el actual
+sea menor que E. Devolver la posición de parada". Encontramos cinco verbos, pero sólo los
+tres inﬁnítivos ("partir", "avanzar" y "devolver") denotan acciones primarias; las dos formas
+del presente de subjuntivo ("queden" y "sean") establecen condiciones que, al ser evaluadas,
+condicionan la acción de "avanzar" (subordinada al "mientras ..."). De las tres acciones
+primarias: "Partir ..." se traduce en asignar el valor l a una variable índice, "Avanzar 
+
+es devolver el valor de la
+
+ 
+
+consiste en incrementar en l la variable índice y "Devolver
+variable índice; todas tienen, por tanto, traducción directa sin necesitar más
+descomposiciones. En cuanto a la frase "mientras queden elementos por examinar y el actual
+sea menor que E" denota un bucle "mientras" con una condición doble donde: "queden
+elementos por examinar" debe entenderse como que "la variable índice sea menor o igual que
+el número de elementos en el vector" y: "sea menor que E", tiene un signiﬁcado obvio.
+
+La acción "insertar el elemento en esa posición" depende de si el elemento ya está, o
+no. en ella, En la frase "si el elemento no está en la posición determinada" hay que realizar
+
+tres acciones. una de ellas condicional: "s1 la posición está ocupada por otro elemento hay
+
+60
+

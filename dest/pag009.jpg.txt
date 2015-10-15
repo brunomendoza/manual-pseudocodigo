@@ -1,0 +1,32 @@
+bucle. Puede ser una herramienta útil en la localización de errores en un algoritmo, aunque en
+ningún caso sirve para probar su correcto funcionamiento, ya que este sólo queda probado
+para las entradas utilizadas.
+Otra diferencia formal entre las variables usadas en matemáticas y las de un algoritmo"
+informático es que para las primeras suele usarse una letra como identiﬁcador, mientras que
+r las segundas suíelen tener unrnorïltíreí más largo. que se recomienda sea signiﬁcativo, y que
+en la mayoría de los lenguajes se forma como una sola palabra empezando con una letra y
+continuando con una combinación de letras, números y unos pocos caracteres especiales.
+Además, las variables de un programa no son sólo un simbolo abstracto, identiﬁcan la
+porción del hardware del ordenador utilizada para representar el valor de la información
+simbolizada por la variable. El dispositivo hardware implicado es la QCJIGLÍB, un conjunto
+de circuitos organizados desde el punto de vista lógico como una secuencia de celdas
+direccionables individualmente. El valor de una variable se almacena utilizando una o más
+
+“‘ . celdas consecutivas, y es accedido a partir de la geccióg de la primera Auna dirección es
+
+una combinación de impulsos electricos capaz de "activar" la respuesta de una celda
+individual. El espa (numero de celdas) utilizado por una variable es ﬁmción del tipo de
+
+información que represente. Como el número de celdas de memoria es necesariamente ﬁnito,
+el volumen total de infonnación que puede manejar un programa es limitado, lo que hace
+necesario un uso racional de la memoria que evite ocupación innecesaria de espacio mediante
+una adecuada deﬁnición y estructuración de los datos.
+Declaración de variables.
+Las variables utilizadas por un algoritmo deben declararse antes de su empleo. Una
+declaración especiﬁca cuántas variables van a usarse. cómo se llaman y de que tipo es la
+información que simbolizan.
+variables reales X, Y, Z
+enteras I, J
+La declaración cumple un doble propósito: para el lector, informa de los elementos
+simbólicos que va a utilizar el algoritmo; para el ordenador, determina cuánta memoria
+necesitará el algoritmo para ejecutarse y cómo debe organizarse la misma.

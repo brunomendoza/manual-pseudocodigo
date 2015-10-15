@@ -1,0 +1,49 @@
+ 
+
+ 
+
+Si comparamos estos dos subprogramas con el algoritmo de multiplicación que
+
+habiamos desarrollado previamente observamos las sigiientes diferencias:
+
+- La utilización dc las palabras procedimiento o función para indicar la clase de
+Subprograma.
+
+La aparición de las listas de parámetros formales y la desaparición de las operaciones
+de lectura y escritura, ya que la comunicación se realiza con otro algoritmo a través de
+las listas de parametros (ello no signiﬁca que en un Subprograma no puedan hacerse
+
+este tipo de operaciones).
+
+- La desaparición de la instmcción parar y su sustitución por otras que dan idea de que
+
+el proceso continúa en otro sitio y no termina con la ﬁnalización del Subprograma.
+
+Si comparjinos entre si ambos subprogramas vemos que:
+
+- La fgición tiene gpdrámetro menos que el procedimiento, ya que al igual que en las
+matemáticas, la propia función representa uniyalor (el resultado de su ejecución),
+
+cuyo tipo se declara en la cabecera.
+
+- La sintaxis dela sentencia que termina la ejecución del subprograma es diferente ya
+
+que en la ﬁmcion sedebe indicar el valor resultanteje su aplicación.
+
+Cuando un aigoiitmo necesite hacer uso de un Subprograma disponible, deberá
+escribirse una jgtrfncpi n de llamada, en la cual se debe gpgzjﬁgar _el nombre del
+ﬁaprggrariia que se requiere, junto con una listadegqrárriegas reales, que son las( variables
+o valores del algoritmo llamador que se corresponden en esa llamada con los parámetros
+formales especificados en la deﬁnición del Subprograma) La gorgspondencia entre la lista de
+pírgirrietrosreales y la lista de parametros formales es, normalmente, posiciona], es decir, el
+primer parámetro real sustituye cn la ejecución al primer parámetro formal, el segundo al
+segundo y así con todos; ello implica que las listas de parámetros reales y fomiales deben
+gcgicidir en el número de parámetros y que los que ocupan iguales posiciones iran de ser
+gompatibles. A los ¿gérmenes formales de’ salida o entrada/salida sólo les pueden
+corresponder parámetros reales que sean variables, mientras que a los de entrada les puede
+
+corresponder cualquier expresión de un tipo adecuado, dado que desde el punto de vista del
+33
+
+ 
+

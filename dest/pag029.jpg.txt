@@ -1,0 +1,85 @@
+ 
+
+ 
+
+1: V ¿
+"; (mu/a l
+l
+
+(Lirnensionados. Es lógico que si se tiene una colección de elementos del mismo tipo la
+mayoría de las operaciones a realizar con él consistan en repetir un mismo tratamiento para
+cada uno de los elementos de la colección. Dadas las características de la estructura, el acceso
+a todos y cada uno de los elementos implica oyjener cada una de las posibles combinaciones
+de valores de los índices, esto se consigue anidando un bucle por cada dimensión que haga
+
+ge una variable del tipo ordinal adecuado recorre el rango _de valores del índice de esa
+
+Énensión.
+
+subprogramas;
+
+¡Concepto de subprograma.
+Supongamos que queremos hacer un programa para calcular el factorial de un
+número. El factorial se puede deﬁnir como:
+n! = 1
+n! = n'(n-1)'..."1
+(producto de todos los naturales de l a n)
+
+sin=0
+sin>0
+
+Un algoritmo que implemente esta regla es bastante sencillo, consiste básicamente en
+
+una estructura repetitiva que acumule las sucesivas multíplicaciones.
+/ ¡{,1 x ' 1 ¡a \
+
+algoricm factorial
+variables naturales n,
+
+guay y, ‘lswk
+f,
+wz/uz!» A; .
+
+escribir "déme un valor natural: “
+leer n
+
+,x¡f,‘_/¡I,4 m:
+
+ 
+
+¿,1 ¿M1 z- \
+
+  
+
+f 1 —- («wz-wn npzw/fv/w/
+para i. donde n hasta éñyaso -1
+
+t e f ú i " “
+fin para
+
+hace:
+2 v
+
+ 
+
+———/ 1/ 1- qu‘ MJ!"
+u!’ (4 ¡r u. n’ .,
+
+escribir "el factorial es: ", f
+
+para:
+Ein algoritmo
+
+1;!"
+
+4,;
+
+ 
+
+29 ‘ 
+
+¿,_.__,.
+
+4'.- 3
+1.104: lo
+

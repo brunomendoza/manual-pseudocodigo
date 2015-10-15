@@ -1,0 +1,51 @@
+rcescribirlo en un lenguaje de programación, donde tendría un aspecto similar al que se
+
+muestra en la siguiente pagina, escrito en pseudolenguaje.
+
+algoritmo Raízcuadrada
+variables reales X, Y, Z
+escribir "Desea Calcular la raíz cuadrada de:
+leer X ‘
+si X > 0 entonces ' V.  N. h?‘
+‘l e x / 2 i ‘ ,r 4; 9
+Z e y a y , ,« ,
+mientras abs(X - z) >= 0.00005 hace: - h,  , r
+‘lv (Kx/Y) +3!) /2
+z e ‘l * Y
+fin mientras
+escribir "La raíz cuadrada es: ", Y M. ,—, .. al . 5.a, ,
+si no ïxvïzw n. u. n‘. . ¿t
+escribir "no existe una raíz cuadrada real de", x '
+tin ei
+parar
+Ein algoritmo
+
+     
+   
+
+Todo programa informático es como mínimo un semialgoritmo; gn programa que
+siempre termina es un algoritmo. y un algoritmo es correcto si hace lo que se supone que
+debe hacer, es decir si cuando se le proporcionan datos adecuados proporciona resultados
+correctos según la especiﬁcación del problema para el que ha sido diseñado. Para resolver un
+mismo problema pueden existir varios algoritmos diferentes; la elección de uno u otro
+dependerá de su eﬁciencia en términos de tiempo y recursos que consuma.
+
+[.21 algorítmica, como disciplina que se ocupa del estudio de los algoritmos y de las
+metodologías para desarrollarlos comprende tres facetas‘ cómo construir algoritmos (diseño),
+
+cómo determinar si un algoritmo es correcto (víerjﬁcación) y como medir la eﬁciencia de los
+
+algoritmos (análisis).
+
+Variables, constantes y expresiones.
+
+Variables.
+
+Cuando se escribe un algoritmo se utilizan símbolos para representar los elementos de
+información que intervienen en el proceso especm por él. Esto es similar a lo que se
+hace al describir una función matemática, por ejemplo, en:
+
+f(x,y) = 3x2 + 5y
+
+ 
+

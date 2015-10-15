@@ -1,0 +1,53 @@
+mientras abSÜt r Z) >= 0.00005 hace:
+31* ((x/yl +y) /2
+z " Y ' Y
+fin mientras
+retornar
+fin procedimiento
+
+El problema es que, aunque la precundicrón establece que x debe ser mayor o igual
+que cero, dado que es una variable de tipo real el usuario podría pasar un valor negativo. Al
+no cumplirse la precondición el diseñador del algortimo puede optar por cualquier opción
+desde dejar que el algoritmo pueda abonar hasta que no acabe nunca ——como ocurre en este
+caso. Puede elegir modiﬁcar el algoritmo de forma que ante un incumplimiento de la
+
+preoondición se minimicen los posibles efectos indeseados:
+
+procedinianto Raizcuadrada (x, y)
+variables entrada real x
+salida real y
+locsl real z
+si x 2 0 entoncas
+y * x / 2
+z " Y * Y
+mientras abs(x v z) >= 0.00005 hacer
+Y‘*((X/Y) +Y)/2
+z e Y * Y
+ﬁn mientras
+ﬁin si
+retorna:
+un procedimiento
+
+Tenemos ahora un algoritmo más robusta: los errores del usuario no le penurbzrn, no
+abona ni entra en un ciclo inﬁnito, sino que siempre acaba, aunque si los datos de entrada son
+erróneos el resultado que entrega es igualmente erróneo. Lo único criticable es que no
+muestra demasiada consideración hacia el usuario —que tampoco la ha tenido——; sería más
+amigable que se indicase de alguna manera que el resultado no es correcto para dar la
+oportunidad al usuario de hacer alguna comprobación a posteriori —aunque si ha sido tan
+
+descuidado como para no respetar la precondición es poco probable que las haga.
+
+procadimianto RaizCuadrada (x, y)
+variables antrads real x
+salida real y
+locsl real z
+si x 2 0 entonces
+y ‘r x / 2
+z e Y ' Y
+mientras abslx - z) >: 0.00005 hace:
+ye (tx/y) +y) /2
+z e Y * Y
+Ein mientras
+
+[09
+

@@ -1,0 +1,71 @@
+ 
+
+ 
+
+ 3 u,“ :
+
+u t"
+
+v
+No obstante, no todas las soluciones que propongamos constituirán un algoritmo, Por
+
+ejemplo:
+
+ 
+
+l elegir un número, y, y calcular y?’ ‘
+
+si |yz  < 5 * l0'5 la solución es y, terminar; si no repetir desde el paso l
+
+  
+
+zm}
+do de elección de los sucesivos valores de
+
+//" 7
+
+no es un algoritmo, ya que no se establece el m
+y, lo que impide garantizar que el proceso tennina. Podemos utilizar otro método; el‘ siguiente
+
+es conocido como método delNewton-Raphsonzl
+
+l ísleay=xl2ii Q I‘
+
+4. Á _ ¿,1 _., /, 1,,’ , ,4 _,» 
+
+   
+
+calcular yz
+h si |y2 - x | <5 * l0'5 la solución es y, terminar; si no hacer el paso 4
+recalcular y como «x/y) + yﬂiïty repetir desde el paso 2
+./Í/ » . «, Ju}.
+
+Este método produce una solución adecuada siempre que el número x sea positivo
+dado que, para cualquier y, la raiz cuadrada de x está comprendida entre ¿gy e i, si y es mayor
+que x/y, o entre y y x/y, si y es menor que x/y. La fórmula de recálculo de y —((x/y) + y)/2—
+hace que el valor de y converja al valor de la raiz cuadrada de x.
+
+Cuando x es negativo se repiten indeﬁnidamente los pasos 2 al 4, lo que muestra que
+esto en realidad es un semialgorítmo, ya que hay estados iniciales para los que no termina ni
+
+hallando una solución, ni concluyendo que la misma no existe. Podemos añadir un paso
+
+previo:
+
+1 si x < 0, no hay solución, terminar
+
+2 sea y = x/Z
+
+3 calcular yz
+
+4 si if - x | < 5 * 10's la solución es y, terminar; si no, hacer el paso 4
+5 recalcular y como ((x/y) + y)/2 y repetir desde el paso 2
+
+y tendriamos un algoritmo escrito en un lenguaje adecuado para un procesador humano con
+
+unas mínimas nociones de matemáticas. Si el procesador previsto es un ordenador habria que
+
+6
+
+ﬁ? ,24’  V 4 _ ¿//- l, ‘ //r7¡’l
+

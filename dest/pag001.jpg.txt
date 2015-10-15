@@ -1,0 +1,52 @@
+Elementos básicos de programación (l).
+
+El ordenador como máquina de proceso de información.
+
+La informática es el conjunto de conocimientos cientiﬁcos y técnicos que se ocupam
+del tratamiento de la infomiación por medio de ordenadores. Un ordenador cs una máquina
+para procesar información, elaborándola y transformándola. Una máquina de proceso consta
+de: una entrada por donde se introduce la materia prima, una unidad de proceso donde se
+realiza el proceso propiamente dicho, y una salida por donde se obtienen los productos
+elaborados. En un ordenador los dispositivos de entrada típicos son el teclado y el ratón. la
+salida se realiza habitualmente a través de un monitor de vídeo, y el proceso se lleva a cabo
+en la unidad central de proceso, que aloja el procesador junto con dispositivos para la
+
+representación y almacenamiento de infonnación y otros elementos de control.
+
+Disms os de salida
+
+  
+ 
+
+ 
+
+Impresora
+
+’ " Unidad de Proceso
+l nidades de
+
+al macenamiento
+
+   
+  
+
+ÉFIoppy dnvcr (FD)
+
+Hard DIsku-ID]
+
+ﬁ Procesador
+
+ 
+
+Dism de entrada emo
+
+n Controladores
+de dismsitivos
+
+Ilustración I Partes de un ordenador
+
+Un proceso es un conjunto de acciones que se realizan para conseguir un resultado. El
+ente activo encargado de llevar a cabo estas acciones es el procesador. En un ordenador el
+
+procesador es un circuito electrónico capaz de reaccionar a detenninados conjuntos de
+

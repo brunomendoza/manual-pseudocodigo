@@ -1,0 +1,38 @@
+L3.’
+
+onstazuuumm-
+
+ 
+
+Ilustración IS Hueco al libera un elemento
+
+Para aprovechar esos espacios no cabe plantearse el compactar la lista cada vez que se
+realice una extracción —se estaría en la misma situación que cuando el almacenamiento era
+secuencial , con continuos y costosos desplazamientos. Una primera solución es ggigcar de
+
+alguna m (los huecgs libgrgtjps en el momentg de la extracción Lrecun-ir luego
+
+ 
+
+periódicamente, o cuando el grado de fragmentación se estime suﬁcientemente alto, a un
+pmcedímlento de firecoleccicln _de ntlesgerdíciosf (ggrlgqgeﬂcollection) que realice la
+mencionada compactación. Otra solución muy efectiva es aplicar el concepto de
+
+cncadengrnientoggglïénggjpgcïg li_bre, fumando de esta manera una Iisla encadenada de
+
+espacm libre — la extracción de un elemento de una lista se traduce en una inserción
+
+simultánea en la lista de espacio disponible.
+
+“E”
+
+EJE ta;
+
+     
+
+Aﬁsáaﬂaïrﬁ‘ Dnxsdaeaawﬂ“
+
+Ilustración l? Lista encadenada de huecos libres
+
+92
+

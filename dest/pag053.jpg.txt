@@ -1,0 +1,25 @@
+ÜVVTTÜIHllllllllnbutubbmtuuH¡HunnunlHTTTI
+
+El primer bucle enmascara un triple recorrido sincronizado. Las condiciones de
+contro] se reﬁeren a Vl y V2, pero la última sentencia es claramente un avance en V3; por lo
+tanto, estamos ante un esquema de generación de V3 a partir de Vl y V2. La parte de
+tratamiento de este esquema conlleva elegir el elemento adecuado y avanzar en Vl o V2,
+según de dónde provenga éste. Los dos esquemas de recorrido ﬁnales son excluyentes: sólo
+se sale del primer bucle cuando uno de los vectores se acaba y, por tanto, sólo puede haber
+uno que tenga elementos pendientes de copiar en el vector de salida. La estructura de
+
+seleccion que los encierra refuerza esta percepción, aunque no es estrictamente necesaria.
+
+Conclusión.
+
+Los dos ejemplos mostrados ilustran las dos fonnas de composición de esquemas
+mencionadas previamente —anidada o secuencial. La conclusión del capítulo es que, para
+cualquier problema resoluble por un ordenador, existe un algoritmo que no es más que la
+composición de un conjunto de esquemas algnritmieos simples. Este algoritmo se puede
+encontrar analizando el problema e intentando identiﬁcar los sucesivos esquemas implicados.
+en un nivel de complejidad descendente, hasta ser capaz de describir el método de solución
+
+en base a esquemas simples e instrucciones básicas.
+
+53
+

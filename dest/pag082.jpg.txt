@@ -1,0 +1,83 @@
+práctica peligrosa —se crea un alias de la variable estática que puede permitir modiﬁcaciones
+
+ 
+
+  
+
+ 
+
+ 
+
+encubiertas.
+
+‘Ï Ju LasPal " '23  7
+a ¿m? rene’  m; '>'>lh¿",, Laïﬂm” wwhvzs‘
+a Pedro tialda: 23 ¡
+
+É ‘n? 77? " ' 7'77 l
+
+É m _  j
+
+5 W, y%í>carp; Galdar _ m’ W '37};
+._- , , ,
+
+a ,_
+
+p; 0000F_E3ft' n — —
+
+é ooo 1343 — ——— ) _, N" _,,
+
+g pooorroo¡ —r — ———>lM!"Ïl T515“, ,___ M22,
+í
+
+E
+
+2
+
+4
+
+a
+
+.5 .
+
+__. _,
+
+Memoria no dinámica Memoria dinámica
+
+Ilustración u Ejemplo a: uso dinámico a: la memoria
+
+Nuestros programas podrán tener yaríables de t_ipo pungo —declaradas o
+
+ 
+
+dinámieas— que se utilizaran para guardar las reccíones de otras variables ——generalmente
+
+dinámicas— ¿"servirán como mïejismos de ¿eeeso a eggs últimas. Supongamos por
+
+ejemplo que necesitamos implementar una lista de alumnos, prevista para contener un
+
+máximo de 600 alumnos y que esté basada en el tipo:
+
+tipo Tnlumno en estructura
+campo ristral6ül Nombre
+campo ristrallüü] Dirección
+campo caracter Sexo '
+campo entero Edad
+
+fin eipo (TAlumno)
+
+Este registro puede ocupar unos l65 bytes. En caso de utilizar memoria estática
+
+necesitaríamos un vector dimensionado para contener 600 de estos registros:
+
+variable TAlumno LiStaAIurnnOSHOÜI
+
+«rr to
+
+lo cual implica una reserva de memoria de 99000 bytes (96,68 Kbytes). Sin embargo, si
+declaramos un vector de punteros a registros de alumnos, y suponiendo que un puntero ocupa
+
+4 bytes —tamaño habitual—, sólo estaríamos ocupando pennanentemente durante la
+
+85
+

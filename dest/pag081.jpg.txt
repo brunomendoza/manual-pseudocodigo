@@ -1,0 +1,52 @@
+distribuyendola en respuesta a peticiones de los programas formuladas en tiempo de
+ejecución mediante sentencias del lenguaje de programación que se esté usando. Un
+
+mecanismo de esta clase lo denominaremos en adelante Módulodí Gestióníde Memoria
+
+denes: (l) para solicitar la
+
+  
+
+ 
+
+Dinámica y lfiaﬁjproporcionar al menos (iii
+aïción de un lﬂícrque de memoria —crear una variable dinámica—— y (2) para indicar que
+un bloque de memoria deja de ser necesario y liberarlo —eliminando una variable dinámica.
+A la hora de crear variables dinámicamente se plantea un problema: ¿cómo las
+referenciamos? Las variables estáticas y de pila tienen un nombre que se ies da en el
+momento de declararlas y por medio del cual podemos referimos a ellas en cualquier punto
+del programa. Con las dinámicas podría pensarse en alguna forma de darles un nombre en el
+momento en que se solicitan al MGMD, pero es técnicamente diﬁcil, y lo que nos
+encontramos en los lenguajes de programación usuales es que el MGMD se limita a
+proporcionar como respuesta a la petición de un bloque de memoria la dirección ﬁsica de uno
+utilizable —aunque no parezca evidente, esta es una solución mucho más ﬂexible en casos en
+que las necesidades de memoria puedan variar mucho. Como consecuencia aparece una
+nueva Qasteïdatorque los programas deben ser capaces de manejar, el tipo "(Hi1 _de
+memoria". con operaciones especiﬁcas. Vamos a llamar puntero a este nuevo tipo, y
+siguiendo la norma de los lenguajes con tipado fuerte emplearemos la notación
+
+puntem<trpo> para declarar variables cuyo onten" ¡sean diregg nes _de_ memoria, así
+
+ 
+
+tendremos: h‘ ._
+
+variables _ i
+puntero<rea1> a (dirección de una variable real)
+puntero<ristra> b (dirección de una Variable rístra)
+puntero<entero> c (dirección de una variable entera)
+puntero<puntero<rea1>> pp {dirección de una dirección de una variable
+
+real)
+
+Aunque todos los punteros son iguales en cuanto direcciones de memoria, el que al
+declarar una variable puntero haya que especiﬁcar a qué se quiere que apunte permite un
+mejor control de la actividad del programador y. por tanto, una cierta seguridad en las
+acciones ejecutadas. Sin embargo. a veces es necesario hacer “operaciones peligrosas", la
+posibilidad de que un mismo puntero pueda referenciar objetos de tipos diferentes en
+momentos diferentes es, con frecuencia, útil en programación de sistemas. Eventualmente,
+puede ser útil en ciertos entornos usar punteros para apuntar a variables estáticas ——tambie'n
+tienen una dirección-z aunque no sc podrian usar para crearlas o destruirlas, y es una
+
+B4
+

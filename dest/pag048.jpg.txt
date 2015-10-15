@@ -1,0 +1,60 @@
+Tratamiento de todos los elementos que cumplen una propiedad.
+Si lo que queremos es tratar sólo los elementos de la secuencia que cumplan una
+
+detenninada propiedad, basta con encapsular el tratamiento en una estructura altemativa:
+
+iniciar x
+
+mientras no fimx) hacer
+s1 P(x) entonces tratara) fin s1
+avanzarlx)
+
+Ein mientras
+
+Esto es lo que hace el siguiente algoritmo diseñado para escribir los números primos
+
+comprendidos entre l y N:
+
+procedimiento EscribePrimosﬂi) función lógica Primo(p)
+variables entrada natural N variables entrada natural p
+local natural i local natural d
+i k 1 s1 (p s 2) y (p mod 2 : 0) entonces
+mientras i 5 N hacer devolver falso
+si Primoti) entonces s1 no
+escribir i d v 3
+“n B¿ mientras (d < p) y (p mod d r
+iki+l omnes: d+d+2
+tin "dancing Ein mientras
+retoma: si d < p entonces
+fin procedimiento “°"°1"“ E31“
+s1 no
+devolver verdadero
+Ein si
+Ein si
+Ein función
+
+El siguiente algoritmo determina el valor máximo de los elementos de un vector —se
+supone que, por lo menos, hay un elemento. En este caso se tratan aquellos elementos que
+sean más grandes que el mayor encontrado hasta el momento, y el tratamiento consiste en
+
+guardarlos en una variable que representa el mayor valor encontrado.
+
+función real Máximo(V,N)
+variables entrada natura]. N
+
+real V[50]
+locales natural i
+real Max
+Max e V[1]
+i 4* 2
+
+mientras i s N hace:
+si V[1] > Max entonces
+Max k Vli]
+fin ¡i
+4B
+
+¡ﬂuﬁﬁﬁﬁﬁﬂﬂﬂﬂﬁﬁﬂﬂﬁﬁﬂﬁﬂﬂﬂﬁﬂ
+nnnnnnnnnnnnnnnnnanl!¡QQID!
+Qﬂll
+

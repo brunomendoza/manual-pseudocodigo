@@ -1,0 +1,39 @@
+Introducción a los métodos formales de especiﬁcación.
+
+Concepto y propiedades.
+
+El diccionario de la Real Academia Española deﬁne especiﬁcar como: "Fijar o
+detenninar de modo preciso". Sabemos que es exactamente eso lo que hay que hacer con
+cualquier problema para el que se quiera formular un algoritmo: explicar con claridad todos
+los aspectos relevantes del mismo. La especiﬁcación del problema es un paso previo a la
+implementación del algoritmo: debe describir qué es lo que se espera que el algoritmo haga,
+pero no es su función describir cómo debe hacerlo —la separación entre el que’ y el cáma es
+una de las reglas de oro de la buena programación.
+
+La especiﬁcación persigue dos objetivos complementarios: (l) al implementador le
+sirve para saber cómo debe de comportarse la aplicación que implementa y le permite buscar
+la mejor manera de conseguirlo, (2) al usuario —ﬁnal o implementador de una aplicación que
+usa un módulo especiﬁcado— le sirve para saber cómo debe usar la aplicación o módulo en
+cuestión —que' información debe proporcionarle y cómo, y que’ infon-nación recibirá a
+
+cambio.
+
+La especiﬁcación y el ciclo de vida del software.
+
+Un programa siempre —aunque se percibe más cuando es complejo— pasa por una
+serie de etapas en su desarrollo: análisis de requerimientos, diseño, implementación y
+validación y/o veriﬁcación. En la etapa de análisis de requerimientos la especiﬁcación capta
+los elementos del problema, centra lu ideas que pudieran estar difusas y perﬁla los detalles
+que determinarán la correcta implementación de la aplicación a desarrollar. Por ejemplo, ante
+el enunciado ”se tiene un vector ordenada de enteros y se desea desarrollar un
+procedimiento para insertar un valor de jbnna que se mantenga el arden entre las
+elementos" surgen inmediatamente varias dudas que son fundamentales para saber qué es lo
+que se quiere realizar: ¿Cuál es el tamaño máximo del vector? ¿puede haber elementos
+repetidos? ¿ordenado signiﬁca en orden creciente]. Sólo cuando todas las preguntas hayan
+sido resueltas tendremos un conocimiento preciso de lo que hay que hacer.
+
+En la etapa de diseño se estudia cómo implementar el algoritmo más adecuado; se
+
+divide el problema en subproblemas que se estudian por separado y generalmente se
+l0l
+

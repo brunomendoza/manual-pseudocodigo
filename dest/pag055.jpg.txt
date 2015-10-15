@@ -1,0 +1,49 @@
+Se detectan dos aspectos que no están deﬁnidos en el enunciado y que es necesario
+aclarar para tener una especiﬁcación correcta del problema que se quiere resolver antes de
+seguir adelante —si se parte de una especiﬁcación mal entendida luego se tendrá que
+deshacer el trabajo y costará más. cuanto más se haya avanzado-a el primero de estos
+aspectos es cuál sera’ el número máximo de elementos del vector —se necesita a la hora de
+ÍÏCÜJBÏQÜKÏ’. el segundo es si los elementos del vector son todos distintos o puede haber
+repetidos.
+
+La respuesta a la primera pregunta tiene como consecuencia una restricción de las
+condiciones en las que funcionara el algoritmo a desarrollar: si, por ejemplo el número
+máximo de elementos es 100 y N, la variable que indica el número actual, ya vale l00, no se
+
+puede pretender insertar un nuevo valor.
+
+procedimiento Insertar(\l,N,E)
+
+variable entrada/salida entero V[100] /Vector ordenado de enteros.
+natural N ﬂvﬁmero de elementos en V.
+entrada entero E [Elemento a insertar en V.
+
+{N debe ser menor que 10o)
+{N quedará incrementado en 1,- E quedará incluido en v en la posición
+adecuada}
+
+La respuesta a la segunda pregunta también tendrá consecuencias: tanto si es "sí"
+(puede haber repetidos) como sí es "no" (son todos distintos) habra’ que tenerlo en cuenta en
+el desarrollo posterior; supondremos que la respuesta es "no". Empecemos a plantear este
+desarrollo; tenemos que: l) hay que poner un elemento en una posición de un vector y 2)
+dicha posición debe conocerse antes de poder poner el elemento en ella; luego lo primero que
+debe hacer nuestro procedimiento es: dados el vector y el elemento, encontrar la posición que
+debe ocupar el elemento en el vector.
+
+Centrémonos en el problema de localizar la posición de un elemento en un vector;
+podemos plantear una función para resolverlo que en principio necesitaria los mismos
+parámetros que la inserción:
+
+función natural BuscarPcsicíón (V.N,E)
+
+variable antrndn entero vuoo] [Vector ordenado de enteros.
+natural N [Número de elementos en v.
+entero E /E1emento cuya posición se busca.
+
+Para desarrollar esta función necesitamos estudiar los posibles casos: el vector puede
+estar vacío —N vale cero— o no estarlo. Si está vacio la solución es simple: E deberia ir en la
+
+primera posición.
+
+S6
+

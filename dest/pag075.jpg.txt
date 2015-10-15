@@ -1,0 +1,37 @@
+Cuando se manejan ﬁcheros con tipo, las variables que se usen para intercambiar
+información con e] ﬁchero deberán ser compatibles con el tipo del que se han declarado los
+componentes del mismo.
+
+En todo ﬁchero supondremos la existencia de un indicador de posición (LPM) que
+señala a un componente del ﬁchero. Al abrir el ﬁchero el IPos apunta al primer componente;
+al efectuar una operación de lectura o escritura. se lee o escribe un registro empezando en la
+posición indicada por el IPos y este avanza en proporción a la información leida o escrita,
+
+quedando listo para que se lea o escriba el siguiente registro.
+
+lPos —>
+
+   
+
+<EOF> IPoS -—> <EOF>
+
+ 
+
+Final de fichero = Falso
+
+Ilustración 13 indicador de posición (lPos) y marca de ﬁn de ﬁchero (EOF)
+
+Operaciones auxi gres.
+
+Para que la gestión de la información almacenada en ﬁcheros sea correcta es necesario
+que se proporcionen operaciones de control que pennitan conocer cosas como: el tamaño de
+un ﬁchero, si se ha alcanzado el ﬁnal de una linea o el ﬁnal del ﬁchero, etc, y actuar en
+
+consecuencia.
+
+Si un ﬁchero se recorre secuencialmente, es fundamental detectar cuando se alcanza e!
+
+ﬁnal del mismo, para conseguirlo disponemos de una función lógica FinFicherafF)
+
+77
+

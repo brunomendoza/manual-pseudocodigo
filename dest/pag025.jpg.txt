@@ -1,0 +1,61 @@
+nombre, dirección, teléfono, fecha de nacimiento,...— mientras que las estructuras
+homogéneas sirven más bien para representar colecciones de elementos —por ejemplo la lista
+de los alumnos matriculados en una asignatura. El modo de tratar cada tipo de estructura es
+
+muy diferente.
+
+n zw v» « >  “ r, "ﬂ/zmcmﬁ; ¡»y v-,y,¿,1 , , a
+
+   
+
+a APN/v» ,»_:,;/,,z, v/'Ju,«»v¿ jr: :. 114g ¿ibm-sm
+
+Estructuras heteroééhens.“ ' ﬂmynﬂ ¿f V”?
+
+El mecanismo disponible habitualmente en los lenguajes de programación para formar
+
+estructuras heterogéneas —comúrunente conocidas por la denominación inglesa de_record—
+
+pennite agrupar conjuntos de datosdiversos que ‘se referencian como una entidad única. Por
+
+ejemplo:
+
+i tipo Persona es estructura
+
+campos risera‘ Nombre, PrimefApellido, segundonpenido
+campo tiatral9l NIF
+Ein tipo w y s , ——
+
+ 
+
+ 
+
+Los c_omponentes de la estructura reciben el nombre de canje los campos pueden
+
+ 
+
+ser de tipos de datos diferentes. Se puedfeﬂacceder a cada campo por separadoto maneja: la
+
+estructura como un todo. Por ejemplo, si declaramos las siguientes variables de tipo Persona:
+
+variables Persona Personal, Personaz
+
+podemos tratarlas como un todo:
+
+Personal F Per50na2
+
+o acceder a un campo individual:
+
+PersonaLNombre "' "Juan"
+
+Para acgder a un campo individual se pone el nombre de la variable seguido de un
+punto (.) y el nombre de_l_carnpo. Con los campos se puede realizar cualquier operación
+acorde con su tipo; con la Etructura completa sólo se pueden realizar, en principio,
+asignaciones y comparaciones de igualdad/desigualdad.
+
+Una e_st_ructura Leterogéneapuede, en general, contener campos de cualquier tipo,
+
+incluso de un tipo estructurado.
+
+25
+

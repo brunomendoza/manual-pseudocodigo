@@ -1,0 +1,60 @@
+El problema se puede resolver mediante un huele que recorra la porción del vector
+comprendida entre P y N copiando cada elemento en la posición siguiente; hemos de ﬁjamos
+que ese bucle tiene que empezar por el ﬁnal e ir retrocediendo de fonna que lo primero que
+se haga sea copiar V[N] en la posición V[N+l], y lo último copiar V[P] en la posición l’ + l;
+si el bucle fuese ascendente, sólo se conseguiría copiar V[P] en todas las posiciones hasta el
+
+ﬁnal del vector:
+ptocadiniento Desplazarﬂ/JLP)
+
+variable entrada/salida entero vnuu] [Vector ordenado de enteros.
+entrada natural p [Posición a despejar.
+natural N [Número de elementos en v.
+{N debe ser menor que 100;? debe ser menor o igual que n}
+local natural Aux [Variable para recorrer V.
+
+para Aux desde N hasta P paso -1 hacer
+vlAuxul r vlAux]
+fin para
+retorna:
+fin procedimiento {nesp1azsr}
+
+Nótese que, aunque se especiﬁca que l’ debe ser menor o igual que N —en otro caso
+no hay que hacer desplazamíento—, en realidad el algoritmo no falla si no es así —se limita a
+
+no hacer nada. Al incluir el procedimiento Desplazar la inserción quedaría:
+
+procedimiento Insertar(V.N,E)
+
+variable entrada/tanda entero vuoo] (vector ordenado de enteros.
+natural N /Número de elementos en v.
+entrada entero E {Elemento a insertar en V.
+
+{N debe ser menor que 10o}
+(u quedará incrementado en 1,- E quedará incluido en v en la posición
+
+adecuada)
+local natural p [Posición en que se debe insertar s en v.
+
+P e BuscarPosicíónWJLE)
+si ((13 s N) A (V[P] s 3)) V (P = N41) entonces
+{Hay que insertar, si no, no se hace nada}
+
+si P s N entonces [se abre hueco para E.
+Desp1azar(V,N,P) '
+tin si
+V[P] e E [se inserta E en V.
+N o N + 1
+ﬁin Ii
+IBCOÏDI!
+
+fin procedimiento {Insertar}
+
+Lo que obtenemos al aplicar la metodología de diseño descendente es una
+descomposición jerárquica de la estructura del problema a resolver en subproblemas más
+sencillos en cuya solución nos centramos por separado. En este caso hemos seguido un orden
+
+de resolución "en profundidad" —cada subproblema se resuelve antes de pasar al siguiente»
+
+S9
+

@@ -1,0 +1,56 @@
+Cuando se hace una búsqueda secuencial en un conjunto de N elementos se empieza
+comparando el valor a buscar con el primero del vector, si éste es menor que el que
+buscamos. quedan N » l posibles candidams. Si la búsqueda es dicotómica, se empieza
+comparando con el elemento que ocupa la posic n central del vector; si no coincide. los
+posibles candidatos son N/2 —la mitad superior del vector si el valor es mayor que el central
+o la inferior si es menor. La búsqueda continúa comparando con el elemento medio del
+subvector correspondiente —cada comparación elimina la mitad de los candidatos
+disponibles, mientras que en la búsqueda secuencial cada comparación sólo elimina un
+
+candidato. Al ser las comparaciones mucho más efectivas el método es mucho más rápido.
+
+función natural BuscarPosíción(V,N, E)
+
+variables
+
+entrada entero vuoo] [Vector ordenado de enteros.
+natural N [Número de elementos en v.
+entero E] /E1emento cuya posición se busca.
+
+locales enteras LInf,LSup [Delimitan el subvector que se está tratando.
+entera Medio [Elemento central del subvector considerado.
+
+lógica Encontrado ¡cuando es Verdadera finaliza la búsqueda.
+
+(Inicíalízaciones)
+
+LInf «e 1
+
+LSup -— N
+
+Encontrado <- falso
+
+mientras (Llnf s Lsup) /\ nouancontrado) hacer
+{Cuando los límites se cruzan, se acaban los subvectores)
+{El tratamiento consiste en examinar el elemento central}
+Medio e ParteEnteraHLInf + Lsup) / 2)
+
+si V[Medio] : E entonces
+Encontrado ‘r verdadero
+fin si
+
+{Se avanza moviendo los límites, para considerar un subveccar más
+pequeño}
+si V[MediO] < E entonces
+LInf k Medio + l
+si no
+LSup " Medio - 1
+fin Si
+fin mientras
+Si. Encontrado entonces
+devolver Medio
+si no
+devolver LInf
+fin si
+un función {EuscarPosición}
+

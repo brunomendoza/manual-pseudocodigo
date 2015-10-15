@@ -1,0 +1,43 @@
+mllllllllIllllntttbtwbbttwwuilninintnn)lsTrrm
+
+l amar.)
+
+l ,_l_
+l rimnacata) I rvbonacaa) I
+
+_,l ,> ,, I,
+;
+
+ 
+
+Ilnslracíón 6 Ejecución de Fibonacciﬂ)
+
+También observamos que el dominio de estas funciones queda divido en dos
+subconjuntos:
+- casos que no dependen de otros para su cálculo, que denominaremos conjunto de
+casos base (Vease cn la descomposición de la ﬁmción de Fibonacci cómo esos casos
+
+quedan en la "base"; y
+- casos que dependen de otros según lo establecido por la expresión de la recurrencia.
+
+Toda deﬁnición recursiva bien formulada debe tener al menos un caso base, y la
+recurrencia debe ser de tal naturaleza que su descomposición acabe conduciendo
+necesariamente a alguno(s) de los casos base.
+
+Los problemas con estas características no son exclusivos del campo de las funciones
+matemáticas; por el contrario los podemos encontrar en muchas otras situaciones. Tomemos
+como ejemplo el famoso enigma de las "Torres de Hanoi". Sin entrar en la leyenda, se trata
+de resolver un problema en el que tenemos tres varillas en una de las cuales hay inicialmente
+varios discos de distinto tamaño ordenados de mayor a menor. El juego consiste en trasladar
+todos los discos a otra de las varillas, con la única restricción de que nunca se puede poner un
+
+disco mayor sobre uno menor. Para conseguirlo hemos de ayudamos con la tercera varilla.
+
+Í ' ' Il
+
+srruAcIbN INICIAL SITUACION FINAL
+
+Ilustración 7 Tona de Hanoi
+
+65
+

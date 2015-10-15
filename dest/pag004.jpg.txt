@@ -1,0 +1,50 @@
+ 
+
+g mglo: algoritmo de resolución de gcuaclones do «mudo grado
+identiﬁcar los coeﬁcientes: a, b, c
+
+2. calcular bz
+
+3. calcular 4ac
+
+4. restar bz - 4ac
+
+5. calcular la raiz cuadrada de] resultado anterior
+
+6. sumar -b al resultado anterior
+
+7. calcular 2a
+
+8. dividir el resultado del paso 6 por el resultado del paso 7 para obtener la l‘ solución
+9. restar el resultado del paso S a -b
+
+10. dividir el resultado anterior por el resultado del paso 7 para obtener la 2“ solución
+
+Nótese que en la deﬁnición de algoritmo no se hace ninguna suposición acerca de la
+naturaleza del problema ni del dispositivo que se va a usar para resolverlo. Son validos
+cualquier clase de proceso y cualquier dispositivo (incluyendo un ser humano) capaz de
+
+ejecutarlo.
+
+Fiemglo: algoritmo gara poner en marcha un coche
+‘l. poner el coche en punto muerto
+
+«2. pisar el embrague
+
+‘S. llevar la palanca de cambios al punto muerto
+‘4. introducir la llave en el contacto
+
+girar la llave hasta el punto de arranque
+
+‘S. soltar la llave
+
+‘7. poner primera
+
+8. pisar el embrague
+
+‘Q. llevar la palanca de cambios a la posición de la primera marcha
+
+‘lo. poner las manos en el volante J
+
+l l . acelerar suavemente al mismo tiempo que se suelta el embrague
+

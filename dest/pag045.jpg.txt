@@ -1,0 +1,39 @@
+Que se use una sentencia de control "mientras", como en este esquema, o una
+sentencia "para“, como en los ejemplos anteriores, depende de si la secuencia de control
+
+responde, o no, a un algoritmo de conteo.
+
+Esquemas de recorrido.
+
+Cuando la ﬁmción generatriz de una secuencia consista en acceder a un componente
+de una estructura en la que se hallan almacenados los elementos que la forman —como en el
+siguiente trozo de algoritmo, donde la variable x toma sucesivamente los valores guardados
+en un vector— parece más propio hablar de algoritmo de recorrido que de algoritmo de
+generación, aunque es una distinción puramente nominal:
+
+¿QA i donde 1 hasta n hace:
+
+x * Vli]
+Ein para
+
+Esquemas de tratamiento.
+
+Sabemos como generar o recorrer una secuencia de elementos; pero ¿para que’?, lo
+normal es que queramos hacer algo con los elementos obtenidos. Probablemente pretendemos
+aplicar algún tratamiento a cada uno de los elementos de la secuencia o, al menos, a algunos
+
+de ellos.
+
+Tratamiento de todos los elementos.
+
+Empecemos por el caso más sencillo: aplicar un tratamiento a todos los elementos de
+
+una secuencia. Si suponemos que una secuencia autogenerada responde al esquema general:
+
+iniciar
+mientras no fin hlcar
+avanzar
+Ein mientras
+
+45
+

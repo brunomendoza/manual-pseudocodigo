@@ -1,0 +1,49 @@
+Iírlserciícírral Principio de una lista encadenada.
+Es el caso más simple, ya que basta con crear un nodo con la infonnaeión requerida y
+copiar en su campo de encadenamíento el valor del puntero que da acceso a la lista,
+
+cambiando éste a continuación para que apunte al nuevo nodo.
+
+procedimiento Insertarnelancemﬂ)
+[Se inserta el Valor de v al principio de 1a lista apuntada por L.
+[L debe tener una dirección Válida, o el Valor NTJLO (lista vacía) .
+vatiablenentradn/anlida PLÍSCB L
+entrada Tipovalor v
+locales PLista Nuevo
+
+Nuevo e romarmoquemodo) [Se coma, un bloque, se pone s1 Valor
+NuevoaInEo « v [y se hace que indique como sucesor a1
+Nuevoasiguience v 1. /que actualmente sea el primero. E1 puntero
+L « Nuevo Ide acceso cambia para señalar a]. nuevo
+retornar
+
+un procedimiento
+
+Tal como ilustra la ﬁgura. la inserción de un elemento al principio de una lista
+
+encadenada se hace en tres pasos.
+
+Ll; ">59? *"' >ñÏLl 7" >l0°Í>ll
+
+  
+
+Nuevo  " >L
+
+L l 559M '9,°°°Ï >°°°lÏ
+__, 2
+Nuevo l —— > ooo ‘ '
+L  ylwüf "W300,," W100i l
+Nuevo JÏ esÍsíu y 3
+
+Ilustración 20 Inserción z] principio dc una lista encadenada
+
+En el primer paso. se reserva espacio para un nuevo nodo, recogiendo su dirección en
+la variable local Nuevo y rellenando su campo de información con el valor a insertar. A
+continuación hay que encadenax el nuevo nodo con el resto de la lista; para ello, primero se
+copia en su campo de encadenamiento el valor de la varible L —el puntero de acceso a la
+lista—. con lo que el nuevo nodo está señalando como su sucesor al primero de la lista.
+Finalmente, hay que hacer que el nuevo nodo se convierta en el primero de la lista. lo que se
+
+consigue asignando a L el valor de Nuevo.
+94
+

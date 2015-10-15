@@ -1,0 +1,65 @@
+Resuelto el subproblema dc la búsqueda, de momento tenemos:
+
+procedimiento Insertar(V,N,E)
+variable entrada/salida entero VIIÜO] [Vector ordenado de enteros.
+natural N [Número de elementos en V.
+entrada entero E {Elemento a insertar en V.
+
+(N debe ser menor que 10a}
+{N quedará incrementado en 1,- 12 quedará incluido en v en la posición
+
+adecuada)
+local natural P [Posición en que se debe insertar E en V.
+
+P - EuscarPosiciónÜlJLE)
+
+En principio hay que insertar E en la posición P, pero debemos recordar que no se
+deben insertar elementos repetidos: si V[P] = E no hay que hacer nada puesto que el elemento
+
+ya está en el vector —siempre que P sea menor o igual que N:
+
+procedimiento Insertar (v, N, E)
+variable entrada/salida entero vuoo] [vector ordenado de enteros.
+natura]. N [Número de elementos en V.
+entrada entero E [Elemento a insertar en V.
+
+{N debe ser menor que 10o}
+{N quedará incrementado en 1,- E quedará incluido en v en la posición
+
+adecuada}
+local natural p [Posición en que se debe insertar a en v.
+
+P ' BuscarPosicíón(V,N,E)
+si (t? s N) /\ (V[P] s EH V IP = N+1l ‘entonces
+(Hay que insertar, si no, no se hace nada}
+fin si
+retornar
+un procedimiento {Insertar}
+
+Si P es mayor que N o V[P] es distinto de E es necesaria una asignación (V[P] k E),
+pero no se puede hacer sin más: si P no es igual a N + l —esto incluye el caso de que V esté
+vacio— habrá un elemento en la posición P que no puede perderse: al insertar E en la
+
+posición P el elemento que actualmente la ocupa debe pasar a la P + l, pero entonces el que
+
+ocupa la P + l debe pasar a la P + Z, y así hasta el último. que debe pasa: ala N + l.
+
+5:22 N=s
+Pili,” "EME, 
+
+' Posición donde debe insertarse E
+
+Para desplazar los elementos desarrollaremos un procedimiento según la siguiente
+
+interfaz:
+
+procedimiento Desp1azar(V,N,P)
+
+variable entrada/salida entero V[100] /VecEor ordenada de enteros.
+entrada natural p [Posición a despejar.
+
+natural N [Número de elementos en V.
+{N debe ser menor que 100,- 9 debe ser menor o igual que N}
+
+58
+

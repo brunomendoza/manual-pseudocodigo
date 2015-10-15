@@ -1,0 +1,49 @@
+i «e i o 1
+fin mientras
+devolver Max
+Ein función
+
+Tratamiento del último elemento de una secuencia.
+
+Si la propiedad que hace que un elemento sea tratado es ser el último, el bucle de
+recorrido tiene que limitarse a avanzar hasta que se consiga acceder a dicho elemento,
+momento en el que se realizaría el tratamiento, ya fuera de la estructura repetitiva: esto es lo
+
+que ocurre, por ejemplo, en el algoritmo que escribe el factorial de un número:
+
+algoritmo factorial
+variable: naturales n, f, i
+escribir "déme un valor natural: "
+leer n
+f e’ 1
+pan 1 desde n hasta 2 puso »1 hacer
+E 4’ f * i
+un para
+escribir "el factorial es: ", f
+pue:
+un algoritmo
+
+Tratamiento del primer elemento que cumple una propiedad (esquema de
+busqueda).
+
+Supongamos que lo que queremos es tratar el primer elemento dc una secuencia que
+cumple una detenninada propiedad, si es que hay alguno. Necesitamos un esquema de
+recorrido modiﬁcado con una condición adicional para detenemos si se encuentra el elemento
+y, una vez producida la detención, evaluar si ésta se ha debido a que se ha encontrado un
+elemento con las caracteristicas buscadas —en cuyo caso hay que tratarlo—- o a que se ha
+
+acabado la secuencia. El resultado es lo que se conoce como esquema de búsqueda:
+
+<Inicialízaciones>
+mientras <no se alcance el fin de la secuencia a explorar> y
+<no se halla encontrado un elemento que cumpla la propiedad> hacer
+<Avanzar, accediendo al siguiente elemento>
+Ein mientras
+al. <se ha encontrado un elemento que cumpla la propiedatb entonces
+¿lociones a tomar cuando se halla el elemento buscado>
+si no
+<Acciones a tomar cuando no se halla el elemento buscado>
+Ein ni
+
+49
+
